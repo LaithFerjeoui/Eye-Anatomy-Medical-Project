@@ -1,35 +1,67 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import { TypewriterEffectSmooth } from "../Components/typewriter-effect";
-
+import logo from "../../public/logo.png";
+import eye from "../../public/Figures/hero.png";
+import { motion } from "framer-motion";
 const words = [
-    {
-      text: "Anatomy",
-    },
-    {
-      text: "de",
-    },
-    {
-      text: "l'oeil",
-    },
-    {
-      text: "du",
-    },
-    {
-      text: "Chien.",
-      className: "text-blue-500 dark:text-blue-500",
-    },
-  ];
+  {
+    text: "Anatomy",
+  },
+  {
+    text: "de",
+  },
+  {
+    text: "l'oeil",
+  },
+  {
+    text: "du",
+  },
+  {
+    text: "Chien",
+    className: "font-extrabold text-yellow-600",
+  },
+];
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
-      <div className="flex flex-col items-center justify-center h-[32rem]  ">
-        <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
-          The road to freedom starts from here
-        </p>
+      <div className="flex flex-col items-center justify-center h-[28rem]  ">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <img
+            src={logo}
+            alt=""
+            className=" w-24 rounded-lg shadow-2xl my-5 mx-auto"
+          />
+          <p className="text-neutral-600 text-base px-5 text-center ">
+            Ecole National de Médecine Véterinaire de Sidi Thabet
+          </p>
+        </motion.div>
+
         <TypewriterEffectSmooth words={words} />
+        <motion.p
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          className="text-neutral-600 font-semibold text-lg text-center"
+        >
+          Discipline: Anatomie des{" "}
+          <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-300  to-red-800 ">
+            Mammifiéres
+          </span>{" "}
+          domestique <b>2024</b>
+        </motion.p>
       </div>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8, y: 70 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+      >
+        <img src={eye} alt="" className="mx-auto rounded-xl shadow-xl w-" />
+      </motion.div>
     </>
   );
 };

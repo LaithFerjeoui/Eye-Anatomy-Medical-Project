@@ -1,12 +1,27 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from "../../public/logo.png"
+import { Fragment, useState } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "../../public/logo.png";
+import { Link } from "react-router-dom";
+
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Navbar() {
+  const [active, setActive] = useState("/");
+
+  const handleNavClick = (path) => {
+    setActive(path);
+  };
+
+  const navigation = [
+    { name: 'Home', href: '/' },
+    { name: 'Anatomy', href: '/Anatomy' },
+    { name: 'Techniques d\'imagerie', href: '/Applications' },
+    { name: 'Applications Cliniques', href: '/Techniques' }
+  ];
+console.log(active)
   return (
     <Disclosure as="nav" className="bg-gray-800 rounded-b-md">
       {({ open }) => (
@@ -28,34 +43,26 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                    <a href="#" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white duration-200">
-                      Home
-                    </a>
-                    <a
-                      href="#"
-                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white duration-200"
-                    >
-                      Anatomy
-                    </a>
-                    <a
-                      href="#"
-                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white duration-200"
-                    >
-                      Techniques d'imagerie
-                    </a>
-                    <a
-                      href="#"
-                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white duration-200"
-                    >
-                      Applications Cliniques
-                    </a>
+                    {navigation.map((item) => (
+                      <Link
+                        key={item.name}
+                        to={item.href}
+                        onClick={() => handleNavClick(item.href)}
+                        className={classNames(
+                          active === item.href
+                            ? 'bg-gray-900 text-white'
+                            : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium duration-200'
+                        )}
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
                   </div>
                 </div>
               </div>
-             
+
               <div className="-mr-2 flex sm:hidden">
-                {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -70,39 +77,25 @@ export default function Navbar() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white duration-200"
-              >
-                Home
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white duration-200"
-              >
-                Anatomy
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white duration-200"
-              >
-                Techniques d'imagerie
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white duration-200"
-              >
-                Applications Cliniques
-              </Disclosure.Button>
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  onClick={() => handleNavClick(item.href)}
+                  className={classNames(
+                    active === item.href
+                      ? 'bg-gray-900 text-white'
+                      : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    'block rounded-md px-3 py-2 text-base font-medium duration-200'
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
           </Disclosure.Panel>
         </>
       )}
     </Disclosure>
-  )
+  );
 }
