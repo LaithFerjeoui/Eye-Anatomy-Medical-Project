@@ -5,7 +5,7 @@ import Anatomy from "../Views/Anatomy";
 import Applications from "../Views/Applications";
 import Techniques from "../Views/Techniques";
 import { GridBackgroundDemo } from "./GridBackgroundDemo";
-
+import Footer from "./Footer";
 
 const Layout = ({location}) => {
   return (
@@ -28,6 +28,7 @@ const Layout = ({location}) => {
         ) : null}
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

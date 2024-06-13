@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Anatomy', href: '/Anatomy' },
+    { name: 'Anatomie', href: '/Anatomy' },
     { name: 'Techniques d\'imagerie', href: '/Applications' },
     { name: 'Applications Cliniques', href: '/Techniques' }
   ];
