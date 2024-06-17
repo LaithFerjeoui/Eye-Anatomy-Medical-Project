@@ -4,6 +4,8 @@ import anatomie2 from "../../public/Figures/anatomie2.jpg";
 import anatomie3 from "../../public/Figures/anatomie3.jpg";
 import anatomie4 from "../../public/Figures/anatomie4.jpg";
 import anatomie5 from "../../public/Figures/anatomie5.jpg";
+import anatomie6 from "../../public/Figures/anatomie6.jpg";
+import anatomie7 from "../../public/Figures/anatomie7.jpg";
 import { motion } from "framer-motion";
 export const fadeIn = (direction, type, delay, duration) => ({
   hidden: {
@@ -281,7 +283,8 @@ const Anatomy = () => {
           viewport={{ once: true }}
           whileInView="show"
           variants={fadeIn("up", "tween", 0.2, 0.7)}
-          className="mx-auto max-w-6xl">
+          className="mx-auto max-w-6xl"
+        >
           <div className=" bg-gray-800/20 p-10 rounded-lg flex justify-center items-center gap-12 flex-wrap md:flex-nowrap">
             <motion.div
               initial={{ opacity: 0, x: -80 }}
@@ -296,7 +299,8 @@ const Anatomy = () => {
                 antérieure du bulbe. Vue de l'extérieur, la périphérie de la
                 face antérieure est presque circulaire chez les Carnivores comme
                 chez l'Homme, tandis que chez les Ongulés elle est ovalaire avec
-                un pôle médial obtus et un pôle latéral rétréci (Barone, 2010). <br/>
+                un pôle médial obtus et un pôle latéral rétréci (Barone, 2010).{" "}
+                <br />
                 La transparence de la cornée résulte de l'absence de
                 kératinisation de son épithélium antérieur, de celle de pigments
                 et de vaisseaux dans son épaisseur, de la disposition bien
@@ -313,6 +317,32 @@ const Anatomy = () => {
               className="max-w-1/2 w-full"
             >
               <img src={anatomie5} className="rounded-md" />
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          viewport={{ once: true }}
+          whileInView="show"
+          variants={fadeIn("up", "tween", 0.2, 0.7)}
+          className="mx-auto max-w-6xl my-4"
+        >
+          <div className=" bg-gray-800/20 p-10 rounded-lg flex justify-center items-center gap-12 flex-wrap md:flex-nowrap">
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="md:max-w-[60%]"
+            >
+              <img src={anatomie6} className="rounded-md" />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="max-w-1/2 w-full"
+            >
+              <img src={anatomie7} className="rounded-md" />
             </motion.div>
           </div>
         </motion.div>
