@@ -6,6 +6,11 @@ import anatomie4 from "../../public/Figures/anatomie4.jpg";
 import anatomie5 from "../../public/Figures/anatomie5.jpg";
 import anatomie6 from "../../public/Figures/anatomie6.jpg";
 import anatomie7 from "../../public/Figures/anatomie7.jpg";
+import anatomie8 from "../../public/Figures/anatomie8.jpg";
+import anatomie9 from "../../public/Figures/anatomie9.jpg";
+import anatomie11 from "../../public/Figures/anatomie11.jpg";
+import anatomie10 from "../../public/Figures/anatomie10.jpg";
+import vid from "../../public/vid1.mp4";
 import { motion } from "framer-motion";
 export const fadeIn = (direction, type, delay, duration) => ({
   hidden: {
@@ -29,6 +34,18 @@ const Anatomy = () => {
   return (
     <>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="w-full flex justify-center items-center mt-20">
+          <video
+            autoPlay
+            muted
+            loop
+            controls
+            className="w-full max-w-4xl rounded-xl"
+          >
+            <source src={vid} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         {/* We've used 3xl here, but feel free to try other max-widths based on your needs */}
         <div className="mx-auto max-w-4xl py-4">
           <motion.div
@@ -343,6 +360,198 @@ const Anatomy = () => {
               className="max-w-1/2 w-full"
             >
               <img src={anatomie7} className="rounded-md" />
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          viewport={{ once: true }}
+          whileInView="show"
+          variants={fadeIn("up", "tween", 0.2, 0.7)}
+          className="mx-auto max-w-4xl my-4"
+        >
+          <div className=" bg-gray-800/20 p-10 rounded-lg flex-col justify-center items-center gap-12 flex-wrap md:flex-nowrap">
+            <p className=" text-neutral-300 text-center">
+              La cornée comporte cinq strates parallèles (Dubielzig et al.,
+              2010)
+            </p>
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="md:max-w-[80%] mx-auto mt-8"
+            >
+              <img src={anatomie8} className="rounded-md" />
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          viewport={{ once: true }}
+          whileInView="show"
+          variants={fadeIn("up", "tween", 0.2, 0.7)}
+          className="mx-auto max-w-6xl mb-4"
+        >
+          <div className=" bg-gray-800/20 p-10 rounded-lg flex justify-center items-center gap-12 flex-wrap md:flex-nowrap">
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="md:max-w-[60%]"
+            >
+              <p className=" text-neutral-300">
+                • <b>Epithélium antérieur</b> : A la face antérieure se trouve
+                l'épithélium antérieur, qui est pavimenteux, stratifié, mais non
+                kératinisé et qui représente environ 10% de l'épaisseur totale
+                de la cornée. Il est couvert du film lacrymal précornéen et à sa
+                périphérie, notamment au niveau de l'anneau conjonctival, il se
+                prolonge dans l'épithélium de la conjonctive bulbaire (Kirk,
+                2014). Le film lacrymal est une couche fonctionnelle
+                cliniquement importante qui recouvre l'épithélium cornéen, mais
+                il ne peut pas être évalué histologiquement (Labelle, 2017).
+                L'épithélium cornéen est de 5 à 7 couches d'épaisseur chez le
+                chien et chats et environ 8 à 15 couches d'épaisseur chez les
+                plus gros animaux. L'épithélium cornéen est complètement
+                renouvelé tous les 5 à 7 jours (Labelle, 2017)
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="max-w-1/2 w-full"
+            >
+              <img src={anatomie9} className="rounded-md" />
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          viewport={{ once: true }}
+          whileInView="show"
+          variants={fadeIn("up", "tween", 0.2, 0.7)}
+          className="mx-auto max-w-6xl mb-4"
+        >
+          <div className=" bg-gray-800/20 p-10 rounded-lg flex justify-center items-center gap-12 flex-wrap md:flex-nowrap">
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="md:max-w-[60%]"
+            >
+              <p className=" text-neutral-300">
+                • <b> Lame limitante antérieure :</b> La lame limitante
+                antérieure anciennement « Membrane de Bowman » est une couche
+                acellulaire constituée de microfilaments de collagène intriqués
+                en tous sens. En microscopie optique elle se présente comme une
+                bande hyaline, bien individualisée chez les Ongulés mais très
+                mince (1 à 2 micromètres) chez les Carnivores et le Lapin.
+                Souvent considérée comme la membrane basale de la conjonctive,
+                cette lame représente en réalité une modification des couches
+                les plus superficielles de la substance propre de la cornée qui
+                sont appliquées à la surface interne de la membrane basale
+                (Barone, 2010 ; Kirk, 2014).
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="max-w-1/2 w-full"
+            >
+              <img src={anatomie10} className="rounded-md" />
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          viewport={{ once: true }}
+          whileInView="show"
+          variants={fadeIn("up", "tween", 0.2, 0.7)}
+          className="mx-auto max-w-4xl mb-4"
+        >
+          <div className=" bg-gray-800/20 p-10 rounded-lg  gap-12 flex-wrap md:flex-nowrap">
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className=""
+            >
+              <p className=" text-neutral-300">
+                • <b> Substance propre de la cornée :</b> La substance propre de
+                la cornée est la couche la plus épaisse, qui représente presque
+                90% de son épaisseur totale. Elle est complètement dépourvue de
+                vaisseaux sanguins, pauvre en cellules et composée de faisceaux
+                de fibres de collagène entrelacés et immergés dans une substance
+                fondamentale riche en mucopolysaccharides (Dubielzig et al.,
+                2010). Les faisceaux de collagène sont organisés parallèlement à
+                la surface cornéenne, surtout dans la région centrale de la
+                cornée ; au limbe de la cornée ils se joignent à la substance
+                propre de la sclère (Barone, 2010).
+              </p>
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          viewport={{ once: true }}
+          whileInView="show"
+          variants={fadeIn("up", "tween", 0.2, 0.7)}
+          className="mx-auto max-w-6xl mb-4"
+        >
+          <div className=" bg-gray-800/20 p-10 rounded-lg flex justify-center items-center gap-12 flex-wrap md:flex-nowrap">
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="md:max-w-[60%]"
+            >
+              <p className=" text-neutral-300">
+                • <b>Lame limitante postérieure </b>La lame limitante
+                postérieure anciennement « membrane de Descemet », représente la
+                membrane basale très épaisse de l'épithélium postérieur de la
+                cornée. Composée de nombreux microfilaments de collagène, elle
+                est pourtant douée de propriétés élastiques. Elle se présente
+                comme une bande hyaline en microscopie optique (Barone, 2010).
+                Au fur et à mesure que la cornée vieillit, la membrane de
+                Descemet continue de s'étendre en largeur, comme on le voit en
+                comparant les deux chiens de la figure suivante
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="max-w-1/2 w-full"
+            >
+              <img src={anatomie11} className="rounded-md" />
+            </motion.div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          viewport={{ once: true }}
+          whileInView="show"
+          variants={fadeIn("up", "tween", 0.2, 0.7)}
+          className="mx-auto max-w-4xl mb-4"
+        >
+          <div className=" bg-gray-800/20 p-10 rounded-lg  gap-12 flex-wrap md:flex-nowrap">
+            <motion.div
+              initial={{ opacity: 0, x: -80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className=""
+            >
+              <p className=" text-neutral-300">
+                En revanche, la cornée contient d'abondantes fibres nerveuses
+                sensitives provenant des nerfs ciliaires longs issus du nerf
+                nasociliaire. Ces fibres forment un plexus péricornéen au niveau
+                du limbe puis se dirigent vers le centre de la cornée et
+                pénètrent dans l'épithélium antérieur. Elles constituent la voie
+                afférente des réflexes cornéens et oculocardiaque, par lesquels
+                les paupières se ferment et le rythme cardiaque ralentit après
+                un attouchement de la cornée (Dyce et al., 2010).
+              </p>
             </motion.div>
           </div>
         </motion.div>
