@@ -23,7 +23,7 @@ export default function Navbar() {
   ];
 console.log(active)
   return (
-    <Disclosure as="nav" className="bg-gray-800 rounded-b-md">
+    <Disclosure as="nav" className="bg-gray-800 rounded-b-md sticky top-0 z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
