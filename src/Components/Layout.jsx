@@ -10,7 +10,7 @@ const Layout = ({ location }) => {
   return (
     <>
       <Navbar />
-      <div className="relative overflow-x-hidden">
+      <div className="relative overflow-x-hidden overflow-y-clip">
         <div className="flex justify-center w-full">
           <div className=" gradient" />
         </div>
