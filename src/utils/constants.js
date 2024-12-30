@@ -1,5 +1,4 @@
 import anatomy from "../../public/Figures/hero.png"
-import techniques from "../../public/Figures/techniques.jpg"
 import applications from "../../public/Figures/applications.jpg"
 
 export const nav = [
@@ -13,12 +12,7 @@ export const nav = [
         title: "Applications",
         description: "Applications cliniques et techniques d'imagerie de l'œil.",
         link: "/Applications",
-        img: techniques
-    },
-    {
-        title: "Techniques",
-        description: "Techniques spécifiques liées à l'anatomie et à l'imagerie de l'œil.",
-        link: "/Techniques",
         img: applications
     },
+
 ];

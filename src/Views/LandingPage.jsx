@@ -68,7 +68,7 @@ const LandingPage = () => {
           className="mx-auto rounded-2xl shadow-xl w-4/5 sm:w-3/5 md:w-1/2 lg:w-2/5"
         />
       </motion.div>
-      <div className="max-w-5xl mx-auto px-8 mt-40 mb-16">
+      <div className="max-w-5xl mx-auto px-8 mt-40 mb-16 ">
         <HoverEffect items={nav} />
       </div>
     </>

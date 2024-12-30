@@ -15,10 +15,6 @@ function App() {
       path: "/Applications",
       element: <Layout location={"applications"}/>,
     },
-    {
-      path: "/Techniques",
-      element: <Layout location={"techniques"}/>,
-    },
   ]);
   return (
     <>
