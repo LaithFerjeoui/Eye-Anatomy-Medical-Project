@@ -8,6 +8,10 @@ import twodogs from "../../public/Figures/twodogs.png";
 import e from "../../public/Figures/e.png";
 import hehe from "../../public/Figures/hehe.png";
 import brown from "../../public/Figures/brown.png";
+import membrane from "../../public/Figures/membrane.png";
+import membrane2 from "../../public/Figures/membrane2.png";
+import memberanes from "../../public/Figures/memberanes.png";
+import ulcere from "../../public/Figures/ulcere.png";
 const PathologySection = ({ title, content }) => {
   return (
     <motion.div
@@ -415,6 +419,208 @@ const Applications = () => {
                     >
                       (Video)
                     </a>
+                  </div>
+                }
+              />
+            </div>
+            <div className="mt-6">
+              <PathologySection
+                title="1.1.1.3. memberanes pupillaires permanentes et opacités cornéennes"
+                content={
+                  <div>
+                    <p className="font-semibold mb-2">
+                      Définition : <p />
+                      <p className="font-semibold mb-2"></p>La persistance de la
+                      membrane pupillaire (PMP) est un changement congénital
+                      caractérisé par des restes de membrane fœtale qui
+                      persistent comme tissu filamenteux dans toute la pupille
+                      (Khalkhal, 2011 ; Seong et al., 2018).
+                    </p>
+                  </div>
+                }
+              />
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={membrane}
+                  alt="Persistance de la membrane pupillaire chez un chien "
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Persistance de la membrane pupillaire chez un chien
+                  <a
+                    href="https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/iris-et-uvee/persistance-de-la-membrane-pupillaire/ "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 ml-1"
+                  >
+                    (Source)
+                  </a>
+                </p>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={membrane2}
+                  alt="Persistance de la membrane pupillaire chez un chien  "
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Persistance de la membrane pupillaire chez un chien
+                  <a
+                    href="https://clinique-veterinaire-de-la-riviere.com/la-persistance-de-la-membrane-pupillaire/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 ml-1"
+                  >
+                    (Source)
+                  </a>
+                </p>
+              </div>
+            </motion.div>
+            <div className="mt-6">
+              <PathologySection
+                content={
+                  <div>
+                    <p className="font-semibold mb-2">Signes cliniques :</p>
+                    <ul className="list-disc ml-6 space-y-2">
+                      <li>
+                        Formation des foyers d’opacités cornéennes diffuses. Les
+                        opacités focales sont formées par l'épaississement et la
+                        déformation de la membrane de descement.
+                      </li>
+                      <li>
+                        Dans les opacités diffuses, il se produit à la suite de
+                        l'atteinte de la membrane de décroissance dans une zone
+                        beaucoup plus grande et du développement d'un œdème dans
+                        la zone (Gelatt, 2008 ; Seong et al., 2018).
+                      </li>
+                      <li>
+                        Les filaments membraneux peuvent se lier à la cornée et
+                        le cristal de la lentille et provoquent l'opacité ou le
+                        développement de la cataracte (Khalkhal et al., 2011 ;
+                        Sooryadas et al., 2012).
+                      </li>
+                    </ul>
+                  </div>
+                }
+              />
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={memberanes}
+                  alt="Membranes pupillaires permanentes (Seong et al., 2018)  "
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Membranes pupillaires permanentes (Seong et al., 2018)
+                </p>
+              </div>
+            </motion.div>
+            <div className="mt-6">
+              <PathologySection
+                content={
+                  <div>
+                    <p className="font-semibold mb-2">
+                      Traitement : <p />
+                      <p className="font-semibold mb-2"></p>L'utilisation
+                      d'atropine topique pour dilater la pupille peut aider à
+                      décomposer les PPM. La chirurgie et l'intervention au
+                      laser peuvent être nécessaires pour les grandes membranes
+                      opaques (Gupta et al., 2003 ; Seong et al., 2018). Il est
+                      tout de même conseillé de ne pas faire reproduire des
+                      sujets atteints de formes graves.
+                    </p>
+                  </div>
+                }
+              />
+            </div>
+            <h3 className="text-xl font-semibold text-gray-300 mb-4">
+              1.1.2. Maladies acquises
+            </h3>
+            <div className="mt-6">
+              <PathologySection
+                title="1.1.2.1. Ulcères cornéens"
+                content={
+                  <div>
+                    <p className="font-semibold mb-2">
+                      Définition : <p />
+                      <p className="font-semibold mb-2"></p> L'ulcération
+                      cornéenne = kératite ulcéreuse, est une des maladies
+                      oculaires les plus courantes chez le chien. Un ulcère
+                      cornéen est toute kératopathie dans laquelle il y a une
+                      perte d'épithélium. La kératite ulcéreuse est un terme
+                      équivalent car il y a toujours une inflammation associée
+                      avec ulcération cornéenne (Farghali et al., 2021).
+                    </p>
+                  </div>
+                }
+              />
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={ulcere}
+                  alt="Ulcère cornéen profond chez un carlin (vue latérale) (Jaksz et Buss,2017) <br>  "
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Ulcère cornéen profond chez un carlin (vue latérale) (Jaksz et
+                  Buss,2017) <br />
+                  <span className="font-bold">Observations : </span> Notez
+                  l'indentation visible et le changement de contour de la
+                  surface oculaire.
+                </p>
+              </div>
+            </motion.div>
+            <div className="mt-6">
+              <PathologySection
+                content={
+                  <div>
+                    <p className="font-semibold mb-2">
+                      Etiologie : <p />
+                      <p className="font-semibold mb-2"></p>Une diminution de la
+                      protection de l'épithélium cornéen ou abrasion cornéenne
+                      accrue <br /> La protection cornéenne est assurée par le
+                      film lacrymal, les paupières supérieures, inférieure et la
+                      troisième paupière. Une production insuffisante, ou la
+                      rétention ou la dispersion du film lacrymal provoque une
+                      ulcération cornéenne (Kirk, 2014 ; Sotnikova et al.,
+                      2021).
+                    </p>
+                    <ul className="list-disc ml-6 space-y-2">
+                      <li>
+                        Causes endogènes : position anormale de la
+                        paupière/anomalies des cils
+                      </li>
+                      <li>
+                        Causes exogènes : les traumatismes et rétention de corps
+                        étranger dans le fornix conjonctival
+                      </li>
+                    </ul>
                   </div>
                 }
               />
