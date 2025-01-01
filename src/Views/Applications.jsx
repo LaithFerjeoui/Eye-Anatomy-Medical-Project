@@ -4,6 +4,10 @@ import app1 from "../../public/Figures/app1.jpg";
 import eye from "../../public/Figures/eye.png";
 import eyes from "../../public/Figures/eyes.png";
 import twoeyes from "../../public/Figures/twoeyes.png";
+import twodogs from "../../public/Figures/twodogs.png";
+import e from "../../public/Figures/e.png";
+import hehe from "../../public/Figures/hehe.png";
+import brown from "../../public/Figures/brown.png";
 const PathologySection = ({ title, content }) => {
   return (
     <motion.div
@@ -179,7 +183,7 @@ const Applications = () => {
               <div className="bg-gray-800/20 p-6 rounded-lg">
                 <img
                   src={eyes}
-                  alt="Video explicatif"
+                  alt="Video explicative"
                   className="w-full max-w-3xl mx-auto rounded-lg"
                 />
                 <p className="text-neutral-300 text-center mt-4 italic">
@@ -252,7 +256,6 @@ const Applications = () => {
             </motion.div>
             <div className="mt-6">
               <PathologySection
-               
                 content={
                   <div>
                     <p className="font-semibold mb-2">
@@ -264,6 +267,154 @@ const Applications = () => {
                       nasal, élargissement anormal de la fente palpébrale,
                       baisse de sécrétion lacrymale.
                     </p>
+                  </div>
+                }
+              />
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={twodogs}
+                  alt="Cas de kératite pigmentaire causée par des plis du nez frottant contre la cornée."
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Cas de kératite pigmentaire causée par des plis du nez
+                  frottant contre la cornée.
+                  <a
+                    href="http://kikivet.over-blog.com/article-30078861.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 ml-1"
+                  >
+                    (Source)
+                  </a>
+                </p>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={e}
+                  alt="Cas de kératite pigmentaire en raison de distichiase."
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Cas de kératite pigmentaire en raison de distichiase.
+                  <a
+                    href="https://ophtalmoveterinaire.com/maladies_oculaires/keratite-pigmentaire/ "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 ml-1"
+                  >
+                    (Source)
+                  </a>
+                </p>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={hehe}
+                  alt="Cas de kératite pigmentaire en raison de la sécheresse oculaire (KCS)."
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Cas de kératite pigmentaire en raison de la sécheresse
+                  oculaire (KCS).
+                  <a
+                    href="https://ophtalmoveterinaire.com/maladies_oculaires/keratite-pigmentaire/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 ml-1"
+                  >
+                    (Source)
+                  </a>
+                </p>
+              </div>
+            </motion.div>
+            <div className="mt-6">
+              <PathologySection
+                content={
+                  <div>
+                    <p className="font-semibold mb-2">Signes cliniques :</p>
+                    <ul className="list-disc ml-6 space-y-2">
+                      <li>
+                        Dépôt de mélanine dans le stroma antérieur et
+                        l’épithélium cornéen à la suite d’une inflammation
+                        chronique.
+                      </li>
+                      <li>
+                        Les néovaisseaux cornéens charrient avec eux les
+                        pigments qui se déposent le long de leur trajet.
+                      </li>
+                    </ul>
+                  </div>
+                }
+              />
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-6"
+            >
+              <div className="bg-gray-800/20 p-6 rounded-lg">
+                <img
+                  src={brown}
+                  alt="Pigmentation mélanique chez un chien"
+                  className="w-full max-w-3xl mx-auto rounded-lg"
+                />
+                <p className="text-neutral-300 text-center mt-4 italic">
+                  Pigmentation mélanique chez un chien
+                </p>
+              </div>
+            </motion.div>
+            <div className="mt-6">
+              <PathologySection
+                content={
+                  <div>
+                    <p className="font-semibold mb-2">
+                      Traitement : <p />
+                      <p className="font-semibold mb-2"></p>L’inflammation
+                      cornéenne chronique étant à l’origine des dépôts
+                      pigmentaires, l’emploi d’anti-inflammatoires par voie
+                      locale s’avère nécessaire, en particulier les corticoïdes
+                      en l’absence d’ulcère cornéen, jusqu’à disparition de la
+                      néovascularisation cornéenne. La chirurgie d’exérèse des
+                      plages cornéennes pigmentées est réalisable mais donne des
+                      résultats aléatoires voire décevants à moyen et long
+                      terme. En effet, il est fréquent qu’une néovascularisation
+                      se développe après une kératectomie superficielle et que
+                      les pigments se redéposent rapidement. La cryothérapie
+                      ciblée sur les plages de pigmentation mélanique donne de
+                      bons résultats lorsque l’affection causale est traitée en
+                      parallèle et cette technique peut être répétée dans le
+                      temps
+                    </p>
+                    <a
+                      href="https://visionanimale.fr/traitement-dun-dermoide-corneo-conctival-keratectomie-video/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 ml-1"
+                    >
+                      (Video)
+                    </a>
                   </div>
                 }
               />
