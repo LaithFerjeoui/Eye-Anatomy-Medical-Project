@@ -90,7 +90,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-3 md:mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
+        "mt-3 md:mt-10 text-zinc-400 tracking-wide leading-relaxed text-sm",
         className
       )}
     >
