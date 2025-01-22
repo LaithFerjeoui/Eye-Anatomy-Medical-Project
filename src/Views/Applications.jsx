@@ -31,6 +31,11 @@ import obs4 from "../../public/Figures/obs4.png";
 import obs5 from "../../public/Figures/obs5.png";
 import obs6 from "../../public/Figures/obs6.png";
 import obs7 from "../../public/Figures/obs7.png";
+import test1 from "../../public/Figures/test1.png";
+import test2 from "../../public/Figures/test2.png";
+import test3 from "../../public/Figures/test3.png";
+import test4 from "../../public/Figures/test4.png";
+import test5 from "../../public/Figures/test5.png";
 
 const PathologySection = ({ title, content }) => {
   return (
@@ -922,6 +927,123 @@ const Applications = () => {
                     className="w-full max-w-3xl mx-auto rounded-lg my-6"
                   />
                   <p className="text-center italic">Figure : Section pédiculaire après greffe conjonctivale (Kirk, 2014)</p>
+                </div>
+              }
+            />
+            <PathologySection
+              title="1.1.2.2. Kératite superficielle chronique (Pannus) "
+              content={
+                <div>
+                  <p className="mt-4">
+                    La kératite superficielle chronique (CSK) est une maladie progressive,
+                    bilatérale, inflammatoire et potentiellement aveuglante : maladie de la
+                    cornée canine. Connue sous le nom de « pannus dégénératif ».
+                  </p>
+                  <img
+                    src={test1}
+                    alt="Section pédiculaire après greffe conjonctivale"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">Figure : Kératite superficielle chronique
+                    <a
+                      href="https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/keratite-superficielle-chronique/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 ml-1"
+                    >
+                      (Source)
+                    </a> </p>
+                </div>
+              }
+            />
+            <PathologySection
+              title="●	Etiologie : "
+              content={
+                <div>
+                  <p className="mt-4">
+                    La cause de la CSK chez le chien n'a pas été établie, mais les preuves actuelles suggèrent la condition est une maladie à médiation immunitaire d'origine génétique. <br />
+                    La cornée possède des antigènes tissu-spécifiques qui peuvent être modifiés par des facteurs externes tels que la lumière ultraviolette (UV). Le rayonnement UV peut altérer l'antigénicité des cornées sensibles, entraînant ainsi inflammation à médiation cellulaire chez les chiens sensibles.
+                    La CSK peut être contrôlée par l'administration topique de corticostéroïdes et ciclosporine (Castillo, 2019).
+
+                  </p>
+                  <img
+                    src={test2}
+                    alt="Section pédiculaire après greffe conjonctivale"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                </div>
+              }
+            />
+            <PathologySection
+              title="●	Diagnostic  : "
+              content={
+                <div>
+                  <p className="mt-4">
+                    Une lésion rouge, vascularisée, conjonctivale au niveau inférieur du limbe temporal.
+                    Au début de la maladie : la vascularisation et la pigmentation se produit au niveau de la cornée temporale et progresse de manière centralisée. (Figure 108) (Dubielzig et al., 2010 ; Castillo, 2019).
+                    Elle se propage vers la cornée centrale sous la forme d'un corps charnu, bien vascularisé.
+                    Une ligne cristalline blanche ou petites taches blanches sont observés dans le stroma cornéen clair, 1-2 mm devant le bord d'attaque de la lésion.
+                    La partie supérieure de la cornée reste généralement inchangée jusqu'à la fin de la maladie.
+                    Finalement, toute la cornée peut devenir vascularisée, pigmentée et opaque.
+                    Un épaississement et pigmentation de la surface palpébrale de la membrane nictitante peuvent être développés.
+                  </p>
+                  <img
+                    src={test3}
+                    alt="Section pédiculaire après greffe conjonctivale"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">Figure : Kératite superficielle chronique chez une chienne croisée berger de 4 ans. Les lésions se situent dans la partie temporale de la cornée. On observe une vascularisation cornéenne superficielle, une pigmentation et une infiltration cellulaire de la cornée bordée d'un oedème cornéen ainsi qu'une infiltration de la membrane nictitante se traduisant par une décoloration de son bord libre, un épaississement et une irrégularité de sa surface
+                    <a
+                      href="https://www.depecheveterinaire.com/keratite-superficielle-chronique-du-chien-le-diagnostic_67984E823465A263.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 ml-1"
+                    >
+                      (Source)
+                    </a> </p>
+                </div>
+              }
+            />
+            <PathologySection
+              title="●	Diagnostic différentiel: "
+              content={
+                <div>
+                  <p className="mt-4">
+                    La CSK doit être distinguée de la kératite pigmentaire résultant d'autres causes (par exemple, irritation chronique), et de la granulation cornéenne résultant de la cicatrisation vasculaire des plaies cornéennes (Dubielzig et al., 2010 ; Kirk, 2014).
+                  </p>
+                </div>
+              }
+            />
+            <PathologySection
+              title="●	Traitement: "
+              content={
+                <div>
+                  <p className="mt-4">
+                    La gravité de cette maladie et le pronostic dépendent de nombreux facteurs : l'âge d'apparition, altitude,..
+                    Le traitement initial consiste d'onguents ou de solutions corticostéroïdes topiques trois à quatre fois par jour pendant 3 à 4 semaines, suivi d’un programme d'entretien réduit.
+                    Pour les cas où le contrôle médical n'est pas satisfaisant, une injection sous-conjonctivale de corticoïdes dans un traitement topique peut également être nécessaire pour contrôler la maladie, ou rayonnement β (strontium-90β plésiothérapie) peut être utilisé en concomitance avec thérapie.
+                  </p>
+                  <div className="flex justify-center flex-wrap items-center gap-4">
+                    <div className="flex flex-col justify-center items-center">
+                      <img
+                        src={test4}
+                        alt="Section pédiculaire après greffe conjonctivale"
+                        className=" w-full max-w-md mx-auto rounded-lg my-6"
+                      />
+                      <p className="text-center italic">Figure : Kératite superficielle chronique </p>
+                    </div>
+                    <div className="flex flex-col justify-center items-center">
+                      <img
+                        src={test5}
+                        alt="Section pédiculaire après greffe conjonctivale"
+                        className="w-full max-w-md mx-auto rounded-lg my-6"
+                      />
+                      <p className="text-center italic">Figure : Même oeil, après 4 semaines de traitement  </p>
+                    </div>
+                  </div>
+                  <p className="mt-4">
+                    Une kératectomie superficielle peut être nécessaire pour cas graves dans lesquels la cécité est due à la pigmentation de la cornée centrale, mais les récidive doivent être attendues et répéter les kératectomies (généralement limité à deux ou trois) peut être nécessaire.
+                  </p>
                 </div>
               }
             />
