@@ -36,6 +36,19 @@ import test2 from "../../public/Figures/test2.png";
 import test3 from "../../public/Figures/test3.png";
 import test4 from "../../public/Figures/test4.png";
 import test5 from "../../public/Figures/test5.png";
+import test6 from "../../public/Figures/test6.png";
+import test7 from "../../public/Figures/test7.png";
+import test8 from "../../public/Figures/test8.png";
+import test9 from "../../public/Figures/test9.png";
+import test10 from "../../public/Figures/test10.png";
+import test11 from "../../public/Figures/test11.png";
+import test12 from "../../public/Figures/test12.png";
+import test13 from "../../public/Figures/test13.png";
+import test14 from "../../public/Figures/test14.png";
+import test15 from "../../public/Figures/test15.png";
+import test16 from "../../public/Figures/test16.png";
+import test17 from "../../public/Figures/test17.png";
+
 
 const PathologySection = ({ title, content }) => {
   return (
@@ -43,7 +56,7 @@ const PathologySection = ({ title, content }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-gray-800/20 p-6 rounded-lg mb-4"
+      className="bg-gray-800/20 p-6 rounded-lg my-4"
     >
       <h3 className="text-xl font-semibold text-gray-200 mb-3">{title}</h3>
       <div className="text-neutral-300 space-y-2">{content}</div>
@@ -933,120 +946,493 @@ const Applications = () => {
             <PathologySection
               title="1.1.2.2. Kératite superficielle chronique (Pannus) "
               content={
-                <div>
-                  <p className="mt-4">
-                    La kératite superficielle chronique (CSK) est une maladie progressive,
-                    bilatérale, inflammatoire et potentiellement aveuglante : maladie de la
-                    cornée canine. Connue sous le nom de « pannus dégénératif ».
-                  </p>
-                  <img
-                    src={test1}
-                    alt="Section pédiculaire après greffe conjonctivale"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">Figure : Kératite superficielle chronique
-                    <a
-                      href="https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/keratite-superficielle-chronique/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-400 hover:text-blue-300 ml-1"
-                    >
-                      (Source)
-                    </a> </p>
-                </div>
-              }
-            />
-            <PathologySection
-              title="●	Etiologie : "
-              content={
-                <div>
-                  <p className="mt-4">
-                    La cause de la CSK chez le chien n'a pas été établie, mais les preuves actuelles suggèrent la condition est une maladie à médiation immunitaire d'origine génétique. <br />
-                    La cornée possède des antigènes tissu-spécifiques qui peuvent être modifiés par des facteurs externes tels que la lumière ultraviolette (UV). Le rayonnement UV peut altérer l'antigénicité des cornées sensibles, entraînant ainsi inflammation à médiation cellulaire chez les chiens sensibles.
-                    La CSK peut être contrôlée par l'administration topique de corticostéroïdes et ciclosporine (Castillo, 2019).
-
-                  </p>
-                  <img
-                    src={test2}
-                    alt="Section pédiculaire après greffe conjonctivale"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                </div>
-              }
-            />
-            <PathologySection
-              title="●	Diagnostic  : "
-              content={
-                <div>
-                  <p className="mt-4">
-                    Une lésion rouge, vascularisée, conjonctivale au niveau inférieur du limbe temporal.
-                    Au début de la maladie : la vascularisation et la pigmentation se produit au niveau de la cornée temporale et progresse de manière centralisée. (Figure 108) (Dubielzig et al., 2010 ; Castillo, 2019).
-                    Elle se propage vers la cornée centrale sous la forme d'un corps charnu, bien vascularisé.
-                    Une ligne cristalline blanche ou petites taches blanches sont observés dans le stroma cornéen clair, 1-2 mm devant le bord d'attaque de la lésion.
-                    La partie supérieure de la cornée reste généralement inchangée jusqu'à la fin de la maladie.
-                    Finalement, toute la cornée peut devenir vascularisée, pigmentée et opaque.
-                    Un épaississement et pigmentation de la surface palpébrale de la membrane nictitante peuvent être développés.
-                  </p>
-                  <img
-                    src={test3}
-                    alt="Section pédiculaire après greffe conjonctivale"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">Figure : Kératite superficielle chronique chez une chienne croisée berger de 4 ans. Les lésions se situent dans la partie temporale de la cornée. On observe une vascularisation cornéenne superficielle, une pigmentation et une infiltration cellulaire de la cornée bordée d'un oedème cornéen ainsi qu'une infiltration de la membrane nictitante se traduisant par une décoloration de son bord libre, un épaississement et une irrégularité de sa surface
-                    <a
-                      href="https://www.depecheveterinaire.com/keratite-superficielle-chronique-du-chien-le-diagnostic_67984E823465A263.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-400 hover:text-blue-300 ml-1"
-                    >
-                      (Source)
-                    </a> </p>
-                </div>
-              }
-            />
-            <PathologySection
-              title="●	Diagnostic différentiel: "
-              content={
-                <div>
-                  <p className="mt-4">
-                    La CSK doit être distinguée de la kératite pigmentaire résultant d'autres causes (par exemple, irritation chronique), et de la granulation cornéenne résultant de la cicatrisation vasculaire des plaies cornéennes (Dubielzig et al., 2010 ; Kirk, 2014).
-                  </p>
-                </div>
-              }
-            />
-            <PathologySection
-              title="●	Traitement: "
-              content={
-                <div>
-                  <p className="mt-4">
-                    La gravité de cette maladie et le pronostic dépendent de nombreux facteurs : l'âge d'apparition, altitude,..
-                    Le traitement initial consiste d'onguents ou de solutions corticostéroïdes topiques trois à quatre fois par jour pendant 3 à 4 semaines, suivi d’un programme d'entretien réduit.
-                    Pour les cas où le contrôle médical n'est pas satisfaisant, une injection sous-conjonctivale de corticoïdes dans un traitement topique peut également être nécessaire pour contrôler la maladie, ou rayonnement β (strontium-90β plésiothérapie) peut être utilisé en concomitance avec thérapie.
-                  </p>
-                  <div className="flex justify-center flex-wrap items-center gap-4">
-                    <div className="flex flex-col justify-center items-center">
-                      <img
-                        src={test4}
-                        alt="Section pédiculaire après greffe conjonctivale"
-                        className=" w-full max-w-md mx-auto rounded-lg my-6"
-                      />
-                      <p className="text-center italic">Figure : Kératite superficielle chronique </p>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                      <img
-                        src={test5}
-                        alt="Section pédiculaire après greffe conjonctivale"
-                        className="w-full max-w-md mx-auto rounded-lg my-6"
-                      />
-                      <p className="text-center italic">Figure : Même oeil, après 4 semaines de traitement  </p>
-                    </div>
+                <>
+                  <div>
+                    <p className="mt-4">
+                      La kératite superficielle chronique (CSK) est une maladie progressive,
+                      bilatérale, inflammatoire et potentiellement aveuglante : maladie de la
+                      cornée canine. Connue sous le nom de « pannus dégénératif ».
+                    </p>
+                    <img
+                      src={test1}
+                      alt="Section pédiculaire après greffe conjonctivale"
+                      className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                    />
+                    <p className="text-center italic">Figure : Kératite superficielle chronique
+                      <a
+                        href="https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/keratite-superficielle-chronique/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300 ml-1"
+                      >
+                        (Source)
+                      </a> </p>
                   </div>
+
+
+                  <PathologySection
+                    title="●	Etiologie : "
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          La cause de la CSK chez le chien n'a pas été établie, mais les preuves actuelles suggèrent la condition est une maladie à médiation immunitaire d'origine génétique. <br />
+                          La cornée possède des antigènes tissu-spécifiques qui peuvent être modifiés par des facteurs externes tels que la lumière ultraviolette (UV). Le rayonnement UV peut altérer l'antigénicité des cornées sensibles, entraînant ainsi inflammation à médiation cellulaire chez les chiens sensibles.
+                          La CSK peut être contrôlée par l'administration topique de corticostéroïdes et ciclosporine (Castillo, 2019).
+
+                        </p>
+                        <img
+                          src={test2}
+                          alt="Section pédiculaire après greffe conjonctivale"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                      </div>
+                    }
+                  />
+                  <PathologySection
+                    title="●	Diagnostic  : "
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Une lésion rouge, vascularisée, conjonctivale au niveau inférieur du limbe temporal.
+                          Au début de la maladie : la vascularisation et la pigmentation se produit au niveau de la cornée temporale et progresse de manière centralisée. (Figure 108) (Dubielzig et al., 2010 ; Castillo, 2019).
+                          Elle se propage vers la cornée centrale sous la forme d'un corps charnu, bien vascularisé.
+                          Une ligne cristalline blanche ou petites taches blanches sont observés dans le stroma cornéen clair, 1-2 mm devant le bord d'attaque de la lésion.
+                          La partie supérieure de la cornée reste généralement inchangée jusqu'à la fin de la maladie.
+                          Finalement, toute la cornée peut devenir vascularisée, pigmentée et opaque.
+                          Un épaississement et pigmentation de la surface palpébrale de la membrane nictitante peuvent être développés.
+                        </p>
+                        <img
+                          src={test3}
+                          alt="Section pédiculaire après greffe conjonctivale"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">Figure : Kératite superficielle chronique chez une chienne croisée berger de 4 ans. Les lésions se situent dans la partie temporale de la cornée. On observe une vascularisation cornéenne superficielle, une pigmentation et une infiltration cellulaire de la cornée bordée d'un oedème cornéen ainsi qu'une infiltration de la membrane nictitante se traduisant par une décoloration de son bord libre, un épaississement et une irrégularité de sa surface
+                          <a
+                            href="https://www.depecheveterinaire.com/keratite-superficielle-chronique-du-chien-le-diagnostic_67984E823465A263.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 hover:text-blue-300 ml-1"
+                          >
+                            (Source)
+                          </a> </p>
+                      </div>
+                    }
+                  />
+                  <PathologySection
+                    title="●	Diagnostic différentiel: "
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          La CSK doit être distinguée de la kératite pigmentaire résultant d'autres causes (par exemple, irritation chronique), et de la granulation cornéenne résultant de la cicatrisation vasculaire des plaies cornéennes (Dubielzig et al., 2010 ; Kirk, 2014).
+                        </p>
+                      </div>
+                    }
+                  />
+                  <PathologySection
+                    title="●	Traitement: "
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          La gravité de cette maladie et le pronostic dépendent de nombreux facteurs : l'âge d'apparition, altitude,..
+                          Le traitement initial consiste d'onguents ou de solutions corticostéroïdes topiques trois à quatre fois par jour pendant 3 à 4 semaines, suivi d’un programme d'entretien réduit.
+                          Pour les cas où le contrôle médical n'est pas satisfaisant, une injection sous-conjonctivale de corticoïdes dans un traitement topique peut également être nécessaire pour contrôler la maladie, ou rayonnement β (strontium-90β plésiothérapie) peut être utilisé en concomitance avec thérapie.
+                        </p>
+                        <div className="flex justify-center flex-wrap items-center gap-4">
+                          <div className="flex flex-col justify-center items-center">
+                            <img
+                              src={test4}
+                              alt="Section pédiculaire après greffe conjonctivale"
+                              className=" w-full max-w-md mx-auto rounded-lg my-6"
+                            />
+                            <p className="text-center italic">Figure : Kératite superficielle chronique </p>
+                          </div>
+                          <div className="flex flex-col justify-center items-center">
+                            <img
+                              src={test5}
+                              alt="Section pédiculaire après greffe conjonctivale"
+                              className="w-full max-w-md mx-auto rounded-lg my-6"
+                            />
+                            <p className="text-center italic">Figure : Même oeil, après 4 semaines de traitement  </p>
+                          </div>
+                        </div>
+                        <p className="mt-4">
+                          Une kératectomie superficielle peut être nécessaire pour cas graves dans lesquels la cécité est due à la pigmentation de la cornée centrale, mais les récidive doivent être attendues et répéter les kératectomies (généralement limité à deux ou trois) peut être nécessaire.
+                        </p>
+                      </div>
+                    }
+
+                  />
+                </>
+              }
+            />
+            <PathologySection
+              title="1.1.2.3. Dégénérescence cornéenne"
+              content={
+                <div>
                   <p className="mt-4">
-                    Une kératectomie superficielle peut être nécessaire pour cas graves dans lesquels la cécité est due à la pigmentation de la cornée centrale, mais les récidive doivent être attendues et répéter les kératectomies (généralement limité à deux ou trois) peut être nécessaire.
+                    Les dégénérescences cornéennes sont des altérations qui font perdre à la cornée une ou plusieurs de ses propriétés normales, secondaires à des changements pathologiques dans la cornée. (Sansom et Blunden, 2010 ; Maggs et al., 2018). <br />
+                    Une accumulation de lipides, de cholestérol, ou de calcium, qui sont précédés d'une kératite, d’une vascularisation et éventuellement de la mélanose (Brooks et al., 1990 ; Kirk, 2014).
+                  </p>
+                  <img
+                    src={test6}
+                    alt="Dégénérescence cornéenne diffuse avec une plaque blanche dense et une vascularisation"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">
+                    Figure : Dégénérescence cornéenne diffuse avec une plaque blanche dense et une vascularisation (Maggs et al., 2018)
+                  </p>
+
+                  <PathologySection
+                    title="● Diagnostic :"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Les lésions peuvent être d'un blanc dense ou blanc grisâtre. Les frontières du cristallin sont bien délimitées. Elles peuvent se produire dans n'importe quelle zone de la cornée, mais généralement elles sont axiales ou paraxiales (Sansom et Blunden, 2010). <br />
+                          Au fur et à mesure que la dégénérescence progresse, des dépôts de cholestérol et de calcium sont observés. La présence de calcium peut contribuer à un retard de la guérison de la cornée (Brooks et al., 1990 ; Maggs et al., 2018). <br />
+                          La dégénérescence calcique peut être secondaire à une maladie ou spontanée (associée à une inflammation locale). L’hypercalcémie, l’hyperphosphatémie, l’hyperadrénocorticisme, l’urémie et l’hypervitaminose D peuvent potentiellement être accompagnés de calcification cornéenne secondaire. <br />
+                          La dégénérescence graisseuse et la dégénérescence hyaline peuvent précéder ou accompagner la calcification cornéenne (Maggs et al., 2018).
+                        </p>
+                        <img
+                          src={test7}
+                          alt="Dégénérescence cornéenne chez un chien"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : La dégénérescence cornéenne chez un chien{" "}
+                          <a
+                            href="https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/degenerescence-corneenne/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 hover:text-blue-300 ml-1"
+                          >
+                            (Source)
+                          </a>
+                        </p>
+                      </div>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Traitement :"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Il n’existe pas de traitement médical efficace permettant de faire régresser les dépôts dans le stroma cornéen. Lorsqu’une cause est identifiée, comme une kératite, une uvéite, une épisclérite ou un ulcère cornéen, elle doit être gérée de manière spécifique. <br />
+                          La corticothérapie doit être évitée dans la dégénérescence cornéenne, car elle diminue la vascularisation, la fonction des macrophages, et par la suite la résolution de la lésion. <br />
+                          La kératectomie peut être envisagée si la lésion est évolutive et la vision compromise. Une greffe de biomatériau peut compléter l’intervention en fonction de la profondeur de la lésion.
+                          La kératectomie peut être envisagée si la lésion est évolutive et la vision compromise. On complètera d’une greffe de biomatériau en fonction de la profondeur d’atteinte. (Sansom et Blunden, 2010 ; Berryhill et al., 2016).
+                        </p>
+                      </div>
+                    }
+                  />
+                </div>
+              }
+            />
+            <PathologySection
+              title="1.1.2.4. Dystrophie endothéliale cornéenne"
+              content={
+                <div>
+                  <p className="mt-4">
+                    Un œdème cornéen progressif résultant de la présence de cellules endothéliales dystrophiques anormales (Kirk, 2014). <br />
+                    Une dégénérescence bilatérale progressive des cellules endothéliales cornéennes qui se traduit par un œdème, et une cornée avasculaire.
+                  </p>
+                  <img
+                    src={test8}
+                    alt="Dystrophie endothéliale cornéenne chez un chien"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">
+                    Figure : Dystrophie endothéliale cornéenne chez un chien
+                  </p>
+
+                  <PathologySection
+                    title="● Diagnostic :"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Un aspect blanc bleuté de l'opacité cornéenne. <br />
+                          Un manque de vascularisation de la cornée ou hyperémie conjonctivale. <br />
+                          La première lésion : l'œdème cornéen, localisé temporellement et progresse lentement, sur plusieurs mois à quelques années, pour impliquer toute la cornée. <br />
+                          Elle est initialement asymétrique puis progresse à une opacité cornéenne complète et bilatérale (Casola et al., 2020).
+                        </p>
+                        <img
+                          src={test9}
+                          alt="Œdème cornéen diffus chez un Boston Terrier"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Œdème cornéen diffus chez un Boston Terrier avec dystrophie endothéliale cornéenne avancée (Kirk, 2014).
+                        </p>
+                      </div>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Traitement :"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          La thérapie palliative est le plus souvent utilisée pour la dystrophie endothéliale. <br />
+                          Les hyperosmotiques peuvent diminuer l'étendue de la formation de bulles, mais un éclaircissement cornéen important ne peut se produire. <br />
+                          La thermokératoplastie (cautérisation thermique) est préconisée avec utilisation de points multifocaux de cautérisation thermique superficielle appliqués de manière circulaire sur la cornée exposée (Casola et al., 2020).
+                        </p>
+                        <img
+                          src={test10}
+                          alt="Thermokératoplastie lors de dystrophie endothéliale cornéenne"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Thermokératoplastie lors de dystrophie endothéliale cornéenne (Kirk, 2014).
+                        </p>
+                      </div>
+                    }
+                  />
+                </div>
+              }
+            />
+            <PathologySection
+              title="1.1.2.5. Lacérations cornéennes"
+              content={
+                <div>
+                  <p className="mt-4">
+                    Souvent secondaires à des blessures causées par les griffes du chat, les lacérations cornéennes se distinguent en deux types : les lacérations pénétrant la cornée et les lacérations perforantes.
+                    Quelle que soit la cause, des facteurs doivent être établis dans toutes les lacérations cornéennes : profondeur de la lacération, atteinte du cristallin, et l'extension de la lacération au-delà du limbe (Kirk, 2014).
+                  </p>
+                  <img
+                    src={test11}
+                    alt="Lacération du bord libre de la troisième paupière chez un chien suite à une griffure de chat"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">
+                    Figure : Lacération du bord libre de la troisième paupière chez un chien suite à une griffure de chat. La pupille a été pharmacologiquement dilatée pour rechercher une éventuelle lésion intraoculaire © Elizabeth Giuliano
+                  </p>
+
+                  <PathologySection
+                    title="● Symptômes :"
+                    content={
+                      <div>
+                        <ul className="list-disc ml-6 mt-4">
+                          <li>Lésion douloureuse</li>
+                          <li>Blépharospasme</li>
+                          <li>Myosis</li>
+                          <li>Épiphora séreux à muco-purulent selon l’ancienneté de l’affection</li>
+                          <li>Hyperhémie conjonctivale parfois importante</li>
+                        </ul>
+                        <p className="mt-4">
+                          Les lacérations pénétrantes entraînent un ulcère cornéen de profondeur variable. Ces lacérations peuvent être ponctiformes, avoir un aspect caractéristique de déchirure rectiligne ou se matérialiser sous forme de soulèvement d’une portion de cornée (« scalp cornéen »).
+                          Dans ce cas, la douleur est intense, et des signes plus ou moins prononcés d’uvéite antérieure (myosis, hypopion, hyphéma, etc.) sont souvent associés.
+                          Un examen minutieux est effectué pour évaluer l'étendue de la blessure, en prenant soin d'éviter toute pression sur le globe afin d'éviter des lésions intraoculaires supplémentaires (Kirk, 2014).
+                          Les lacérations s'étendant au-delà du limbe comportent un risque élevé de dommages au cristallin, au corps ciliaire sous-jacent, et à la rétine, avec une uvéite marquée.
+                        </p>
+                        <img
+                          src={test12}
+                          alt="Lacération cornéenne avec rupture de la capsule antérieure du cristallin"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Lacération cornéenne (A) avec rupture de la capsule antérieure du cristallin (B) (Maggs et al., 2018)
+                        </p>
+                      </div>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Traitement :"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Les lacérations qui ne pénètrent que les couches cornéennes superficielles, plutôt que toute l'épaisseur de la cornée, ont généralement un bon pronostic avec une prise en charge adaptée. Elles sont traitées de manière similaire aux ulcères cornéens (Maggs et al., 2018).
+                          Les plaies perforantes avec rupture du globe présentent un pronostic plus sombre en raison des lésions intraoculaires et d'une plus grande rupture des tissus au bord de la plaie.
+                          Les ulcères cornéens superficiels ou peu profonds et de petite taille peuvent être gérés par un traitement médical seul.
+                          Les scalps cornéens, ainsi que les lésions cornéennes profondes, perforantes ou de grande taille, nécessitent une prise en charge chirurgicale : sutures cornéennes, lambeau conjonctival, ou greffe de biomatériau, selon le cas.
+                        </p>
+                        <img
+                          src={test13}
+                          alt="Lacération cornéenne"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Lacération cornéenne
+                        </p>
+                        <p className="mt-4">
+                          Pour en savoir plus, consultez la vidéo explicative :{" "}
+                          <a
+                            href="https://www.youtube.com/watch?v=yAYaHEP15Ds&rco=1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 hover:text-blue-300"
+                          >
+                            Voir la vidéo
+                          </a>
+                        </p>
+                      </div>
+                    }
+                  />
+                </div>
+              }
+            />
+            <PathologySection
+              title="1.1.2.6. Corps étrangers cornéens"
+              content={
+                <div>
+                  <p className="mt-4">
+                    Les corps étrangers cornéens se distinguent en deux types différents :
+                  </p>
+                  <ul className="list-disc ml-6 mt-4">
+                    <li>
+                      Ceux qui adhèrent à la surface cornéenne par tension superficielle et peuvent par la suite devenir encore plus solidement attachés par création d’une région ulcérée à leurs bords.
+                    </li>
+                    <li>
+                      Ceux qui pénètrent dans la cornée et parfois dans le globe lui-même (Sandmeyer et al., 2016).
+                    </li>
+                  </ul>
+                  <img
+                    src={test14}
+                    alt="Œil gauche d'un braque avec un corps étranger sur la surface de la cornée"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">
+                    Figure : œil gauche d'un braque avec un corps étranger sur la surface de la cornée (Sandmeyer et al., 2016)
+                  </p>
+                  <p className="mt-4">
+                    Ces corps étrangers doivent être supprimés pour limiter la douleur, réduire le risque d'infection et prévenir la vascularisation et la formation de cicatrices.
+                  </p>
+                  <img
+                    src={test15}
+                    alt="Corps étranger implanté dans la cornée d’un chien et faisant protrusion dans la chambre antérieure"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">
+                    Figure : Corps étranger implanté dans la cornée d’un chien et faisant protrusion dans la chambre antérieure
+                  </p>
+
+                  <PathologySection
+                    title="● Traitement :"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Le traitement consiste tout d’abord à extraire le corps étranger, sous anesthésie locale ou générale en fonction de sa profondeur et de la patience de l’animal. L’extraction peut être effectuée avec :
+                        </p>
+                        <ul className="list-disc ml-6 mt-4">
+                          <li>Une pince</li>
+                          <li>Une aiguille de 25G</li>
+                          <li>Un coton-tige</li>
+                          <li>Du sérum physiologique s’il est superficiel</li>
+                        </ul>
+                        <p className="mt-4">
+                          Pour les corps étrangers pénétrants ou perforants, une microchirurgie est nécessaire, incluant selon les cas : des sutures cornéennes, la fixation d’un biomatériau, ou un lambeau conjonctival.
+                        </p>
+                        <p className="mt-4">
+                          Les petits corps étrangers collés sont mieux retirés avec un jet de solution saline dirigé avec force sur la surface cornéenne après application d’un topique anesthésique. Cette procédure est sûre uniquement si la cornée n’est pas affaiblie, car un courant de fluide peut rompre un descemétocèle ou un autre ulcère profond (Lew et al., 2015 ; Sandmeyer et al., 2016).
+                        </p>
+                        <p className="mt-4">
+                          Les corps étrangers pénétrants sont plus problématiques et devraient être référés pour une intervention chirurgicale. L'extraction est réalisée au microscope opératoire avec une incision pratiquée dans la cornée au-dessus du grand axe du corps étranger (Lew et al., 2015).
+                        </p>
+                        <img
+                          src={test16}
+                          alt="Corps étranger (épine) dans la partie médiane de la cornée"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Corps étranger (épine) dans la partie médiane de la cornée (Lew et al., 2015)
+                        </p>
+                        <p className="mt-4">
+                          Après élimination de tout corps étranger, un traitement antibiotique topique à large spectre et de l’atropine sont administrés pour limiter l'infection et les effets de l'uvéite secondaire. Si une perforation du globe s'est produite, un antibiotique systémique doit également être utilisé.
+                        </p>
+                        <p className="mt-4">
+                          La cicatrisation épithéliale cornéenne est normalement rapide tant que l'infection secondaire est contrôlée.
+                        </p>
+                        <p className="mt-4">
+                          Pour en savoir plus, consultez la vidéo explicative :{" "}
+                          <a
+                            href="https://www.youtube.com/watch?v=sO83JAJsziI"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 hover:text-blue-300"
+                          >
+                            Voir la vidéo
+                          </a>
+                        </p>
+                      </div>
+                    }
+                  />
+                </div>
+              }
+            />
+            <PathologySection
+              title="1.1.2.7. Brûlures cornéennes"
+              content={
+                <div>
+                  <p className="my-4">
+                    Les brûlures cornéennes sont de nature chimique ou thermique. Ce sont des urgences absolues en raison des séquelles graves qu’elles peuvent entraîner (Abbaszadeh et al., 2010).
+                  </p>
+
+                  <PathologySection
+                    title="● Étiologie et pathogénie"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Les acides sont responsables de lésions de la surface oculaire. Ils précipitent et dénaturent les protéines de l’épithélium cornéen, qui prend un aspect nécrotique blanchâtre sur un stroma sous‐jacent clair (Beltran et Clerc, 1998 ; Hannouche et Hoangxuan, 2000).
+                        </p>
+                        <p className="mt-4">
+                          Les brûlures thermiques sont dues soit à l’exposition à une flamme ou une source de chaleur, soit à un contact direct avec un corps chaud ou un liquide bouillant. Ces brûlures sont souvent associées à des brûlures de la face (Abbaszadeh et al., 2010).
+                        </p>
+                      </div>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Signes cliniques"
+                    content={
+                      <ul className="list-disc ml-6 mt-4">
+                        <li>Destruction de l'épithélium superficiel de la cornée et de la conjonctive.</li>
+                        <li>Nécrose des tissus profonds (pour des concentrations élevées de produits chimiques).</li>
+                        <li>Blépharospasme.</li>
+                        <li>Photophobie.</li>
+                        <li>Larmoiement, rougeur, douleur oculaire.</li>
+                        <li>Baisse de l’acuité visuelle (Hannouche et Hoangxuan, 2000).</li>
+                      </ul>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Traitement"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Rincer abondamment la cornée à l’aide de sérum physiologique. Le lavage abondant de la surface oculaire et des voies lacrymales doit précéder l’examen clinique (Miller et Rhaesa, 1996 ; Payern et al., 2006).
+                        </p>
+                        <p className="mt-4">
+                          Utiliser une solution de lactate de Ringer ou une solution physiologique équilibrée (BSS) pour le lavage, car elles sont adaptées au milieu électrolytique du stroma cornéen (Hannouche et Hoangxuan, 2004).
+                        </p>
+                        <p className="mt-4">
+                          Il ne faut surtout pas laver avec une solution de pH opposé, ce qui pourrait aggraver les lésions. Appliquer un antibiotique à large spectre localement pour prévenir les infections cornéennes et un substitut de larmes toutes les deux heures pour éviter la sécheresse oculaire.
+                        </p>
+                      </div>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Pronostic"
+                    content={
+                      <p className="mt-4">
+                        Les brûlures caustiques de la cornée peuvent être classées en quatre grades pronostiques. Le pronostic est bon pour les grades I et II, qui guérissent en quelques jours sans séquelles, mais il est mauvais pour les grades III et IV.
+                      </p>
+                    }
+                  />
+
+                  <img
+                    src={test17}
+                    alt="Brûlure chimique de la cornée (A : Colle sur la surface, B : Évolution)"
+                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                  />
+                  <p className="text-center italic">
+                    Figure : Brûlure chimique de la cornée (Abbaszadeh et al., 2010)
                   </p>
                 </div>
               }
             />
+
           </div>
         </motion.div>
       </div>
