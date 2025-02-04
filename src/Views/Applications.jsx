@@ -47,7 +47,23 @@ import test13 from "../../public/Figures/test13.png";
 import test14 from "../../public/Figures/test14.png";
 import test15 from "../../public/Figures/test15.png";
 import test16 from "../../public/Figures/test16.png";
+import test18 from "../../public/Figures/test18.png";
 import test17 from "../../public/Figures/test17.png";
+import test19 from "../../public/Figures/test19.png";
+import test20 from "../../public/Figures/test20.png";
+import test21 from "../../public/Figures/test21.png";
+import test22 from "../../public/Figures/test22.png";
+import test23 from "../../public/Figures/test23.png";
+import test24 from "../../public/Figures/test24.png";
+import test25 from "../../public/Figures/test25.png";
+import test26 from "../../public/Figures/test26.png";
+import test27 from "../../public/Figures/test27.png";
+import test28 from "../../public/Figures/test28.png";
+import test29 from "../../public/Figures/test29.png";
+import test30 from "../../public/Figures/test30.png";
+import test31 from "../../public/Figures/test31.png";
+import test32 from "../../public/Figures/test32.png";
+import test33 from "../../public/Figures/test33.png";
 
 
 const PathologySection = ({ title, content }) => {
@@ -1429,6 +1445,386 @@ const Applications = () => {
                   <p className="text-center italic">
                     Figure : Brûlure chimique de la cornée (Abbaszadeh et al., 2010)
                   </p>
+                </div>
+              }
+            />
+            <h3 className="text-2xl font-semibold text-gray-200 my-3">1.2 Maladies sclérales</h3>
+
+
+            <PathologySection
+              title="1.2.1. Épisclérite granulomateuse nodulaire (NGE)"
+              content={
+                <div>
+                  <p className="my-4">
+                    Aussi appelé kératoconjonctivite proliférative, granulome limbique, pseudotumeur et granulome du colley.
+                  </p>
+
+                  <PathologySection
+                    title="● Définition"
+                    content={
+                      <p className="mt-4">
+                        Une maladie oculaire à médiation immunitaire (inflammatoire) qui touche la sclère, la cornée et la membrane nictitante.
+                      </p>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Prédisposition raciale"
+                    content={
+                      <>
+                        <p className="mt-4">
+                          Le colley, le cocker américain et les bergers de Shetland (Hamzianpour et al., 2019).
+                        </p>
+                        <img
+                          src={test18}
+                          alt="Brûlure chimique de la cornée (A : Colle sur la surface, B : Évolution)"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Examen rapprochédes deux yeux. <br />
+                          2a. Examen comparé de l’œil droit : noterla déformation sclérale à 9 h et12 h, le chémosis marqué, l’infiltrat cellulaire du stroma cornéen, les néo-vaisseaux périlimbiques et l’œdème associé
+                          <br />  2b. Œil gaucheaprès dilatation.
+
+                        </p>
+                      </>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Symptômes"
+                    content={
+                      <>
+                        <ul className="list-disc ml-6 mt-4">
+                          <li>Plusieurs masses charnues élevées.</li>
+                          <li>Une seule masse survenant au limbe et infiltrant le stroma cornéen adjacent.</li>
+                        </ul>
+                        <img
+                          src={test19}
+                          alt="Épisclérite granulomateuse nodulaire"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Vues de face (A) et latérales (B) d'un chien atteint d'épisclérokératite granulomateuse nodulaire focale (Hamzianpour et al., 2019).
+                        </p>
+                      </>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Observations"
+                    content={
+                      <p className="mt-4">
+                        Noter le gonflement sous-conjonctival, l'injection conjonctivale et l'œdème cornéen périphérique adjacent à la lésion.
+                      </p>
+                    }
+                  />
+
+                  <PathologySection
+                    title="● Traitement"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Généralement, la NGE a tendance à être bénigne, avec une bonne réponse à l'administration topique de corticostéroïdes.
+                        </p>
+                        <div className="flex justify-center items-center gap-3 flex-wrap">
+                          <div>
+                            <img
+                              src={test20}
+                              alt="Épisclérite granulomateuse nodulaire"
+                              className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                            />
+                            <p className="text-center italic">
+                              Figure : Aspect initial avec une NGE
+                            </p>
+                          </div>
+                          <div>
+                            <img
+                              src={test21}
+                              alt="Épisclérite granulomateuse nodulaire"
+                              className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                            />
+                            <p className="text-center italic">
+                              Figure : même œil après 3 semaines de traitement anti-inflammatoire
+                            </p>
+                          </div>
+                        </div>
+                        <p className="mt-4 font-semibold">Procédures chirurgicales :</p>
+                        <ul className="list-disc ml-6">
+                          <li>Canthotomie latérale.</li>
+                          <li>Kératectomie lamellaire associée à une sclérotomie.</li>
+                          <li>Dissection de plan profond.</li>
+                          <li>Excision des deux tiers de l’épaisseur du stroma cornéen.</li>
+                          <li>Mise en place d’une greffe conjonctivale pédiculée et suturée par des points simples.</li>
+                        </ul>
+                        <img
+                          src={test22}
+                          alt="Épisclérite granulomateuse nodulaire"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          12. Kératectomie lamellaire et sclérotomie. <br />
+                          13. Dissection du plan profond à l’aide du couteau de Crescent. <br />
+                          14. Aspect de la zone après kératectomie. <br />
+                          15. Aspect de l’œil droit après fixation du lambeau conjonctival pédiculé. <br />
+                          photos : B. Michaud
+                        </p>
+                        <img
+                          src={test23}
+                          alt="Épisclérite granulomateuse nodulaire"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          17. Œil droit 3 jours après l’intervention. <br />
+                          18. Œil droit 10 jours après l’intervention <br />
+                          19. Œil droit 3 semaines après l’intervention <br />
+                        </p>
+
+                      </div>
+                    }
+                  />
+
+                  <p className="mt-6">
+                    Plus d’informations :{" "}
+                    <a
+                      href="https://ophtalmoveterinaire.com/maladies_oculaires/episclerite-nodulaire-granulomateuse/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline"
+                    >
+                      Ophtalmologie vétérinaire
+                    </a>
+                  </p>
+                </div>
+              }
+            />
+            <PathologySection
+              title="1.2.2. Sclérite"
+              content={
+                <div>
+                  <p className="my-4">
+                    Une maladie inflammatoire de la sclérotique divisée en :
+                  </p>
+                  <ul className="list-disc ml-6">
+                    <li>Sclérite granulomateuse non nécrosante</li>
+                    <li>Sclérite granulomateuse nécrosante</li>
+                  </ul>
+                  <PathologySection
+                    title="● Prédisposition raciale"
+                    content={
+                      <p className="mt-4">
+                        Les races épagneul ; le cocker américain Épagneul +++
+                      </p>
+                    }
+                  />
+                  <PathologySection
+                    title="● Symptômes"
+                    content={
+                      <>
+                        <ul className="list-disc ml-6 mt-4">
+                          <li>Lésions rose-brun à proximité, mais postérieures au limbe.</li>
+                          <li>Œdème cornéen.</li>
+                          <li>Douleur oculaire.</li>
+                          <li>Photophobie.</li>
+                          <li>Larmoiement excessif.</li>
+                        </ul>
+                        <p className="mt-4">
+                          Dans certains cas, une kératite, une uvéite antérieure peuvent être présentes car l'inflammation sclérale s'étend dans ces tissus adjacents.
+                        </p>
+                        <img
+                          src={test24}
+                          alt="Sclérite sévère, œdème cornéen périphérique et foyer de dégénérescence cornéenne"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Sclérite sévère, œdème cornéen périphérique et foyer de dégénérescence cornéenne (Maggs et al., 2018)
+                        </p>
+                      </>
+                    }
+                  />
+                  <PathologySection
+                    title="● Observations"
+                    content={
+                      <>
+                        <p className="mt-4">
+                          La lésion typique de la sclérite consiste en inflammation granulomateuse avec infiltration de lymphocytes, plasmocytes et macrophages épithélioïdes.
+                        </p>
+                        <p className="mt-4">
+                          Lorsqu'une uvéite est présente, l'infiltrat uvéal est non granulomateux.
+                        </p>
+                        <ul className="list-disc ml-6 mt-4">
+                          <li>La sclère endommagée devient fibreuse.</li>
+                          <li>Formation des kystes multifocaux dans la sclère affectée.</li>
+                          <li>Présence des régions d’amincissement scléral.</li>
+                        </ul>
+
+                        <img
+                          src={test25}
+                          alt="Épisclérite diffuse chez un jeune labrador"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Episclérite diffuse chez un jeune labrador
+                        </p>
+                      </>
+                    }
+                  />
+                  <PathologySection
+                    title="● Traitement"
+                    content={
+                      <div>
+                        <p className="mt-4">
+                          Les corticostéroïdes intra-lésionnels favorisent généralement la régression des lésions.
+                        </p>
+
+                        <img
+                          src={test26}
+                          alt="Même œil après une semaine de corticothérapie"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Episclérite diffuse chez un jeune labrador
+                        </p>
+
+                        <img
+                          src={test27}
+                          alt="Même œil après une semaine de corticothérapie"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Même œil après une semaine de corticothérapie
+                        </p>
+
+                      </div>
+                    }
+                  />
+                  <p className="mt-6">
+                    Plus d’informations : {" "}
+                    <a
+                      href="https://visionanimale.fr/episclerite-chez-un-jeune-labrador/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline"
+                    >
+                      Vision Animale
+                    </a>
+                  </p>
+                </div>
+              }
+            />
+            <PathologySection
+              title="1.2.3. Masses cornéosclérales et Tumeurs"
+              content={
+                <div>
+                  <p className="my-4">
+                    Les masses cornéennes, limbiques et cornéosclérales sont rares chez les mammifères domestiques.
+                    Elles peuvent inclure des kystes non-néoplasiques, abcès, troubles inflammatoires et des néoplasmes
+                    tels que le carcinome épidermoïde, le mélanome, le papillome, le lymphome et l’hémangiome/hémangiosarcome.
+                  </p>
+                  <div className="flex justify-center flex-wrap items-center gap-4">
+                    <div className="flex flex-col justify-center items-center">
+                      <img
+                        src={test28}
+                        alt="Section pédiculaire après greffe conjonctivale"
+                        className=" w-full max-w-md mx-auto rounded-lg my-6"
+                      />
+                      <p className="text-center italic">Figure : Mélanome épibulbaire chez un labrador.</p>
+                    </div>
+                    <div className="flex flex-col justify-center items-center">
+                      <img
+                        src={test29}
+                        alt="Section pédiculaire après greffe conjonctivale"
+                        className="w-full max-w-md mx-auto rounded-lg my-6"
+                      />
+                      <p className="text-center italic">Figure : Aspect postopératoire après exérèse chirurgicale  du mélanome épibulbaire (de la photo précédente), associée au laser diode et à une greffe conjonctivale</p>
+                    </div>
+                  </div>
+                  <PathologySection
+                    title="1.2.3.1. Kystes d'inclusion épithéliale cornéenne"
+                    content={
+                      <>
+                        <p className="my-4">La formation de kystes dans la cornée peut impliquer les quatre couches.
+                          Ils sont généralement unilatéraux et solitaires.</p>
+                        <PathologySection
+                          title="● Symptômes"
+                          content={
+                            <ul className="list-disc ml-6 mt-4">
+                              <li>Masses cornéennes surélevées, blanches à roses.</li>
+                              <li>Typiquement chronique et non douloureuse, mais peut altérer la vision.</li>
+                            </ul>
+                          }
+                        />
+                        <PathologySection
+                          title="● Étiologie"
+                          content={
+                            <p className="mt-4">
+                              Une origine traumatique est souvent suspectée. Ces kystes peuvent également être congénitaux
+                              ou se développer après une chirurgie cornéenne.
+                            </p>
+                          }
+                        />
+                        <PathologySection
+                          title="● Traitement"
+                          content={
+                            <p className="mt-4">
+                              Le traitement repose sur une kératectomie superficielle complète, avec ou sans greffe conjonctivale
+                              ou autre intervention complémentaire.
+                            </p>
+                          }
+                        />
+                        <img
+                          src={test30}
+                          alt="Kystes d’inclusion épithéliaux chez un chien"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : Kystes d’inclusion épithéliaux chez un chien
+                        </p>
+                        <img
+                          src={test31}
+                          alt="Kystes d’inclusion épithéliaux chez un chien"
+                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
+                        />
+                        <p className="text-center italic">
+                          Figure : UN KYSTE CORNÉEN CHEZ UN BERGER DE BEAUCE (Service d'ophtalmologie du Centre Hospitalier Vétérinaire Cordeliers Meaux)
+                        </p>
+                        <PathologySection
+                          title="● Observations"
+                          content={
+                            <>
+                              <p className="mt-4">
+                                Lésion kystique sous-épithéliale à paroi fine et transparente, au contenu beige pâteux.
+                                Présence de débris épithéliaux dans la lumière du kyste formant un pseudo-hypopion.
+                              </p>
+                              <img
+                                src={test31}
+                                alt="Kystes d’inclusion épithéliaux chez un chien"
+                                className="w-full max-w-3xl mx-auto rounded-lg my-6 mt-10"
+                              />
+                              <p className="text-center italic">
+                                Figure : Kératectomie sous microscope à l'aide d'un couteau cleave
+                              </p>
+                              <img
+                                src={test32}
+                                alt="Kystes d’inclusion épithéliaux chez un chien"
+                                className="w-full max-w-3xl mx-auto rounded-lg my-6 mt-10"
+                              />
+                              <p className="text-center italic">
+                                Figure : La mise en place d'une lentille pansement va permettre la cicatrisation cornéenne
+                              </p>
+                              <img
+                                src={test33}
+                                alt="Kystes d’inclusion épithéliaux chez un chien"
+                                className="w-full max-w-3xl mx-auto rounded-lg my-6 mt-10"
+                              />
+                              <p className="text-center italic">
+                                Figure : Résultat à un mois post opératoire <a href="https://www.facebook.com/photo/?fbid=1035154091259157&set=pcb.1035153181259248" target="_blank" rel="noopener noreferrer">(lien)</a>
+                              </p>
+                            </>
+                          }
+                        />
+                      </>
+                    }
+                  />
                 </div>
               }
             />
