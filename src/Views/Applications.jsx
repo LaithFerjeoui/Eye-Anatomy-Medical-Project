@@ -64,6 +64,7 @@ import test30 from "../../public/Figures/test30.png";
 import test31 from "../../public/Figures/test31.png";
 import test32 from "../../public/Figures/test32.png";
 import test33 from "../../public/Figures/test33.png";
+import MaladiesCourantes from "../Components/MaladiesCourantes";
 
 
 const PathologySection = ({ title, content }) => {
@@ -83,6 +84,7 @@ const PathologySection = ({ title, content }) => {
 const Applications = () => {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+      <MaladiesCourantes />
       {/* Main Title */}
       <motion.h1
         initial={{ opacity: 0, y: -20 }}

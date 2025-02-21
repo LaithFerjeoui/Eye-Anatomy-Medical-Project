@@ -27,28 +27,8 @@ const words = [
   },
 ];
 
-const anomalies = [
-  {
-    id: 1,
-    title: "Cataracte",
-    description: "Une opacification du cristallin qui peut être congénitale ou acquise.",
-    image: "/Figures/test12.png",
-  },
-  {
-    id: 2,
-    title: "Glaucome",
-    description: "Une augmentation de la pression intraoculaire pouvant endommager le nerf optique.",
-    image: "/Figures/test14.png",
-  },
-  // Add more anomalies as needed
-];
-
 const LandingPage = () => {
-  const [selectedAnomaly, setSelectedAnomaly] = useState(null);
 
-  const openModal = (anomaly) => {
-    setSelectedAnomaly(anomaly);
-  };
 
   return (
     <>
@@ -98,29 +78,7 @@ const LandingPage = () => {
         <HoverEffect items={nav} />
       </div>
 
-      <div className="max-w-5xl mx-auto px-8 mt-20 mb-16">
-        <h2 className="text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-red-800">
-          Anomalies Courantes
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {anomalies.map((anomaly) => (
-            <motion.div
-              key={anomaly.id}
-              className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-              whileHover={{ scale: 1.02 }}
-              onClick={() => openModal(anomaly)}
-            >
-              <h3 className="text-xl font-semibold text-gray-200">{anomaly.title}</h3>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-
-      <AnomalyModal 
-        isOpen={selectedAnomaly !== null}
-        onClose={() => setSelectedAnomaly(null)}
-        anomaly={selectedAnomaly}
-      />
+    
     </>
   );
 };

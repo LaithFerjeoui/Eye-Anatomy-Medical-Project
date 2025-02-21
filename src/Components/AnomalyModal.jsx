@@ -5,11 +5,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
   return (
     <AnimatePresence>
       {isOpen && (
-        <Dialog
-          open={isOpen}
-          onClose={onClose}
-          className="relative z-50"
-        >
+        <Dialog open={isOpen} onClose={onClose} className="relative z-50">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -17,7 +13,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
             className="fixed inset-0 bg-black/40 backdrop-blur-sm"
             aria-hidden="true"
           />
-          
+
           <div className="fixed inset-0 flex items-center justify-center p-4">
             <Dialog.Panel
               as={motion.div}
@@ -25,40 +21,108 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               transition={{ duration: 0.2 }}
-              className="mx-auto max-w-2xl w-full overflow-hidden"
+              className="mx-auto max-w-7xl w-full overflow-auto max-h-[90%]"
             >
               <div className="relative backdrop-blur-xl bg-white/10 border border-white/20 p-6 rounded-2xl shadow-xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 rounded-2xl" />
-                
+
                 <div className="relative">
                   <Dialog.Title className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-red-800">
                     {anomaly?.title}
                   </Dialog.Title>
-                  
-                  <motion.img
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.1 }}
-                    src={anomaly?.image}
-                    alt={anomaly?.title}
-                    className="w-full h-64 object-cover rounded-lg my-4 shadow-lg"
-                  />
-                  
-                  <motion.p
+
+                  {/* Main Image */}
+                  {anomaly?.image && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.1 }}
+                      src={anomaly.image}
+                      alt={anomaly.title}
+                      className="h-64 mx-auto object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
+
+                  {anomaly?.caption && (
+                    <p className="text-gray-300 text-sm italic text-center">{anomaly.caption}</p>
+                  )}
+
+                  {/* Definition */}
+                  <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
-                    className="text-gray-100 mt-2 leading-relaxed"
+                    className="text-gray-100 mt-4 leading-relaxed"
                   >
-                    {anomaly?.description}
-                  </motion.p>
-                  
+                    {anomaly?.definition}
+                  </motion.div>
+
+                  {/* Signs */}
+                  {anomaly?.signs && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.3 }}
+                      className="mt-4"
+                    >
+                      <h3 className="text-xl font-semibold text-orange-400">Signes cliniques :</h3>
+
+                      <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.3 }}
+                        className="text-gray-100 mt-4 leading-relaxed"
+                      >
+                        {anomaly.signs}
+                      </motion.div>
+                    </motion.div>
+                  )}
+
+                  {/* Additional Image */}
+                  {anomaly?.additionalImage && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      src={anomaly.additionalImage}
+                      alt="Additional view"
+                      className="mx-auto h-64 object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
+
+                  {anomaly?.additionalCaption && (
+                    <p className="text-gray-300 text-sm italic text-center">{anomaly.additionalCaption}</p>
+                  )}
+
+                  {/* Treatment Steps */}
+                  {anomaly?.treatmentTitle && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.5 }}
+                      className="mt-4"
+                    >
+                      <h3 className="text-xl font-semibold text-orange-400">
+                        Traitement : {anomaly.treatmentTitle}
+                      </h3>
+                      <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.6 }}
+                        className="text-gray-100 mt-4 leading-relaxed"
+                      >
+                        {anomaly?.steps}
+                      </motion.div>
+                    </motion.div>
+                  )}
+
+                  {/* Close Button */}
                   <motion.button
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.3 }}
+                    transition={{ delay: 0.6 }}
                     onClick={onClose}
-                    className="mt-6 px-4 py-2 rounded-lg bg-gradient-to-r from-orange-300 to-red-800 text-white font-semibold 
+                    className="mt-6 px-4 py-2 flex justify-end  rounded-lg bg-gradient-to-r from-orange-300 to-red-800 text-white font-semibold 
                              hover:opacity-90 transition-opacity shadow-lg"
                   >
                     Fermer
@@ -73,4 +137,4 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
   );
 };
 
-export default AnomalyModal; 
+export default AnomalyModal;
