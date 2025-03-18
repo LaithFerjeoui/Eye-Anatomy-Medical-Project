@@ -210,8 +210,89 @@ const MaladiesCourantes = () => {
             steps: (< span >•	 Des onguents ou de solutions corticostéroïdes topiques trois à quatre fois par jour pendant 3 à 4 semaines, suivi d’un programme d'entretien réduit.<br /> •	Une injection sous-conjonctivale de corticoïdes dans un traitement topique pour contrôler la maladie <br />•	 Rayonnement β (strontium-90β plésiothérapie) sont utilisé en concomitance avec thérapie. <br />•	 La kératectomie superficielle pour cas graves dans lesquels la cécité est due à la pigmentation de la cornée centrale</span>),
             treatmentImage: "/Figures/5th3.png",
             treatmentImageCaption2: (<> Figure : A : Kératite superficielle chronique chez un chien
-                B : même œil après 4 semaines de traitement    
+                B : même œil après 4 semaines de traitement
             </>),
+        },
+        {
+            id: 6,
+            title: "Dégénérescence cornéenne ",
+            definition: "Une accumulation de lipides, de cholestérol, ou de calcium, qui sont précédés d'une kératite, d’une vascularisation et éventuellement de la mélanose (Brooks et al., 1990 ; Kirk, 2014).",
+            image: "/Figures/6th1.png",
+            caption: "Figure : Dégénérescence cornéenne diffuse avec une plaque blanche dense et une vascularisation (Maggs et al., 2018)",
+            signs: (
+                <ul>
+                    <li>Les lésions blanc dense / blanc grisâtre. </li>
+                    <li>Se trouve dans n'importe quelle zone de la cornée, généralement axiaux ou paraxiaux (Sansom et Blunden, 2010).</li>
+                </ul>
+            ),
+            additionalImage: "/Figures/6th2.png",
+            additionalCaption: "Figure : la dégénérescence cornéenne chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/degenerescence-corneenne/",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <br />-	Pas de traitement médical
+                    <br /> -	La corticothérapie doit être évitée dans la dégénérescence cornéenne, car elle diminuera la vascularisation, la fonction des macrophages, et par la suite la résolution de la lésion.
+                    <br /> -	La kératectomie : si la lésion est évolutive et la vision compromise. Complétée par’une greffe de biomatériau en fonction de la profondeur d’atteinte. (Sansom et Blunden, 2010 ; Berryhill et al., 2016).
+
+                </ul>
+            ),
+            treatmentImage: "/Figures/6th3.png",
+
+            treatmentImageCaption: "Figure : Dégénérescence cornéenne chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/degenerescence-corneenne/",
+        },
+        {
+            id: 7,
+            title: "Dystrophie endothéliale cornéenne ",
+            definition: "Une dégénérescence bilatérale progressive des cellules endothéliales cornéennes qui se traduit par un œdème, et une cornée avasculaire.",
+            image: "/Figures/7th1.png",
+            caption: "Figure : Dystrophie endothéliale cornéenne chez un chien",
+            signs: (
+                <ul>
+                    <li>Un aspect blanc bleuté de l'opacité cornéenne </li>
+                    <li>Un manque de vascularisation de la cornée ou hyperémie conjonctivale. </li>
+                </ul>
+            ),
+            additionalImage: "/Figures/7th2.png",
+            additionalCaption: "Figure : Œdème cornéen diffus chez un Boston Terrier avec dystrophie endothéliale cornéenne avancée (Kirk, 2014)",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <br />- La thérapie palliative est le plus souvent utilisée pour la dystrophie endothéliale.
+                    <br />- Les hyperosmotiques peuvent diminuer l'étendue de la formation de bulles, mais un éclaircissement cornéen important ne peut se produire.
+                    <br /> - La thermokératoplastie (cautérisation thermique avec utilisation de points multifocaux de cautérisation thermique superficielle appliqué de manière circulaire sur la cornée exposée (Casola et al., 2020).
+                </ul>
+            ),
+            treatmentImage: "/Figures/7th3.png",
+            treatmentImageCaption: "Figure : Thermokératoplastie lors de dystrophie endothéliale cornéenne (Kirk, 2014) ",
+        },
+        {
+            id: 8,
+            title: "Lacérations cornéennes ",
+            definition: "Souvent secondaires à des blessures causées par les griffes du chat",
+            image: "/Figures/8th1.png",
+            caption: "Figure : Lacération du bord libre de la troisième paupière chez un chien suite à une griffure de chat. La pupille a été pharmacologiquement dilatée pour rechercher une éventuelle lésion intraoculaire © Elizabeth Giuliano",
+            signs: (
+                <ul>
+                    <li>Lésion douloureuse</li>
+                    <li>Un blépharospasme  </li>
+                    <li>Un épiphora séreux à muco-purulent en fonction de l’ancienneté de l’affection  </li>
+                    <li>Une hyperhémie conjonctivale parfois importante.  </li>
+                </ul>
+            ),
+            additionalImage: "/Figures/8th2.png",
+            additionalCaption: "Figure : Lacération cornéenne (A) avec rupture de la capsule antérieure du cristallin (B) (Maggs et al., 2018)",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <br />-	Traitement des ulcères : pour les lacérations qui ne pénètrent que les couches cornéennes superficielles (bon pronostic) (Maggs et al., 2018).
+                    <br />-	Les plaies perforantes avec rupture du globe ont un pronostic plus sombre (des lésions intraoculaires) : guérison par vascularisation.
+                    <br /> - Un traitement médical seul : Les ulcères cornéens superficiels ou peu profonds .
+                    <br /> - La chirurgie : les lésions cornéennes profondes, perforantes ou de grande taille. On réalisera selon le cas des sutures cornéennes, un lambeau conjonctival, une greffe de biomatériau…
+                </ul>
+            ),
+            treatmentImage: "/Figures/8th3.png",
+            treatmentImageCaption: "Figure : Lacération cornéenne ",
+            treatmentVideo: "https://www.youtube.com/watch?v=yAYaHEP15Ds&rco=1"
         },
     ];
 
