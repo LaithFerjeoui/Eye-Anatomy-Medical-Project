@@ -31,3 +31,21 @@ body {
   opacity: 0.20;
   
 }
+
+ul {
+  list-style-type: disc; /* Ensures unordered list starts with bullets */
+  margin-left: 20px; /* Adjust the indentation if needed */
+}
+
+ul li {
+  margin-bottom: 10px; /* Adds spacing between list items */
+}
+
+ol {
+  list-style-type: decimal; /* Ensures ordered list starts with numbers (1, 2, 3, etc.) */
+  margin-left: 20px; /* Adjust the indentation if needed */
+}
+
+ol li {
+  margin-bottom: 10px; /* Adds spacing between list items */
+}

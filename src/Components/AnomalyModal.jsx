@@ -31,21 +31,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                     {anomaly?.title}
                   </Dialog.Title>
 
-                  {/* Main Image */}
-                  {anomaly?.image && (
-                    <motion.img
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.1 }}
-                      src={anomaly.image}
-                      alt={anomaly.title}
-                      className="h-64 mx-auto object-cover rounded-lg my-4 shadow-lg"
-                    />
-                  )}
 
-                  {anomaly?.caption && (
-                    <p className="text-gray-300 text-sm italic text-center">{anomaly.caption}</p>
-                  )}
 
                   {/* Definition */}
                   <motion.div
@@ -56,7 +42,21 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                   >
                     {anomaly?.definition}
                   </motion.div>
+                  {/* Main Image */}
+                  {anomaly?.image && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.1 }}
+                      src={anomaly.image}
+                      alt={anomaly.title}
+                      className="h-96 mx-auto object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
 
+                  {anomaly?.caption && (
+                    <p className="text-gray-300 text-sm italic text-center">{anomaly.caption}</p>
+                  )}
                   {/* Signs */}
                   {anomaly?.signs && (
                     <motion.div
@@ -86,7 +86,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                       transition={{ delay: 0.4 }}
                       src={anomaly.additionalImage}
                       alt="Additional view"
-                      className="mx-auto h-64 object-cover rounded-lg my-4 shadow-lg"
+                      className="mx-auto h-96 object-cover rounded-lg my-4 shadow-lg"
                     />
                   )}
 
@@ -115,7 +115,48 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                       </motion.div>
                     </motion.div>
                   )}
-
+                  {anomaly?.treatmentImage && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      src={anomaly.treatmentImage}
+                      alt="Additional view"
+                      className="mx-auto h-96 object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
+                  {anomaly?.treatmentImageCaption && (
+                    <p className="text-gray-300 text-sm italic text-center">{anomaly.treatmentImageCaption}</p>
+                  )}
+                  {anomaly?.treatmentImage2 && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      src={anomaly.treatmentImage2}
+                      alt="Additional view"
+                      className="mx-auto h-96 object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
+                  {anomaly?.treatmentImageCaption2 && (
+                    <p className="text-gray-300 text-sm italic text-center">{anomaly.treatmentImageCaption2}</p>
+                  )}
+                   {anomaly?.treatmentImage3 && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      src={anomaly.treatmentImage3}
+                      alt="Additional view"
+                      className="mx-auto h-96 object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
+                  {anomaly?.treatmentImageCaption3 && (
+                    <p className="text-gray-300 text-sm italic text-center">{anomaly.treatmentImageCaption3}</p>
+                  )}
+                  {anomaly?.treatmentVideo && (
+                    <a href={anomaly?.treatmentVideo} className="text-gray-100 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Video)</a>
+                  )}
                   {/* Close Button */}
                   <motion.button
                     initial={{ opacity: 0, y: 20 }}

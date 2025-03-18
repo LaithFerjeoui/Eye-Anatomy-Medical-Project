@@ -30,19 +30,191 @@ const MaladiesCourantes = () => {
             additionalCaption: "Dermoïde oculaire dans l'œil gauche d'un chien",
             treatmentTitle: "Kératectomie superficielle",
             steps: (
-                <ol>
-                    <li>Anesthésie</li>
-                    <li>Préparation du site : désinfection de la zone périoculaire</li>
-                    <li>Mise en place d’un blépharostat</li>
-                    <li>Réalisation d’une kératectomie lamellaire à l’aide d’un couteau à cornée en suivant les marges du dermoïde</li>
-                    <li>
-                        Dissection du plan profond à l’aide d’un couteau de crescent angled bevel up.
-                        Les deux tiers de l’épaisseur du stroma cornéen sont excisés afin d’enlever complètement le dermoïde.
-                    </li>
-                </ol>
+                <>
+                    <ul>
+                        <li>L’opération de kératectomie superficielle est le type de traitement le plus radical.</li>
+                        <li>Si la profondeur de la lésion est supérieure à la moitié de l’épaisseur totale de la cornée, après kératectomie, la zone doit être fermée avec un rabat conjonctival pour éviter la perforation cornéenne (Saraiva et Delgado, 2020).</li>
+                    </ul>
+
+                    <p>Après l'opération :</p>
+                    <ol>
+                        <li>Utilisation des antibiotiques topiques.</li>
+                        <li>Vérification de la régénération de la cornée à intervalles réguliers avec le test à fluorescéine.</li>
+                    </ol>
+
+                    <p>Une rechute peut survenir dans certains cas (Gelatt, 2008 ; Chaudieu et Denisc, 2016).</p>
+                </>
             ),
-        }
+            treatmentImage: "/Figures/treatment1.png",
+            treatmentImageCaption: "Figure : les procédures de la kératectomie superficielle",
+            treatmentVideo: "https://www.youtube.com/watch?v=nmrl8EqFdVA"
+        },
+        {
+            id: 2,
+            title: "Pigmentation mélanique",
+            definition: (
+                <ul>
+                    <li>Le pigment de la mélanine se trouve en diverses proportions dans les tissus oculaires.</li>
+                    <li>
+                        La mélanine protège contre diverses maladies oculaires qui peuvent causer cécité,
+                        y compris le mélanome uvéal et la dégénérescence maculaire liée à l'âge
+                        (<span>Sarna et Swartz 1998 ; Hu, 2005 ; Sanchez et al., 2020</span>).
+                    </li>
+                </ul>
+            ),
+            image: "/Figures/melanine.png",
+            caption: "Cas de kératite pigmentaire causée par des plis du nez frottant contre la cornée.",
+            signs: (
+                <ul>
+                    <li>Dépôt de mélanine dans le stroma antérieur et l’épithélium cornéen à la suite d’une inflammation chronique.</li>
+                    <li>
+                        Les néovaisseaux cornéens transportent les pigments qui se déposent le long de leur trajet.
+                    </li>
+                </ul>
+            ),
+            additionalImage: "/Figures/melanine2.png",
+            additionalCaption: "Pigmentation mélanique chez un chien",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <li>Anti-inflammatoires par voie locale en particulier les corticoïdes (en l’absence d’ulcère cornéen) jusqu’à disparition de la néovascularisation cornéenne.</li>
+                    <li>
+                        La chirurgie d’exérèse des plages cornéennes pigmentées est réalisable avec des résultats décevants à moyen et long terme.
+                    </li>
+                    <li>
+                        Il est fréquent qu’une néovascularisation se développe après une kératectomie superficielle et que les pigments se redéposent rapidement.
+                    </li>
+                    <li>
+                        La cryothérapie ciblée peut être efficace lorsque l’affection causale est traitée en parallèle-	Il est fréquent qu’une néovascularisation se développe après une kératectomie superficielle et que les pigments se redéposent rapidement    .
+                    </li>
+                </ul>
+            ),
+            treatmentImage: "/Figures/melanine3.png",
+            treatmentImageCaption: "Figure : Exemples de pigmentation mélanique chez deux chiens (Sanchez et al., 2020)",
+            treatmentVideo: "https://www.youtube.com/watch?v=C_NnjINv0YM"
+        },
+        {
+            id: 3,
+            title: "Membranes pupillaires permanentes et opacités cornéennes",
+            definition: (
+                <ul>
+                    <li>
+                        Un changement congénital caractérisé par des restes de membrane fœtale qui persistent comme tissu filamenteux dans toute la pupille
+                        (<span>Khalkhal, 2011 ; Seong et al., 2018</span>).
+                    </li>
+                </ul>
+            ),
+            image: "/Figures/3rd1.png",
+            caption: "Persistance de la membrane pupillaire chez un chien",
+            signs: (
+                <ul>
+                    <li>•	Formation des foyers d’opacités cornéennes diffuses. Les opacités focales sont formées par l'épaississement et la déformation de la membrane de descement.</li>
+                    <li>
+                        •	Dans les opacités diffuses, il se produit à la suite de l'atteinte de la membrane de décroissance dans une zone beaucoup plus grande et du développement d'un œdème dans la zone (Gelatt, 2008 ; Seong et al., 2018).
+                    </li>
+                    <li>
+                        <li>
+                            •	Dans les opacités diffuses, il se produit à la suite de l'atteinte de la membrane de décroissance dans une zone beaucoup plus grande et du développement d'un œdème dans la zone (Gelatt, 2008 ; Seong et al., 2018).
+                        </li>
+                    </li>
+                </ul>
+            ),
+            additionalImage: "/Figures/3rd2.png",
+            additionalCaption: "Membranes pupillaires permanentes chez un chien",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <li>L’atropine topique pour dilater la pupille peut aider à décomposer les PPM.</li>
+                    <li>La chirurgie et l’intervention au laser peuvent être nécessaires pour les grandes membranes opaques.</li>
+                    <li>Il est conseillé de ne pas reproduire des sujets atteints de formes graves.</li>
+                </ul>
+            ),
+            treatmentImage: "/Figures/3rd3.png",
+            treatmentImageCaption: "Figure : Persistance de la membrane pupillaire chez un chien https://clinique-veterinaire-de-la-riviere.com/la-persistance-de-la-membrane-pupillaire/ ",
+        },
+        {
+            id: 4,
+            title: "Ulcères cornéens",
+            definition: (
+                <ul>
+                    <li>Toute kératopathie dans laquelle il y a une perte d'épithélium.</li>
+                    <li>Observations : Notez l'indentation visible et le changement de contour de la surface oculaire.</li>
+                </ul>
+            ),
+            image: "/Figures/4th1.png",
+            caption: "Figure : Ulcère cornéen profond chez un carlin (vue latérale) (Jaksz et Buss,2017) ",
+            signs: (
+                <ul>
+                    <li>Une rougeur </li>
+                    <li>Une douleur, associée à une sensation de corps étranger dans l'œil.</li>
+                    <li>Une photophobie</li>
+                    <li>Un larmoiement</li>
+                    <li>Blépharospasme</li>
+                    <li>Oedème cornéen </li>
+                    <li>Myosis (Jaksz et Buss, 2017 ; Farghali et al., 2021). </li>
+                </ul>
+            ),
+            additionalImage: "/Figures/4th2.png",
+            additionalCaption: "Ulcère cornéen superficiel (A : Oeil souffrant d'ulcère cornéen, B : après application d'un colorant fluorescent montrant le type et la profondeur des ulcères cornéens) (Farghali et al., 2021)",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <li>1) Traitement des ulcères cornéens non compliqués (simples) :
+                        - Antibiothérapie à large spectre.
+                        - Un examen de contrôle doit toujours être programmé dans les 7 jours.
+                    </li>
+                    <li>2) Traitement des ulcères cornéens profonds (stromal) ou Descemétocèle :
+                        <br /> - Un grattage est prélevé et évalué cytologiquement, et un échantillon soumis pour la culture et la sensibilité bactérienne et fongique aérobies essai.
+                        <br />-	La cause déclenchante doit être recherchée et éliminée.
+                        <br /> -	Association d’antibiotique topique à large spectre et un traitement mydriatique avec un collier élisabéthain devrait être fourni (Pandey et al., 2018 ; Prado et al., 2021).
+                        <br />-	Les ulcères du stroma doivent être traités localement médicamenté avec des antibiotiques aussi souvent que toutes les heures pour les 1 à 2 jours (Maggs et al., 2018).
+                        <br /> -	Si l'ulcère est plus profond que la moitié de l'épaisseur de la cornée : traitement chirurgical
+                        <br /> -	Une fois l'ulcère cornéen guéri, l'apport sanguin au greffon -conjonctival peut être coupé.
+                        <br /> -	Après anesthésique topique, des ciseaux peuvent être placés sous la partie pédiculaire du greffon, qui n'adhère pas à l’épithélium cornéen normal sous-jacente (Kirk, 2014 ; Prado et al., 2021).
+                    </li>
+                </ul>
+            ),
+            treatmentImage: "/Figures/4th.png",
+            treatmentImage2: "/Figures/4th3.png",
+            treatmentImageCaption2: (<> <span>Figure :</span>
+
+                <li>(A) Ulcère cornéen perforant chez un chien</li>
+                <li>(B) Un greffon de conjonctive est préparé</li>
+                <li>(C) Le greffon de conjonctive est suturé sur l’ulcère</li>
+                <li>(D) Le même œil 3 semaines après la chirurgie</li>
+                <li>(E) Le même œil 8 semaines après la chirurgie</li>
+                <li>(F) Le même œil 12 semaines après la chirurgie et section du pédicule conjonctive : une petite cicatrice centrale persiste</li>
+            </>),
+            treatmentImage3: "/Figures/4th5.png",
+            treatmentImageCaption3: "Figure : Section pédiculaire après greffe conjonctivale (Kirk, 2014) ",
+        },
+        {
+            id: 5,
+            title: "Kératite superficielle chronique (Pannus) ",
+            definition: "Une maladie progressive, bilatérale, inflammatoire et potentiellement aveuglante : maladie de la cornée canine. Connue sous le nom de « pannus dégénératif ». ",
+            image: "/Figures/5th1.png",
+            caption: "Figure : Kératite superficielle chronique https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/keratite-superficielle-chronique/",
+            signs: (
+                <ul>
+                    <li>Une lésion rouge, vascularisée, conjonctivale au niveau inférieur du limbe temporal.</li>
+                    <li>Au début de la maladie : la vascularisation et la pigmentation se produit au niveau de la cornée temporale et progresse de manière centralisée. (Dubielzig et al., 2010 ; Castillo, 2019).</li>
+                    <li>Propagation vers la cornée centrale sous la forme d'un corps charnu, bien vascularisé</li>
+                    <li>Une ligne cristalline blanche ou petites taches blanches dans le stroma cornéen clair, 1-2 mm devant le bord d'attaque de la lésion. </li>
+                    <li>Finalement : toute la cornée peut devenir vascularisée, pigmentée et opaque.</li>
+
+                </ul>
+            ),
+            additionalImage: "/Figures/5th2.png",
+            additionalCaption: "Figure : Kératite superficielle chronique chez une chienne croisée berger de 4 ans. Observation : Les lésions se situent dans la partie temporale de la cornée. On observe une vascularisation cornéenne superficielle, une pigmentation et une infiltration cellulaire de la cornée bordée d'un oedème cornéen ainsi qu'une infiltration de la membrane nictitante se traduisant par une décoloration de son bord libre, un épaississement et une irrégularité de sa surface https://www.depecheveterinaire.com/keratite-superficielle-chronique-du-chien-le-diagnostic_67984E823465A263.html",
+            treatmentTitle: "Traitement",
+            steps: (< span >•	 Des onguents ou de solutions corticostéroïdes topiques trois à quatre fois par jour pendant 3 à 4 semaines, suivi d’un programme d'entretien réduit.<br /> •	Une injection sous-conjonctivale de corticoïdes dans un traitement topique pour contrôler la maladie <br />•	 Rayonnement β (strontium-90β plésiothérapie) sont utilisé en concomitance avec thérapie. <br />•	 La kératectomie superficielle pour cas graves dans lesquels la cécité est due à la pigmentation de la cornée centrale</span>),
+            treatmentImage: "/Figures/5th3.png",
+            treatmentImageCaption2: (<> Figure : A : Kératite superficielle chronique chez un chien
+                B : même œil après 4 semaines de traitement    
+            </>),
+        },
     ];
+
     const [selectedAnomaly, setSelectedAnomaly] = useState(null);
 
     const openModal = (anomaly) => {
