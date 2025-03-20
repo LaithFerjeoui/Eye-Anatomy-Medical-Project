@@ -294,6 +294,71 @@ const MaladiesCourantes = () => {
             treatmentImageCaption: "Figure : Lacération cornéenne ",
             treatmentVideo: "https://www.youtube.com/watch?v=yAYaHEP15Ds&rco=1"
         },
+        {
+            id: 9,
+            title: "Corps étrangers cornéens  ",
+            definition: (<span>2 types différents :
+                <br /> 1.	Ceux qui adhèrent à la surface cornéenne par tension superficielle
+                <br />2.	Ceux qui pénètrent dans la cornée et parfois dans le globe lui-même (Sandmeyer et al., 2016).</span>),
+            image: "/Figures/9th1.png",
+            caption: "Figure : œil gauche d'un braque avec un corps étranger sur la surface de la cornée (Sandmeyer et al., 2016)",
+            signs: (
+                <ul>
+                    <li>Douleur intense, </li>
+                    <li>Myosis, hypopion, hyphéma  </li>
+                    <li>Un bouchon de fibrine et une hypotonie oculaire (si l’humeur aqueuse a fuité par la brèche)   </li>
+
+                </ul>
+            ),
+            additionalImage: "/Figures/9th2.png",
+            additionalCaption: "Figure : Corps étranger implanté dans la cornée d’un chien et faisant protrusion dans la chambre antérieure",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <br />-	Suppression de ces corps étrangers pour limiter la douleur, réduire le risque d'infection et prévenir la vascularisation et la formation de cicatrices.
+                    <br />-	Les petits corps étrangers collés sont les meilleurs retirés avec un fin jet de rinçage oculaire ou de solution saline dirigé avec force à la surface cornéenne après l'application d'un topique anesthésique.
+                    <br /> -	Une intervention chirurgicale pour les corps étrangers les plus problématiques : retrait au moyen d'une incision pratiquée dans la cornée au-dessus du grand axe du corps étranger au microscope opératoire (Lew et al., 2015).
+                    <br /> - Après élimination de corps étranger : un examen à large spectre,
+                    <br />-	Un antibiotique topique et de l'atropine pour limiter l'infection et les effets de l'uvéite secondaire
+                    <br />- Si une perforation de globe s'est produite : un antibiotique administré par voie systémique.
+                </ul>
+            ),
+            treatmentImage: "/Figures/9th3.png",
+            treatmentImageCaption: "Figure : Corps étranger (épine) dans la partie médiane de la cornée (Lew et al., 2015) ",
+            treatmentVideo: "https://www.youtube.com/watch?v=sO83JAJsziI"
+        },
+        {
+            id: 10,
+            title: "Brulures cornéennes ",
+            definition: "-	Des urgences absolues en raison des séquelles graves qu’elles peuvent entraîner. De nature chimique ou thermique.  Abbaszadeh et al., 2010).",
+            image: "/Figures/10th1.png",
+            caption: "Figure : Brulure par produit chimique (A : Colle sur la surface de la cornée) et évolution de la brulure (B) (Abbaszadeh et al., 2010)",
+            signs: (
+                <ul>
+                    <li>Destruction de l'épithélium superficiel de la cornée et de la conjonctive. </li>
+                    <li>Nécrose des tissus profond (Pour des concentrations élevées de produits chimiques) (Hannouche et Hoangxuan, 2000 ; Abbaszadeh et al., 2010).  </li>
+                    <li>Un blépharospasme </li>
+                    <li>une photophobie</li>
+                    <li>un larmoiement, une rougeur, une douleur oculaire  </li>
+                    <li>une baisse de l’acuité visuelle (Hannouche et Hoangxuan, 2000).</li>
+                </ul>
+            ),
+            additionalImage: "/Figures/10th2.png",
+            additionalCaption: "Figure : Brulure par un produit chimique avec un agent de dégivrage chez un chien de race croisé agé de 3 ans.(E3S Web of Conferences 510, 01035 (2024)",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <br />-	Rincer abondamment la cornée à l’aide de sérum physiologique.
+                    <br />-	Il ne faut surtout pas laver avec une solution de pH opposé qui ne ferait qu’aggraver les lésions.
+                    <br /> -	Utiliser un antibiotique à large spectre localement pour prévenir les infections cornéennes. 
+                    <br /> - 	Appliquer un substitut de larmes sur la cornée toutes les deux heures pour éviter la sécheresse oculaire.
+                </ul>
+            ),
+            treatmentImage: "/Figures/10th3.png",
+            treatmentImageCaption: "Figure : Chien beagle, 1 an, brulure chimique avec cyanoacrylate, Observation : défaillance des cellules limbales et par conséquent un descmetocelle.(E3S Web of Conferences 510, 01035 (2024)",
+            treatmentVideo: "https://www.youtube.com/watch?v=sO83JAJsziI"
+        },
+
     ];
 
     const [selectedAnomaly, setSelectedAnomaly] = useState(null);
