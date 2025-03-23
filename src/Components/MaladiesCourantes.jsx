@@ -350,7 +350,7 @@ const MaladiesCourantes = () => {
                 <ul>
                     <br />-	Rincer abondamment la cornée à l’aide de sérum physiologique.
                     <br />-	Il ne faut surtout pas laver avec une solution de pH opposé qui ne ferait qu’aggraver les lésions.
-                    <br /> -	Utiliser un antibiotique à large spectre localement pour prévenir les infections cornéennes. 
+                    <br /> -	Utiliser un antibiotique à large spectre localement pour prévenir les infections cornéennes.
                     <br /> - 	Appliquer un substitut de larmes sur la cornée toutes les deux heures pour éviter la sécheresse oculaire.
                 </ul>
             ),
@@ -358,7 +358,103 @@ const MaladiesCourantes = () => {
             treatmentImageCaption: "Figure : Chien beagle, 1 an, brulure chimique avec cyanoacrylate, Observation : défaillance des cellules limbales et par conséquent un descmetocelle.(E3S Web of Conferences 510, 01035 (2024)",
             treatmentVideo: "https://www.youtube.com/watch?v=sO83JAJsziI"
         },
+        {
+            id: 11,
+            title: "Épisclérite granulomateuse nodulaire (NGE)",
+            definition: "Une maladie oculaire à médiation immunitaire (inflammatoire) qui touche la sclère, la cornée et la membrane nictitante.",
+            image: "/Figures/11th1.png",
+            caption: "Figure : Examen rapproché des deux yeux. 2a. Examen comparé de l’œil droit : Noter la déformation sclérale à 9 h et12 h, le chémosis marqué,l’infiltrat cellulaire du stroma cornéen, les néo-vaisseaux périlimbiques et l’œdème associé 2b. Œil gauche après dilatation.",
+            signs: (
+                <ul>
+                    <li>Plusieurs masses charnues élevées</li>
+                    <li>Une seule masse survenant au limbe et infiltrant le stroma cornéen adjacent.</li>
 
+                </ul>
+            ),
+            additionalImage: "/Figures/11th2.png",
+            additionalCaption: (<span>Figure : Vues de face (A) et latérales (B) d'un chien atteint d'épisclérokératite granulomateuse nodulaire focale (Hamzianpour et al., 2019) <br /> <b>✔Observations :</b> Noter le gonflement sous-conjonctival, l'injection conjonctivale et l'œdème cornéen périphérique adjacent à la lésion.</span>),
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    <br />-	Généralement, la NGE a tendance à être bénigne, avec une bonne réponse à l'administration topique de corticostéroïdes.
+                    <br />-	L’excision chirurgicale locale par kératectomie lamellaire
+                    <br />-	Par irradiation et la cryothérapie
+                    <br /> - 	Appliquer un substitut de larmes sur la cornée toutes les deux heures pour éviter la sécheresse oculaire.
+                </ul>
+            ),
+            treatmentImage: "/Figures/11th3.png",
+            treatmentImageCaption: "Figure : (A) Aspect initial avec une NGE (B) même œil après 3 semaines de traitement anti-inflammatoire",
+            treatmentImage2: "/Figures/11th4.png",
+            treatmentImageCaption2: (<> <span>Figure :</span>
+
+                <li>12. Kératectomie lamellaire et sclérotomie.</li>
+                <li>13. Dissection du plan profond à l’aide du couteau de Crescent.</li>
+                <li>14. Aspect de la zone après kératectomie.</li>
+                <li>15. Aspect de l’œil droit après fixation du lambeau conjonctival pédiculé.
+                    photos : B. Michaud </li>
+                https://ophtalmoveterinaire.com/maladies_oculaires/episclerite-nodulaire-granulomateuse/
+            </>),
+            treatmentImage3: "/Figures/11th5.png",
+            treatmentImageCaption3: (<> <span>Figure :</span>
+
+                <li>17. Œil droit 3 jours après l’intervention.</li>
+                <li>18. Œil droit 10 jours après l’intervention</li>
+                <li>14. Aspect de la zone après kératectomie.</li>
+                <li>19. Œil droit 3 semaines après l’intervention</li>
+                https://ophtalmoveterinaire.com/maladies_oculaires/episclerite-nodulaire-granulomateuse/
+            </>),
+        },
+        {
+            id: 12,
+            title: "Sclérite ",
+            definition: "Une maladie inflammatoire de la sclérotique divisée en : Sclérite granulomateuse non nécrosante / Sclérite granulomateuse nécrosante.",
+            signs: (
+                <ul>
+                    <li>lésions rose-brun à proximité, mais postérieures au limbe.</li>
+                    <li>œdème cornéen </li>
+                    <li>douleur oculaire </li>
+                    <li>photophobie </li>
+                    <li>larmoiement excessif.</li>               
+                </ul>
+            ),
+            additionalImage: "/Figures/12th1.png",
+            additionalCaption: "Figure : Sclérite sévère, œdème cornéen périphérique et foyer de dégénérescence cornéenne (Maggs et al., 2018)",
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                   Les corticostéroïdes intra lésionnels favorisent généralement la régression des lésions.
+                </ul>
+            ),
+            treatmentImage: "/Figures/12th2.png",
+            treatmentImageCaption: "Figure : (A1-A2) Episclérite diffuse chez un jeune labrador (B1-B2) même œil après une semaine de corticothérapie https://visionanimale.fr/episclerite-chez-un-jeune-labrador/",
+        },
+        {
+            id: 13,
+            title: "Kystes d'inclusion épithéliale cornéenne   ",
+            definition: (<span>La formation de kystes dans la cornée peut impliquer les quatre couches. 
+                Les kystes sont généralement unilatéraux et solitaires. 
+                </span>),
+            image: "/Figures/13th1.png",
+            caption: "Figure : Kystes d’inclusion épithéliaux chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/kystes-dinclusion-epitheliaux/",
+            signs: (
+                <ul>
+                    <li>masses cornéennes surélevées, blanches à roses.</li>
+                    <li>typiquement chronique et non douloureuse, mais peut altérer la vision.  </li>
+      
+                </ul>
+            ),
+            additionalImage: "/Figures/13th2.png",
+            additionalCaption: (<span>Figure : UN KYSTE CORNÉEN CHEZ UN BERGER DE BEAUCE (Service d'ophtalmologie du Centre Hospitalier Vétérinaire Cordeliers Meaux) <br /> <b>✔Observations :</b> une lésion kystique sous-épithéliale à la paroi fine et transparente, au contenu beige pâteux. Des débris épithéliaux sont présents dans la lumière du kyste formant cet aspect de pseudo-hypopion.</span>),
+            treatmentTitle: "Traitement",
+            steps: (
+                <ul>
+                    Une complète kératectomie superficielle, avec ou sans greffe conjonctivale ou autre
+                </ul>
+            ),
+            treatmentImage: "/Figures/13th3.png",
+            treatmentImageCaption: "Figure : (A1-A2) Kératectomie sous microscope à l'aide d'un couteau cleave (B) La mise en place d'une lentille pansement va permettre la cicatrisation cornéenne https://www.facebook.com/photo/?fbid=1035154091259157&set=pcb.1035153181259248 ",
+
+        },
     ];
 
     const [selectedAnomaly, setSelectedAnomaly] = useState(null);
