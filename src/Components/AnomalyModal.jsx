@@ -95,24 +95,26 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                   )}
 
                   {/* Treatment Steps */}
-                  {anomaly?.treatmentTitle && (
+
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5 }}
+                    className="mt-4"
+                  >
+                    <h3 className="text-xl font-semibold text-orange-400">
+                      Traitement :{anomaly?.treatmentTitle && (anomaly.treatmentTitle)}
+                    </h3>
+                  </motion.div>
+
+                  {anomaly?.steps && (
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.5 }}
-                      className="mt-4"
+                      transition={{ delay: 0.6 }}
+                      className="text-gray-100 mt-4 leading-relaxed"
                     >
-                      <h3 className="text-xl font-semibold text-orange-400">
-                        Traitement : {anomaly.treatmentTitle}
-                      </h3>
-                      <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.6 }}
-                        className="text-gray-100 mt-4 leading-relaxed"
-                      >
-                        {anomaly?.steps}
-                      </motion.div>
+                      {anomaly?.steps}
                     </motion.div>
                   )}
                   {anomaly?.treatmentImage && (
@@ -141,7 +143,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                   {anomaly?.treatmentImageCaption2 && (
                     <p className="text-gray-300 text-sm italic text-center">{anomaly.treatmentImageCaption2}</p>
                   )}
-                   {anomaly?.treatmentImage3 && (
+                  {anomaly?.treatmentImage3 && (
                     <motion.img
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}

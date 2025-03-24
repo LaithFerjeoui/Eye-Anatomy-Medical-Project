@@ -74,7 +74,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/melanine2.png",
             additionalCaption: "Pigmentation mélanique chez un chien",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <li>Anti-inflammatoires par voie locale en particulier les corticoïdes (en l’absence d’ulcère cornéen) jusqu’à disparition de la néovascularisation cornéenne.</li>
@@ -121,7 +120,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/3rd2.png",
             additionalCaption: "Membranes pupillaires permanentes chez un chien",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <li>L’atropine topique pour dilater la pupille peut aider à décomposer les PPM.</li>
@@ -156,7 +154,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/4th2.png",
             additionalCaption: "Ulcère cornéen superficiel (A : Oeil souffrant d'ulcère cornéen, B : après application d'un colorant fluorescent montrant le type et la profondeur des ulcères cornéens) (Farghali et al., 2021)",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <li>1) Traitement des ulcères cornéens non compliqués (simples) :
@@ -206,7 +203,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/5th2.png",
             additionalCaption: "Figure : Kératite superficielle chronique chez une chienne croisée berger de 4 ans. Observation : Les lésions se situent dans la partie temporale de la cornée. On observe une vascularisation cornéenne superficielle, une pigmentation et une infiltration cellulaire de la cornée bordée d'un oedème cornéen ainsi qu'une infiltration de la membrane nictitante se traduisant par une décoloration de son bord libre, un épaississement et une irrégularité de sa surface https://www.depecheveterinaire.com/keratite-superficielle-chronique-du-chien-le-diagnostic_67984E823465A263.html",
-            treatmentTitle: "Traitement",
             steps: (< span >•	 Des onguents ou de solutions corticostéroïdes topiques trois à quatre fois par jour pendant 3 à 4 semaines, suivi d’un programme d'entretien réduit.<br /> •	Une injection sous-conjonctivale de corticoïdes dans un traitement topique pour contrôler la maladie <br />•	 Rayonnement β (strontium-90β plésiothérapie) sont utilisé en concomitance avec thérapie. <br />•	 La kératectomie superficielle pour cas graves dans lesquels la cécité est due à la pigmentation de la cornée centrale</span>),
             treatmentImage: "/Figures/5th3.png",
             treatmentImageCaption2: (<> Figure : A : Kératite superficielle chronique chez un chien
@@ -227,7 +223,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/6th2.png",
             additionalCaption: "Figure : la dégénérescence cornéenne chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/degenerescence-corneenne/",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <br />-	Pas de traitement médical
@@ -254,7 +249,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/7th2.png",
             additionalCaption: "Figure : Œdème cornéen diffus chez un Boston Terrier avec dystrophie endothéliale cornéenne avancée (Kirk, 2014)",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <br />- La thérapie palliative est le plus souvent utilisée pour la dystrophie endothéliale.
@@ -281,7 +275,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/8th2.png",
             additionalCaption: "Figure : Lacération cornéenne (A) avec rupture de la capsule antérieure du cristallin (B) (Maggs et al., 2018)",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <br />-	Traitement des ulcères : pour les lacérations qui ne pénètrent que les couches cornéennes superficielles (bon pronostic) (Maggs et al., 2018).
@@ -312,7 +305,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/9th2.png",
             additionalCaption: "Figure : Corps étranger implanté dans la cornée d’un chien et faisant protrusion dans la chambre antérieure",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <br />-	Suppression de ces corps étrangers pour limiter la douleur, réduire le risque d'infection et prévenir la vascularisation et la formation de cicatrices.
@@ -345,7 +337,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/10th2.png",
             additionalCaption: "Figure : Brulure par un produit chimique avec un agent de dégivrage chez un chien de race croisé agé de 3 ans.(E3S Web of Conferences 510, 01035 (2024)",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <br />-	Rincer abondamment la cornée à l’aide de sérum physiologique.
@@ -373,7 +364,6 @@ const MaladiesCourantes = () => {
             ),
             additionalImage: "/Figures/11th2.png",
             additionalCaption: (<span>Figure : Vues de face (A) et latérales (B) d'un chien atteint d'épisclérokératite granulomateuse nodulaire focale (Hamzianpour et al., 2019) <br /> <b>✔Observations :</b> Noter le gonflement sous-conjonctival, l'injection conjonctivale et l'œdème cornéen périphérique adjacent à la lésion.</span>),
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     <br />-	Généralement, la NGE a tendance à être bénigne, avec une bonne réponse à l'administration topique de corticostéroïdes.
@@ -414,15 +404,14 @@ const MaladiesCourantes = () => {
                     <li>œdème cornéen </li>
                     <li>douleur oculaire </li>
                     <li>photophobie </li>
-                    <li>larmoiement excessif.</li>               
+                    <li>larmoiement excessif.</li>
                 </ul>
             ),
             additionalImage: "/Figures/12th1.png",
             additionalCaption: "Figure : Sclérite sévère, œdème cornéen périphérique et foyer de dégénérescence cornéenne (Maggs et al., 2018)",
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
-                   Les corticostéroïdes intra lésionnels favorisent généralement la régression des lésions.
+                    Les corticostéroïdes intra lésionnels favorisent généralement la régression des lésions.
                 </ul>
             ),
             treatmentImage: "/Figures/12th2.png",
@@ -431,21 +420,20 @@ const MaladiesCourantes = () => {
         {
             id: 13,
             title: "Kystes d'inclusion épithéliale cornéenne   ",
-            definition: (<span>La formation de kystes dans la cornée peut impliquer les quatre couches. 
-                Les kystes sont généralement unilatéraux et solitaires. 
-                </span>),
+            definition: (<span>La formation de kystes dans la cornée peut impliquer les quatre couches.
+                Les kystes sont généralement unilatéraux et solitaires.
+            </span>),
             image: "/Figures/13th1.png",
             caption: "Figure : Kystes d’inclusion épithéliaux chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/kystes-dinclusion-epitheliaux/",
             signs: (
                 <ul>
                     <li>masses cornéennes surélevées, blanches à roses.</li>
                     <li>typiquement chronique et non douloureuse, mais peut altérer la vision.  </li>
-      
+
                 </ul>
             ),
             additionalImage: "/Figures/13th2.png",
             additionalCaption: (<span>Figure : UN KYSTE CORNÉEN CHEZ UN BERGER DE BEAUCE (Service d'ophtalmologie du Centre Hospitalier Vétérinaire Cordeliers Meaux) <br /> <b>✔Observations :</b> une lésion kystique sous-épithéliale à la paroi fine et transparente, au contenu beige pâteux. Des débris épithéliaux sont présents dans la lumière du kyste formant cet aspect de pseudo-hypopion.</span>),
-            treatmentTitle: "Traitement",
             steps: (
                 <ul>
                     Une complète kératectomie superficielle, avec ou sans greffe conjonctivale ou autre
@@ -453,7 +441,73 @@ const MaladiesCourantes = () => {
             ),
             treatmentImage: "/Figures/13th3.png",
             treatmentImageCaption: "Figure : (A1-A2) Kératectomie sous microscope à l'aide d'un couteau cleave (B) La mise en place d'une lentille pansement va permettre la cicatrisation cornéenne https://www.facebook.com/photo/?fbid=1035154091259157&set=pcb.1035153181259248 ",
+        },
+        {
+            id: 14,
+            title: "Papillomes",
+            definition: "Des tumeurs cornéennes primitives qui surviennent le plus souvent chez les jeunes animaux. ",
+            steps: (
+                <ul>
+                    <br />-	Excision par kératectomie.
+                    <br />-	La récidive peut être diminuée par cryochirurgie utilisant un double cycle gel-dégel après la masse a été enlevée par kératectomie superficielle
 
+                </ul>
+            ),
+            treatmentImage: "/Figures/14th1.png",
+            treatmentImageCaption: "Figure : Papillome chez un chien caniche âgé de 10 ans https://ophtavet.com/wp-content/uploads/2020/08/98.pdf ",
+            treatmentVideo: "https://www.youtube.com/watch?v=sO83JAJsziI"
+        },
+        {
+            id: 15,
+            title: "Carcinome squameux  ",
+            definition: "Le carcinome épidermoïde primitif de la cornée survient lorsque la masse néoplasique provient directement de la cornée.",
+            signs: (
+                <ul>
+                    <li>Une masse rose à blanche. </li>
+                    <li>Le limbe cornéoscléral peut être impliqué, avec vascularisation superficielle ainsi qu’une opalescence diffuse du reste de la cornée.  </li>
+                </ul>
+            ),
+            steps: (
+                <ul>
+                    <br />-	Exérèse par kératectomie lamellaire (taux de récidives locales sont élevés)  (Kirk, 2014 ; María del Mar et al., 2019).
+                </ul>
+            ),
+            treatmentImage: "/Figures/15th1.png",
+            treatmentImageCaption: "Figure : Carcinome épidermoïde de la cornée d'un Carlin avec kératoconjonctivite sèche chronique et pigmentaire kératite (María del Mar et al., 2019) ",
+        },
+        {
+            id: 16,
+            title: "Lymphosarcome cornéen  ",
+            definition: "Le lymphosarcome ressemble à un infiltrat cellulaire rose à blanc qui peut envahir la cornée.",
+
+            signs: (
+                <ul>
+                    <li>Localisation intrastromale, sclérale ou épisclérale  </li>
+                    <li>Non douloureux à moins que la cornée ne devienne ulcérée.   </li>
+                    Le pronostic est mauvais et le traitement est dirigé vers la chimiothérapie.
+                </ul>
+            ),
+        },
+        {
+            id: 17,
+            title: "Autres néoplasmes cornéens ",
+            definition: "Les hémangiomes, les hémangiosarcomes, et adénocarcinome. Les hémangiomes cornéens et les hémangiosarcomes sont rares et peuvent être des néoplasmes cornéens primaires ou provenir du limbe. ",
+            image: "/Figures/17th1.png",
+            caption: "Hémangiome intrascléral canin https://www.vetmed.wisc.edu/lab/coplow/wp-content/uploads/sites/14/2023/03/CanineConjLidsOrbit2016.pdf",
+            signs: (
+                <ul>
+                    <li>Des masses surélevées, rouges et irrégulières </li>
+                    <li>Œdème  périlésionnel. </li>
+                </ul>
+            ),
+            steps: (
+                <ul>
+                    <br />-	Exérèse chirurgicale et peut être combiné avec cryothérapie ou irradiation. 
+                    <br />-	Greffes cornéosclérales ou énucléation : pour les vastes hémangiosarcomes, (Kirk, 2014 ; Maggs et al., 2018).
+                </ul>
+            ),
+            treatmentImage: "/Figures/17th2.png",
+            treatmentImageCaption: "Figure : Hémangiome chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/conjonctive-et-membrane-nictitante/symblepharon-2-4-11/ ",
         },
     ];
 
