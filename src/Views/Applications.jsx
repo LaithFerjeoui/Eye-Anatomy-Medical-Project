@@ -64,7 +64,6 @@ import test30 from "../../public/Figures/test30.png";
 import test31 from "../../public/Figures/test31.png";
 import test32 from "../../public/Figures/test32.png";
 import test33 from "../../public/Figures/test33.png";
-import MaladiesCourantes from "../Components/MaladiesCourantes";
 import AnomalyModal from "../Components/AnomalyModal";
 
 const anomalies = [
@@ -572,6 +571,105 @@ const anomalies = [
     treatmentImage: "/Figures/17th2.png",
     treatmentImageCaption: "Figure : Hémangiome chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/conjonctive-et-membrane-nictitante/symblepharon-2-4-11/ ",
   },
+  {
+    id: 18,
+    title: "Membrane pupillaire persistante (MPP)",
+    definition: (<span>-	Au cours du développement, la membrane pupillaire nourrit le cristallin en s'étendant sur la pupille et une partie de l'iris.
+      <br /> -	Chez le chien, cette membrane est normalement résorbée pendant le développement fœtal, mais des résidus peuvent parfois persister pendant plusieurs mois sans affecter la vision. (Dos Santos Costa et al., 2020).
+    </span>),
+
+    signs: (
+      <ul>
+        •	Les MPP peuvent s'étendre d'une région de l'iris à l'autre (parfois croisant la pupille) ou ils peuvent s'étendre à la cornée ou le cristallin, créant des opacités dans ces structures.
+      </ul>
+    ),
+    additionalImage: "/Figures/18th1.png",
+    additionalCaption: (<span>Figure : Membrane pupillaire persistante chez un jeune chien Saint Bernard <br />- Observation : Contrairement à la synéchie antérieure post inflammatoire, ces brins indiqués proviennent près de la région de la collerette de l’iris. Les synéchies antérieuresseraient originaires du bord pupillaire ou de la périphérie lointaine de l’iris, près de l’angle iridocornéen (Courtesy University of Wisconsin–Madison Veterinary Ophthalmology Service Collection.)</span>),
+    steps: (
+      <ul>
+        <br />-	La thérapie n'est généralement pas nécessaire ou possible.
+        <br /> -	La meilleure méthode de prévention de la maladie est d’examiner les reproducteurs et n'élever que des animaux indemnes de MPP.
+        <br /> -	La biomicroscopie à lampe à fente est essentielle pour l’examen (Dos Santos Costa et al., 2020).
+      </ul>
+    ),
+    treatmentImage: "/Figures/18th2.png",
+    treatmentImageCaption: (<span>Figure : Persistance de la membrane pupillaire chez un chien<br />- Observations : Des filaments membraneux sont présents dans les pupilles des deux yeux (cercle rouge).</span>),
+    link: "https://ophtalmoveterinaire.com/wp-content/uploads/2021/12/Persistance-de-membrane-pupillaire-copie.pdf ",
+  },
+  {
+    id: 19,
+    title: "Colobome  ",
+    definition: (<span>Un défaut de l'œil résultant d'une fermeture de la fissure embryonnaire. </span>),
+    image: "/Figures/19th1.png",
+    caption: "Figure : Colobome irien chez un berger australien (Color Atlas of Canine and Feline Ophtalmology, Joan Dziezyc, Nicolas J.Millichamp) ",
+    signs: (
+      <ul>
+        <li>•	Se produisent dans la partie inféromédiale de l'iris ou de la choroïde ou adjacente au disque optique (Maggs et al., 2018). </li>
+        <li>•	Bien que la fissure embryonnaire ne soit pas impliquée, le colobome est également appliqué aux défauts de la paupière et au secteur défauts de l'iris et du cristallin (Cook et Cynthia, 2013  </li>
+
+      </ul>
+    ),
+    additionalImage: "/Figures/19th2.png",
+    additionalCaption: "Figure : Colobome irien chez un berger australien (Color Atlas of Canine and Feline Ophtalmology, Joan Dziezyc, Nicolas J.Millichamp)",
+
+  },
+  {
+    id: 20,
+    title: "Dysgénésie du segment antérieur   ",
+    definition: (<span>Un trait autosomique récessif dans le Doberman pinscher </span>),
+    image: "/Figures/9th1.png",
+    caption: "Figure : œil gauche d'un braque avec un corps étranger sur la surface de la cornée (Sandmeyer et al., 2016)",
+    signs: (
+      <ul>
+        <li>•	Des degrés variables de microphtalmie </li>
+        <li>•	Opacité cornéenne  </li>
+        <li>•	Absence de chambre antérieure    </li>
+        <li>•	Iris et corps ciliaire indifférenciés    </li>
+        <li>•	Restes d'artère hyaloïde  </li>
+        <li>•	Absence ou cristallin rudimentaire  </li>
+        <li>•	Dysplasie rétinienne et décollements</li>
+      </ul>
+    ),
+
+    steps: (
+      <ul>
+        <b>Il n'y a pas de traitement pour ce trouble (Gilger, 2011 ; Sandmeyer et al., 2016). </b>
+      </ul>
+    )
+  },
+  {
+    id: 21,
+    title: "Troubles de la pigmentation ",
+    definition: (<span>L'albinisme partiel (subalbinisme) fait référence à la réduction de la pigmentation. </span>),
+
+    signs: (
+      <ul>
+        <li>•	Une partie ou la totalité de l'iris peut manquer de pigment et apparaître bleu.  </li>
+        <li>•	Chez un vrai albinos, l'iris est rose. </li>
+
+      </ul>
+    ),
+    additionalImage: "/Figures/21th1.png",
+    additionalCaption: "Figure : Le subalbinisme chez un chien (Color Atlas of Canine and Feline Ophtalmology, Joan Dziezyc, Nicolas J.Millichamp)",
+  },
+  {
+    id: 22,
+    title: "Hétérochromie  ",
+    definition: (<span>- Des variations de la coloration de l'iris. </span>),
+    image: "/Figures/22th1.png",
+    caption: "Figure : Heterochromie iridis chez un Berger Australien (Color Atlas of Canine and Feline Ophtalmology, Joan Dziezyc, Nicolas J.Millichamp)",
+    signs: (
+      <ul>
+        <li>•	Les deux yeux, seulement un œil, ou seulement une partie de l'iris peut être affecté.</li>
+        <li>•	L’Hétérochromie iridis fait référence aux variations de pigmentation de différentes régions de l’iris dans le même œil.</li>
+        <li>•	Heterochromia iridium fait référence aux variations de coloration entre les deux yeux d'un même animal (Kirk, 2014).</li>
+      </ul>
+    ),
+    additionalImage: "/Figures/22th2.png",
+    additionalCaption: "Figure : Heterochromiairidis (iris bleu et brun) chez un chien (Kirk, 2014)",
+  }
+  
+
 ];
 const PathologySection = ({ title, content }) => {
   return (

@@ -57,6 +57,9 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                   {anomaly?.caption && (
                     <p className="text-gray-300 text-sm italic text-center">{anomaly.caption}</p>
                   )}
+                   {anomaly?.defLink && (
+                    <a href={anomaly?.defLink} className="text-gray-100 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Lien)</a>
+                  )}
                   {/* Signs */}
                   {anomaly?.signs && (
                     <motion.div
@@ -158,6 +161,9 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                   )}
                   {anomaly?.treatmentVideo && (
                     <a href={anomaly?.treatmentVideo} className="text-gray-100 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Video)</a>
+                  )}
+                   {anomaly?.link && (
+                    <a href={anomaly?.link} className="text-gray-100 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Lien)</a>
                   )}
                   {/* Close Button */}
                   <motion.button
