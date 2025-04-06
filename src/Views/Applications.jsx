@@ -1441,7 +1441,7 @@ const anomalies = [
         Figure 147 : Rétinopathie lors de Maladie de Carré canine (Maggs et al.,
         2018) <br /> <b>✔Observations :</b> - A : Photo brute montrant la
         surface rétinienne d'un segment postérieur avec des foyers coalescents
-        foyers de dégénérescence et de pigmentation (flèches). <br />- B : : Vue
+        foyers de dégénérescence et de pigmentation (flèches). <br />- B : Vue
         agrandie du même spécimen montrant la partie la partie affectée de la
         rétine
       </span>
@@ -1864,7 +1864,7 @@ const Applications = () => {
             </div>
 
             <PathologySection
-              title="Ulcères cornéens"
+              title="1.1.2.2. Kératite superficielle chronique (Pannus)"
               content={
                 <motion.div
                   className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
@@ -1877,7 +1877,553 @@ const Applications = () => {
                 </motion.div>
               }
             />
+            <PathologySection
+              title="1.1.2.3. Dégénérescence cornéenne"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[5])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+            title="1.1.2.4. Dystrophie endothéliale cornéenne"
+            content={
+              <motion.div
+                className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                whileHover={{ scale: 1.02 }}
+                onClick={() => openModal(anomalies[6])}
+              >
+                <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  Voir la Maladie
+                </h3>
+              </motion.div>
+            }
+          />
+          <PathologySection
+          title="1.1.2.5. Lacérations cornéennes"
+          content={
+            <motion.div
+              className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+              whileHover={{ scale: 1.02 }}
+              onClick={() => openModal(anomalies[7])}
+            >
+              <h3 className="text-xl font-semibold text-gray-200 text-center">
+                Voir la Maladie
+              </h3>
+            </motion.div>
+          }
+        />
+        <PathologySection
+        title="1.1.2.6. Corps étrangers cornéens"
+        content={
+          <motion.div
+            className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+            whileHover={{ scale: 1.02 }}
+            onClick={() => openModal(anomalies[8])}
+          >
+            <h3 className="text-xl font-semibold text-gray-200 text-center">
+              Voir la Maladie
+            </h3>
+          </motion.div>
+        }
+      />
+      <PathologySection
+      title="1.1.2.7. Brulures cornéennes"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[9])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+    1.1. Maladies de la cornée
+  </h2>
 
+
+    <h3 className="text-xl font-semibold text-gray-300 mb-4">
+    1.2. Maladies sclérales
+    </h3>
+    <PathologySection
+      title="1.2.1. Épisclérite granulomateuse nodulaire (NGE)"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[10])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+    title="1.2.2. Sclérite"
+    content={
+      <motion.div
+        className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+        whileHover={{ scale: 1.02 }}
+        onClick={() => openModal(anomalies[11])}
+      >
+        <h3 className="text-xl font-semibold text-gray-200 text-center">
+          Voir la Maladie
+        </h3>
+      </motion.div>
+    }
+  />
+  <h3 className="text-xl font-semibold text-gray-300 mb-4">
+  1.2.3. Masses cornéosclérales et Tumeurs
+            </h3>
+  <PathologySection
+  title="1.2.3.1. Kystes d'inclusion épithéliale cornéenne"
+  content={
+    <motion.div
+      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+      whileHover={{ scale: 1.02 }}
+      onClick={() => openModal(anomalies[12])}
+    >
+      <h3 className="text-xl font-semibold text-gray-200 text-center">
+        Voir la Maladie
+      </h3>
+    </motion.div>
+  }
+/>
+<PathologySection
+  title="1.2.3.2. Carcinome squameux"
+  content={
+    <motion.div
+      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+      whileHover={{ scale: 1.02 }}
+      onClick={() => openModal(anomalies[14])}
+    >
+      <h3 className="text-xl font-semibold text-gray-200 text-center">
+        Voir la Maladie
+      </h3>
+    </motion.div>
+  }
+/>
+<PathologySection
+  title="1.2.3.3. Papillomes"
+  content={
+    <motion.div
+      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+      whileHover={{ scale: 1.02 }}
+      onClick={() => openModal(anomalies[13])}
+    >
+      <h3 className="text-xl font-semibold text-gray-200 text-center">
+        Voir la Maladie
+      </h3>
+    </motion.div>
+  }
+/>
+<PathologySection
+  title="1.2.3.4. Lymphosarcome cornéen"
+  content={
+    <motion.div
+      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+      whileHover={{ scale: 1.02 }}
+      onClick={() => openModal(anomalies[15])}
+    >
+      <h3 className="text-xl font-semibold text-gray-200 text-center">
+        Voir la Maladie
+      </h3>
+    </motion.div>
+  }
+/>
+<PathologySection
+  title="1.2.3.5. Autres néoplasmes cornéens"
+  content={
+    <motion.div
+      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+      whileHover={{ scale: 1.02 }}
+      onClick={() => openModal(anomalies[16])}
+    >
+      <h3 className="text-xl font-semibold text-gray-200 text-center">
+        Voir la Maladie
+      </h3>
+    </motion.div>
+  }
+/>
+
+<motion.h1
+initial={{ opacity: 0, y: -20 }}
+animate={{ opacity: 1, y: 0 }}
+className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+>
+Pathologies de l’uvée
+</motion.h1>
+
+
+  <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+  2.2. Anomalies congénitales de l'uvée
+  </h2>
+
+
+    <h3 className="text-xl font-semibold text-gray-300 mb-4">
+    2.2.1. Anomalies de la pupille
+    </h3>
+
+    <PathologySection
+      title="2.2.1.1. Membrane pupillaire persistante (MPP)"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[17])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+    title="2.2.1.2. Colobome"
+    content={
+      <motion.div
+        className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+        whileHover={{ scale: 1.02 }}
+        onClick={() => openModal(anomalies[18])}
+      >
+        <h3 className="text-xl font-semibold text-gray-200 text-center">
+          Voir la Maladie
+        </h3>
+      </motion.div>
+    }
+  />
+  <PathologySection
+  title="2.2.2. Dysgénésie du segment antérieur"
+  content={
+    <motion.div
+      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+      whileHover={{ scale: 1.02 }}
+      onClick={() => openModal(anomalies[19])}
+    >
+      <h3 className="text-xl font-semibold text-gray-200 text-center">
+        Voir la Maladie
+      </h3>
+    </motion.div>
+  }
+/>
+<PathologySection
+title="2.2.3. Troubles de la pigmentation"
+content={
+  <motion.div
+    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+    whileHover={{ scale: 1.02 }}
+    onClick={() => openModal(anomalies[20])}
+  >
+    <h3 className="text-xl font-semibold text-gray-200 text-center">
+      Voir la Maladie
+    </h3>
+  </motion.div>
+}
+/>
+<PathologySection
+title="2.2.4. Hétérochromie"
+content={
+  <motion.div
+    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+    whileHover={{ scale: 1.02 }}
+    onClick={() => openModal(anomalies[21])}
+  >
+    <h3 className="text-xl font-semibold text-gray-200 text-center">
+      Voir la Maladie
+    </h3>
+  </motion.div>
+}
+/>
+<h2 className="text-2xl font-semibold text-gray-200 mb-6">
+2.3. Anomalies acquises de l'uvée
+</h2>
+<PathologySection
+title="2.3.1. Uvéites"
+content={
+  <motion.div
+    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+    whileHover={{ scale: 1.02 }}
+    onClick={() => openModal(anomalies[22])}
+  >
+    <h3 className="text-xl font-semibold text-gray-200 text-center">
+      Voir la Maladie
+    </h3>
+  </motion.div>
+}
+/>
+<PathologySection
+title="2.3.2. Prolapsus de l'iris"
+content={
+  <motion.div
+    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+    whileHover={{ scale: 1.02 }}
+    onClick={() => openModal(anomalies[23])}
+  >
+    <h3 className="text-xl font-semibold text-gray-200 text-center">
+      Voir la Maladie
+    </h3>
+  </motion.div>
+}
+/>
+
+<h3 className="text-xl font-semibold text-gray-300 mb-4">
+2.3.3. Kystes et néoplasmes uvéaux
+</h3>
+<PathologySection
+title="2.3.3.1. Kystes de l'uvée"
+content={
+  <motion.div
+    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+    whileHover={{ scale: 1.02 }}
+    onClick={() => openModal(anomalies[24])}
+  >
+    <h3 className="text-xl font-semibold text-gray-200 text-center">
+      Voir la Maladie
+    </h3>
+  </motion.div>
+}
+/>
+<PathologySection
+title="2.3.3.2. Tumeurs primaires"
+content={
+  <motion.div
+    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+    whileHover={{ scale: 1.02 }}
+    onClick={() => openModal(anomalies[25])}
+  >
+    <h3 className="text-xl font-semibold text-gray-200 text-center">
+      Voir la Maladie
+    </h3>
+  </motion.div>
+}
+/>
+<motion.h1
+initial={{ opacity: 0, y: -20 }}
+animate={{ opacity: 1, y: 0 }}
+className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+>
+III. PATHOLOGIES DE LA TUNIQUE NERVEUSE
+</motion.h1>
+
+<motion.h1
+initial={{ opacity: 0, y: -20 }}
+animate={{ opacity: 1, y: 0 }}
+className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+>
+Pathologies de la rétine
+</motion.h1>
+  <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+  1.1. Maladies congénitales et héréditaires
+  </h2>
+    <PathologySection
+      title="1.1.1 : Plis rétiniens et dysplasie rétinienne"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[27])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+      title="1.1.2. : Anomalie de l'œil du colley"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[28])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+      title="1.1.3. : Atrophie rétinienne progressive généralisée :"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[29])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <h3 className="text-xl font-semibold text-gray-300 mb-4">
+    1.2. Maladies acquises
+    </h3>
+    <PathologySection
+      title="1.2.1. Décollement de la rétine"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[30])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+      <PathologySection
+      title="1.2.3. Maladies inflammatoires de la rétine"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[32])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+    title="1.2.4. Néoplasie de la rétine"
+    content={
+      <motion.div
+        className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+        whileHover={{ scale: 1.02 }}
+        onClick={() => openModal(anomalies[31])}
+      >
+        <h3 className="text-xl font-semibold text-gray-200 text-center">
+          Voir la Maladie
+        </h3>
+      </motion.div>
+    }
+  />
+  <motion.h1
+initial={{ opacity: 0, y: -20 }}
+animate={{ opacity: 1, y: 0 }}
+className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+>
+ Pathologies du nerf optique
+</motion.h1>
+  <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+  2.1. Maladies congénitales et héréditaires
+  </h2>
+    <PathologySection
+      title="2.1.1 : Hypoplasie du nerf optique canin"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[34])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+      title="2.1.2 : Aplasie du nerf optique chez le chien"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[35])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+      title="2.1.3.Colobome du nerf optique :"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[36])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+    2.2. Pathologies acquises
+    </h2>
+    <PathologySection
+      title="2.2.1. Névrite optique"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[37])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+      title="2.2.3. Inflammation du nerf optique"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[38])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+      title="2.2.4. Glaucomes"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[39])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
+    <PathologySection
+      title="2.2.5. Tumeurs du nerf optique	"
+      content={
+        <motion.div
+          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          onClick={() => openModal(anomalies[40])}
+        >
+          <h3 className="text-xl font-semibold text-gray-200 text-center">
+            Voir la Maladie
+          </h3>
+        </motion.div>
+      }
+    />
             {/* Types of Ulcers Section */}
             <PathologySection
               title="Types des ulcères"
