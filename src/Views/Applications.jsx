@@ -1529,7 +1529,7 @@ const anomalies = [
     title: "Aplasie du nerf optique chez le chien ",
     definition: (
       <span>
-      Aucun tissu du nerf optique n'est détectable grossièrement ou microscopiquement, à l'exception de l'apparition rare de restes vestigiaux de tissu glial dans le tissu nerveux périphérique. 
+        Aucun tissu du nerf optique n'est détectable grossièrement ou microscopiquement, à l'exception de l'apparition rare de restes vestigiaux de tissu glial dans le tissu nerveux périphérique.
       </span>
     ),
     signs: (
@@ -1552,7 +1552,7 @@ const anomalies = [
     title: "2.1.3.	Colobome du nerf optique ",
     definition: (
       <span>
-      Les colobomes du nerf optique ou de la sclère postérieure peuvent faire partie d'un syndrome plus complexe, tel que l'anomalie de l'œil du Colley ou ils peuvent se présenter comme une anomalie isolée. 
+        Les colobomes du nerf optique ou de la sclère postérieure peuvent faire partie d'un syndrome plus complexe, tel que l'anomalie de l'œil du Colley ou ils peuvent se présenter comme une anomalie isolée.
       </span>
     ),
     signs: (
@@ -1571,26 +1571,26 @@ const anomalies = [
     title: "Névrite optique",
     definition: (
       <span>
-      Une inflammation du nerf optique sur une ou plusieurs de ses portions (bulbaire, rétrobulbaire ou intracrânienne). 
-      Seule l’atteinte bulbaire (papillite) est décelable ophtalmoscopiquement.       
+        Une inflammation du nerf optique sur une ou plusieurs de ses portions (bulbaire, rétrobulbaire ou intracrânienne).
+        Seule l’atteinte bulbaire (papillite) est décelable ophtalmoscopiquement.
       </span>
     ),
     signs: (
       <ul>
         <li>
-      Peut-être unilatérale ou bilatérale
+          Peut-être unilatérale ou bilatérale
         </li>
         <li>
-    Si bilatérale : une cécité soudaine avec une mydriase et l’absence de réflexe photomoteur (Glover, 2000 ; Hofmeister et al., 2006 ; Smith et al., 2018).
+          Si bilatérale : une cécité soudaine avec une mydriase et l’absence de réflexe photomoteur (Glover, 2000 ; Hofmeister et al., 2006 ; Smith et al., 2018).
         </li>
         <li>
-   	Au niveau du fond de l’œil on note certaines anomalies de la papille comme une hyperhémie, une hémorragie ou un œdème qui peut s’étendre à sa périphérie. 
+          Au niveau du fond de l’œil on note certaines anomalies de la papille comme une hyperhémie, une hémorragie ou un œdème qui peut s’étendre à sa périphérie.
         </li>
         <li>
-      	Les vaisseaux rétiniens sont congestionnés. 
+          Les vaisseaux rétiniens sont congestionnés.
         </li>
         <li>
-    	Le fond de l’œil peut apparaitre normal lorsque la cause est complètement rétrobulbaire.
+          Le fond de l’œil peut apparaitre normal lorsque la cause est complètement rétrobulbaire.
         </li>
       </ul>
     ),
@@ -1599,7 +1599,7 @@ const anomalies = [
       "Figure : Fond de l’œil d’un Golden Retriever présentant une névrite optique isolée (Smith et al., 2018)",
     steps: (
       <ul>
-        <br />-	Le traitement étiologique est souhaitable. 
+        <br />-	Le traitement étiologique est souhaitable.
         <br />--	Dans les cas idiopathiques ou de suspicion de méningo‐encéphalomyélite granulomateuse : administration de la prednisolone (2‐4 mg/kg/j) par voie générale, répartie en deux prises, pendant 10 jours puis à dose décroissante sur une période de 3 à 4 semaines (Martin, 2005).
       </ul>
     ),
@@ -1609,43 +1609,43 @@ const anomalies = [
     title: "Inflammation du nerf optique",
     definition: (
       <span>
-      L'inflammation du nerf optique est assez fréquente en pratique clinique, souvent dans le cadre de processus inflammatoires plus généralisés touchant le SNC, l'orbite ou l'œil (Smith et al., 2018).
+        L'inflammation du nerf optique est assez fréquente en pratique clinique, souvent dans le cadre de processus inflammatoires plus généralisés touchant le SNC, l'orbite ou l'œil (Smith et al., 2018).
       </span>
     ),
     signs: (
       <ul>
         <li>
-     	Un gonflement et une congestion vasculaire de la tête du nerf optique avec œdème et/ou exsudats de la rétine péripapillaire
+          Un gonflement et une congestion vasculaire de la tête du nerf optique avec œdème et/ou exsudats de la rétine péripapillaire
         </li>
         <li>
-     Un décollement de la rétine péripapillaire et des hémorragies dans la rétine ou à la surface de la tête du nerf optique. 
+          Un décollement de la rétine péripapillaire et des hémorragies dans la rétine ou à la surface de la tête du nerf optique.
         </li>
         <li>
-     	La vision est réduite avec déficit du réflexe pupillaire afférent à la lumière (Maggs et al., 2018 ; Smith et al., 2018).
+          La vision est réduite avec déficit du réflexe pupillaire afférent à la lumière (Maggs et al., 2018 ; Smith et al., 2018).
         </li>
       </ul>
     ),
     steps: (
       <ul>
-        <br />-	En l'absence d'autres signes de maladie du SNC, de l'orbite ou de l'œil, il est peu probable qu'une névrite optique idiopathique ou présumée à médiation immunitaire justifie l'énucléation ou l'euthanasie. 
+        <br />-	En l'absence d'autres signes de maladie du SNC, de l'orbite ou de l'œil, il est peu probable qu'une névrite optique idiopathique ou présumée à médiation immunitaire justifie l'énucléation ou l'euthanasie.
       </ul>
     ),
     treatmentImage: "/Figures/39th3.PNG",
     treatmentImageCaption:
-    (
-      <span>
-        Figure : Névrite optique chez un Berger Allemand (Smith et al., 2018){" "}
-        <br /> <b>✔Observations :</b>: la papille optique est sévèrement enflammée (A) avec une vascularisation accrue, surélevée (B : flèche)
-      </span>
-    ),
+      (
+        <span>
+          Figure : Névrite optique chez un Berger Allemand (Smith et al., 2018){" "}
+          <br /> <b>✔Observations :</b>: la papille optique est sévèrement enflammée (A) avec une vascularisation accrue, surélevée (B : flèche)
+        </span>
+      ),
   },
   {
     id: 40,
     title: "Glaucomes",
     definition: (
       <span>
-      Une maladie de l'œil, caractérisée par une atrophie du nerf optique et une altération irrémédiable du champ visuel. 
-      Elle touche surtout les sujets âgés.       
+        Une maladie de l'œil, caractérisée par une atrophie du nerf optique et une altération irrémédiable du champ visuel.
+        Elle touche surtout les sujets âgés.
       </span>
     ),
     image: "/Figures/40th1.PNG",
@@ -1654,34 +1654,34 @@ const anomalies = [
     signs: (
       <ul>
         <li>
-    	Augmentation de la pression intraoculaire : une valeur supérieure à25 mmHg constitue un diagnostic de certitude du glaucome (Hebert, 2006 ; Zibura et al., 2021).
+          Augmentation de la pression intraoculaire : une valeur supérieure à25 mmHg constitue un diagnostic de certitude du glaucome (Hebert, 2006 ; Zibura et al., 2021).
         </li>
         <li>
-     Buphtalmie : Le diamètre horizontal normal chez le chien est de 15 à 17 mm
+          Buphtalmie : Le diamètre horizontal normal chez le chien est de 15 à 17 mm
         </li>
         <li>
-      Mydriase aréflexive : l’élévation de la PIO altère la fonction du muscle sphincter de l’iris.
-           </li>
-           <li>
-    Congestion des vaisseaux épiscléraux et des veines conjonctivales
-              </li>
-              <li>
-           	Opacification de la cornée : elle peut être due à un œdème de la cornée
-                 </li>
-                 <li>
-            Epiphora
-                    </li>
-                    <li>
-                Photophobie
-                       </li>
-                       <li>
-                     	Douleur
-                          </li>
-                          <li>
-                    	Changements de la rétine et du nerf optique : Les changements observés du fundus dans les cas de glaucome varient, allant de l’œdème papillaire et de l'hémorragie péri-papillaire dans les cas graves, à des atrophies du disque optique, de la rétine péri-papillaire, de la rétine diffuse, et à des infarctus focaux de la rétine.
-                             </li>
+          Mydriase aréflexive : l’élévation de la PIO altère la fonction du muscle sphincter de l’iris.
+        </li>
+        <li>
+          Congestion des vaisseaux épiscléraux et des veines conjonctivales
+        </li>
+        <li>
+          Opacification de la cornée : elle peut être due à un œdème de la cornée
+        </li>
+        <li>
+          Epiphora
+        </li>
+        <li>
+          Photophobie
+        </li>
+        <li>
+          Douleur
+        </li>
+        <li>
+          Changements de la rétine et du nerf optique : Les changements observés du fundus dans les cas de glaucome varient, allant de l’œdème papillaire et de l'hémorragie péri-papillaire dans les cas graves, à des atrophies du disque optique, de la rétine péri-papillaire, de la rétine diffuse, et à des infarctus focaux de la rétine.
+        </li>
       </ul>
-      
+
     ),
     additionalImage: "/Figures/40th2.PNG",
     additionalCaption:
@@ -1689,8 +1689,8 @@ const anomalies = [
     steps: (
       <ul>
         <br />Le traitement d'urgence : traitement médical, consiste à diminuer la PIO par : Une réduction du volume de fluide de la chambre postérieure, en augmentant le drainage et en diminuant la production d’humeur aqueuse (Clerc, 1997 ; Desfontis, 2005 ; Hebert, 2006 ; Ketring, 2006 ; Zibura et al., 2021).
-        <br />- Par les diurétiques osmotiques 
-        <br />-	Par l'acétazolamide (Diamox N.D.), inhibiteur de l'anhydrase carbonique (IAC). 
+        <br />- Par les diurétiques osmotiques
+        <br />-	Par l'acétazolamide (Diamox N.D.), inhibiteur de l'anhydrase carbonique (IAC).
         <br />-	Il faut aussi améliorer le drainage de l'humeur aqueuse, en ouvrant l'angle irido‐cornéen, les myotiques favorisent le drainage de l'humeur aqueuse (Zibura et al., 2021).
       </ul>
     ),
@@ -1700,22 +1700,22 @@ const anomalies = [
     title: "Tumeurs du nerf optique",
     definition: (
       <span>
-      La forme la plus courante touchant le nerf optique, provient des cellules de la calotte arachnoïdienne du nerf optique. 
-      Bien que la tumeur ne soit pas toujours située à l'intérieur des méninges, elle s'étend dans les tissus conjonctifs orbitaires entourant le nerf optique.
-      
+        La forme la plus courante touchant le nerf optique, provient des cellules de la calotte arachnoïdienne du nerf optique.
+        Bien que la tumeur ne soit pas toujours située à l'intérieur des méninges, elle s'étend dans les tissus conjonctifs orbitaires entourant le nerf optique.
+
       </span>
     ),
     signs: (
       <ul>
         <li>
-      	Des agrégats de grandes cellules polygonales infiltrant le tissu adipeux orbitaire 
+          Des agrégats de grandes cellules polygonales infiltrant le tissu adipeux orbitaire
         </li>
         <li>
-     	Présence de multiples foyers d'os métaplasique, de cartilage ou de stroma myxomateux indifférencié. 
+          Présence de multiples foyers d'os métaplasique, de cartilage ou de stroma myxomateux indifférencié.
         </li>
         <li>
-    	Le néoplasme se propage dans le nerf optique par extension à partir du calvarium (Kirk, 2014).
-         </li>
+          Le néoplasme se propage dans le nerf optique par extension à partir du calvarium (Kirk, 2014).
+        </li>
       </ul>
     ),
   },
@@ -1724,14 +1724,14 @@ const anomalies = [
     title: "Gliome du nerf optique (astrocytome)",
     definition: (
       <span>
-      Elle est unilatérale et provoque une expansion du nerf optique. 
-      La tumeur peut également se trouver dans la rétine centrale et ne pas impliquer le nerf optique, et une implication étendue du chiasma optique a également été rapportée (Kirk, 2014).      
+        Elle est unilatérale et provoque une expansion du nerf optique.
+        La tumeur peut également se trouver dans la rétine centrale et ne pas impliquer le nerf optique, et une implication étendue du chiasma optique a également été rapportée (Kirk, 2014).
       </span>
     ),
     signs: (
       <ul>
         <li>
-  	Un effacement du neuropil du nerf optique par des cellules néoplasiques fusiformes à stellées et les processus cytoplasmiques de ces cellules forment un enchevêtrement de tissus fibrillaires.
+          Un effacement du neuropil du nerf optique par des cellules néoplasiques fusiformes à stellées et les processus cytoplasmiques de ces cellules forment un enchevêtrement de tissus fibrillaires.
         </li>
       </ul>
     ),
@@ -1892,2091 +1892,536 @@ const Applications = () => {
               }
             />
             <PathologySection
-            title="1.1.2.4. Dystrophie endothéliale cornéenne"
-            content={
-              <motion.div
-                className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-                whileHover={{ scale: 1.02 }}
-                onClick={() => openModal(anomalies[6])}
-              >
-                <h3 className="text-xl font-semibold text-gray-200 text-center">
-                  Voir la Maladie
-                </h3>
-              </motion.div>
-            }
-          />
-          <PathologySection
-          title="1.1.2.5. Lacérations cornéennes"
-          content={
-            <motion.div
-              className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-              whileHover={{ scale: 1.02 }}
-              onClick={() => openModal(anomalies[7])}
-            >
-              <h3 className="text-xl font-semibold text-gray-200 text-center">
-                Voir la Maladie
-              </h3>
-            </motion.div>
-          }
-        />
-        <PathologySection
-        title="1.1.2.6. Corps étrangers cornéens"
-        content={
-          <motion.div
-            className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-            whileHover={{ scale: 1.02 }}
-            onClick={() => openModal(anomalies[8])}
-          >
-            <h3 className="text-xl font-semibold text-gray-200 text-center">
-              Voir la Maladie
-            </h3>
-          </motion.div>
-        }
-      />
-      <PathologySection
-      title="1.1.2.7. Brulures cornéennes"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[9])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <h2 className="text-2xl font-semibold text-gray-200 mb-6">
-    1.1. Maladies de la cornée
-  </h2>
-
-
-    <h3 className="text-xl font-semibold text-gray-300 mb-4">
-    1.2. Maladies sclérales
-    </h3>
-    <PathologySection
-      title="1.2.1. Épisclérite granulomateuse nodulaire (NGE)"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[10])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-    title="1.2.2. Sclérite"
-    content={
-      <motion.div
-        className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-        whileHover={{ scale: 1.02 }}
-        onClick={() => openModal(anomalies[11])}
-      >
-        <h3 className="text-xl font-semibold text-gray-200 text-center">
-          Voir la Maladie
-        </h3>
-      </motion.div>
-    }
-  />
-  <h3 className="text-xl font-semibold text-gray-300 mb-4">
-  1.2.3. Masses cornéosclérales et Tumeurs
-            </h3>
-  <PathologySection
-  title="1.2.3.1. Kystes d'inclusion épithéliale cornéenne"
-  content={
-    <motion.div
-      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-      whileHover={{ scale: 1.02 }}
-      onClick={() => openModal(anomalies[12])}
-    >
-      <h3 className="text-xl font-semibold text-gray-200 text-center">
-        Voir la Maladie
-      </h3>
-    </motion.div>
-  }
-/>
-<PathologySection
-  title="1.2.3.2. Carcinome squameux"
-  content={
-    <motion.div
-      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-      whileHover={{ scale: 1.02 }}
-      onClick={() => openModal(anomalies[14])}
-    >
-      <h3 className="text-xl font-semibold text-gray-200 text-center">
-        Voir la Maladie
-      </h3>
-    </motion.div>
-  }
-/>
-<PathologySection
-  title="1.2.3.3. Papillomes"
-  content={
-    <motion.div
-      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-      whileHover={{ scale: 1.02 }}
-      onClick={() => openModal(anomalies[13])}
-    >
-      <h3 className="text-xl font-semibold text-gray-200 text-center">
-        Voir la Maladie
-      </h3>
-    </motion.div>
-  }
-/>
-<PathologySection
-  title="1.2.3.4. Lymphosarcome cornéen"
-  content={
-    <motion.div
-      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-      whileHover={{ scale: 1.02 }}
-      onClick={() => openModal(anomalies[15])}
-    >
-      <h3 className="text-xl font-semibold text-gray-200 text-center">
-        Voir la Maladie
-      </h3>
-    </motion.div>
-  }
-/>
-<PathologySection
-  title="1.2.3.5. Autres néoplasmes cornéens"
-  content={
-    <motion.div
-      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-      whileHover={{ scale: 1.02 }}
-      onClick={() => openModal(anomalies[16])}
-    >
-      <h3 className="text-xl font-semibold text-gray-200 text-center">
-        Voir la Maladie
-      </h3>
-    </motion.div>
-  }
-/>
-
-<motion.h1
-initial={{ opacity: 0, y: -20 }}
-animate={{ opacity: 1, y: 0 }}
-className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
->
-Pathologies de l’uvée
-</motion.h1>
-
-
-  <h2 className="text-2xl font-semibold text-gray-200 mb-6">
-  2.2. Anomalies congénitales de l'uvée
-  </h2>
-
-
-    <h3 className="text-xl font-semibold text-gray-300 mb-4">
-    2.2.1. Anomalies de la pupille
-    </h3>
-
-    <PathologySection
-      title="2.2.1.1. Membrane pupillaire persistante (MPP)"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[17])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-    title="2.2.1.2. Colobome"
-    content={
-      <motion.div
-        className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-        whileHover={{ scale: 1.02 }}
-        onClick={() => openModal(anomalies[18])}
-      >
-        <h3 className="text-xl font-semibold text-gray-200 text-center">
-          Voir la Maladie
-        </h3>
-      </motion.div>
-    }
-  />
-  <PathologySection
-  title="2.2.2. Dysgénésie du segment antérieur"
-  content={
-    <motion.div
-      className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-      whileHover={{ scale: 1.02 }}
-      onClick={() => openModal(anomalies[19])}
-    >
-      <h3 className="text-xl font-semibold text-gray-200 text-center">
-        Voir la Maladie
-      </h3>
-    </motion.div>
-  }
-/>
-<PathologySection
-title="2.2.3. Troubles de la pigmentation"
-content={
-  <motion.div
-    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-    whileHover={{ scale: 1.02 }}
-    onClick={() => openModal(anomalies[20])}
-  >
-    <h3 className="text-xl font-semibold text-gray-200 text-center">
-      Voir la Maladie
-    </h3>
-  </motion.div>
-}
-/>
-<PathologySection
-title="2.2.4. Hétérochromie"
-content={
-  <motion.div
-    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-    whileHover={{ scale: 1.02 }}
-    onClick={() => openModal(anomalies[21])}
-  >
-    <h3 className="text-xl font-semibold text-gray-200 text-center">
-      Voir la Maladie
-    </h3>
-  </motion.div>
-}
-/>
-<h2 className="text-2xl font-semibold text-gray-200 mb-6">
-2.3. Anomalies acquises de l'uvée
-</h2>
-<PathologySection
-title="2.3.1. Uvéites"
-content={
-  <motion.div
-    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-    whileHover={{ scale: 1.02 }}
-    onClick={() => openModal(anomalies[22])}
-  >
-    <h3 className="text-xl font-semibold text-gray-200 text-center">
-      Voir la Maladie
-    </h3>
-  </motion.div>
-}
-/>
-<PathologySection
-title="2.3.2. Prolapsus de l'iris"
-content={
-  <motion.div
-    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-    whileHover={{ scale: 1.02 }}
-    onClick={() => openModal(anomalies[23])}
-  >
-    <h3 className="text-xl font-semibold text-gray-200 text-center">
-      Voir la Maladie
-    </h3>
-  </motion.div>
-}
-/>
-
-<h3 className="text-xl font-semibold text-gray-300 mb-4">
-2.3.3. Kystes et néoplasmes uvéaux
-</h3>
-<PathologySection
-title="2.3.3.1. Kystes de l'uvée"
-content={
-  <motion.div
-    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-    whileHover={{ scale: 1.02 }}
-    onClick={() => openModal(anomalies[24])}
-  >
-    <h3 className="text-xl font-semibold text-gray-200 text-center">
-      Voir la Maladie
-    </h3>
-  </motion.div>
-}
-/>
-<PathologySection
-title="2.3.3.2. Tumeurs primaires"
-content={
-  <motion.div
-    className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-    whileHover={{ scale: 1.02 }}
-    onClick={() => openModal(anomalies[25])}
-  >
-    <h3 className="text-xl font-semibold text-gray-200 text-center">
-      Voir la Maladie
-    </h3>
-  </motion.div>
-}
-/>
-<motion.h1
-initial={{ opacity: 0, y: -20 }}
-animate={{ opacity: 1, y: 0 }}
-className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
->
-III. PATHOLOGIES DE LA TUNIQUE NERVEUSE
-</motion.h1>
-
-<motion.h1
-initial={{ opacity: 0, y: -20 }}
-animate={{ opacity: 1, y: 0 }}
-className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
->
-Pathologies de la rétine
-</motion.h1>
-  <h2 className="text-2xl font-semibold text-gray-200 mb-6">
-  1.1. Maladies congénitales et héréditaires
-  </h2>
-    <PathologySection
-      title="1.1.1 : Plis rétiniens et dysplasie rétinienne"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[27])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-      title="1.1.2. : Anomalie de l'œil du colley"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[28])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-      title="1.1.3. : Atrophie rétinienne progressive généralisée :"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[29])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <h3 className="text-xl font-semibold text-gray-300 mb-4">
-    1.2. Maladies acquises
-    </h3>
-    <PathologySection
-      title="1.2.1. Décollement de la rétine"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[30])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-      <PathologySection
-      title="1.2.3. Maladies inflammatoires de la rétine"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[32])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-    title="1.2.4. Néoplasie de la rétine"
-    content={
-      <motion.div
-        className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-        whileHover={{ scale: 1.02 }}
-        onClick={() => openModal(anomalies[31])}
-      >
-        <h3 className="text-xl font-semibold text-gray-200 text-center">
-          Voir la Maladie
-        </h3>
-      </motion.div>
-    }
-  />
-  <motion.h1
-initial={{ opacity: 0, y: -20 }}
-animate={{ opacity: 1, y: 0 }}
-className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
->
- Pathologies du nerf optique
-</motion.h1>
-  <h2 className="text-2xl font-semibold text-gray-200 mb-6">
-  2.1. Maladies congénitales et héréditaires
-  </h2>
-    <PathologySection
-      title="2.1.1 : Hypoplasie du nerf optique canin"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[34])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-      title="2.1.2 : Aplasie du nerf optique chez le chien"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[35])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-      title="2.1.3.Colobome du nerf optique :"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[36])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <h2 className="text-2xl font-semibold text-gray-200 mb-6">
-    2.2. Pathologies acquises
-    </h2>
-    <PathologySection
-      title="2.2.1. Névrite optique"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[37])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-      title="2.2.3. Inflammation du nerf optique"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[38])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-      title="2.2.4. Glaucomes"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[39])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-    <PathologySection
-      title="2.2.5. Tumeurs du nerf optique	"
-      content={
-        <motion.div
-          className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
-          whileHover={{ scale: 1.02 }}
-          onClick={() => openModal(anomalies[40])}
-        >
-          <h3 className="text-xl font-semibold text-gray-200 text-center">
-            Voir la Maladie
-          </h3>
-        </motion.div>
-      }
-    />
-            {/* Types of Ulcers Section */}
-            <PathologySection
-              title="Types des ulcères"
-              content={
-                <div>
-                  <p className="font-semibold mb-2">
-                    1) L'ulcère superficiel :
-                  </p>
-                  <p>
-                    L'ulcère superficiel, où la perte de substance touche
-                    l'épithélium cornéen et éventuellement la partie
-                    superficielle du stroma ; il peut également présenter des
-                    bords décollés.
-                  </p>
-                  <img
-                    src={type1}
-                    alt="Ulcère superficiel"
-                    className="w-full max-w-3xl mx-auto rounded-lg mb-4 my-6"
-                  />
-                  <p className="text-center italic">
-                    Ulcère superficiel à bord décollés chez un chien
-                  </p>
-
-                  <p className="font-semibold mb-2 mt-4">
-                    2) L'ulcère stromal :
-                  </p>
-                  <img
-                    src={type2}
-                    alt="Ulcère stromal"
-                    className="w-full max-w-3xl mx-auto rounded-lg mb-4 my-6"
-                  />
-                  <p className="text-center italic">
-                    Description de l'ulcère stromal
-                  </p>
-
-                  <p className="font-semibold mb-2 mt-4">
-                    3) La descemétocèle :
-                  </p>
-                  <p>
-                    Dans laquelle la membrane de Descemet fait hernie au travers
-                    de la perte de substance stromale.
-                  </p>
-                  <img
-                    src={type3}
-                    alt="Descemétocèle"
-                    className="w-full max-w-3xl mx-auto rounded-lg mb-4 my-6"
-                  />
-                  <p className="text-center italic">
-                    Description de la descemétocèle
-                  </p>
-
-                  <p className="font-semibold mb-2 mt-4">
-                    4) L'ulcère perforé :
-                  </p>
-                  <p>
-                    Dans lequel la brèche touche l'ensemble de l'épaisseur de la
-                    cornée, autorisant l'issue de l'humeur aqueuse et parfois de
-                    l'iris.
-                  </p>
-                  <img
-                    src={type4}
-                    alt="Ulcère perforé"
-                    className="w-full max-w-3xl mx-auto rounded-lg mb-4 my-6"
-                  />
-                  <p className="text-center italic">
-                    Description de l'ulcère perforé
-                  </p>
-
-                  <p className="mt-4">
-                    Pour plus d'informations, consultez le lien suivant :
-                    <a
-                      href="https://ophtavet.com/wp-content/uploads/2020/09/Ulcere-de-cornee-apprendre-a-gerer-cette-urgence.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-400 hover:text-blue-300 ml-1"
-                    >
-                      (Source)
-                    </a>
-                  </p>
-                </div>
-              }
-            />
-
-            {/* Symptoms Section */}
-            <PathologySection
-              title="Symptômes"
-              content={
-                <div>
-                  <p>
-                    Une rougeur, une douleur, sont souvent associés à une
-                    sensation de corps étranger dans l'œil.
-                  </p>
-                  <ul className="list-disc ml-6 space-y-2">
-                    <li>Une photophobie</li>
-                    <li>Un larmoiement</li>
-                    <li>Blépharospasme</li>
-                    <li>Oedème cornéen</li>
-                    <li>
-                      Myosis (Jaksz et Buss, 2017 ; Farghali et al., 2021)
-                    </li>
-                  </ul>
-                  <p>
-                    Les ulcères superficiels simples guérissent généralement
-                    rapidement, avec formation d'une cicatrice minime. Les
-                    ulcères profonds compliqués (avec une infection microbienne)
-                    peuvent conduire à l'altération de la vision en raison de
-                    cicatrices cornéennes ou, lorsque une perforation cornéenne
-                    se produit, jusqu'à la formation de synéchies antérieures
-                    (Kirk, 2014 ; Jaksz et al., 2021).
-                  </p>
-                  <img
-                    src={symp1}
-                    alt="Symptômes des ulcères cornéens"
-                    className="w-full max-w-2xl mx-auto rounded-lg mb-4 my-6"
-                  />
-                  <p className="text-center italic">
-                    Œil de chien montrant un entropion avec un ulcère cornéen
-                    (Farghali et al., 2021)
-                  </p>
-                  <img
-                    src={symp2}
-                    alt="Symptômes des ulcères cornéens"
-                    className="w-full max-w-2xl mx-auto rounded-lg mb-4 my-6"
-                  />
-                </div>
-              }
-            />
-
-            {/* Diagnostic Section */}
-            <PathologySection
-              title="Diagnostic"
-              content={
-                <div>
-                  <p>
-                    Les ulcères cornéens chroniques infectés ou évolutifs
-                    doivent subir une culture microbiologique et des tests de
-                    sensibilité aux antibiotiques et un examen cytologique des
-                    échantillons de cornée. Ces procédures de diagnostic aident
-                    à orienter la thérapie d'antimicrobiens spécifiques (Pandey
-                    et al., 2018).
-                  </p>
-                  <p>
-                    Le diagnostic d'un ulcère cornéen est fait sur la base des
-                    signes cliniques, et la rétention du colorant (fluorescéine)
-                    appliqué localement par les troma cornéen (Figure 101)
-                    (Farghali et al., 2021).
-                  </p>
-                  <img
-                    src={diag}
-                    alt="Diagnostic d'ulcère cornéen"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Ulcère cornéen superficiel (A : Oeil souffrant d'ulcère
-                    cornéen, B : après application d'un colorant fluorescent
-                    montrant le type et la profondeur des ulcères cornéens)
-                    (Farghali et al., 2021)
-                  </p>
-                </div>
-              }
-            />
-
-            {/* Treatment Section */}
-            <PathologySection
-              title="Traitement"
-              content={
-                <div>
-                  <p className="font-semibold mb-2">
-                    1) Traitement des ulcères cornéens non compliqués (simples)
-                    :
-                  </p>
-                  <p>
-                    Lors d'ulcère superficiel simple, la cicatrisation est
-                    rapide (5 jours en moyenne), par migration et allongement
-                    des cellules épithéliales. Le traitement associe un collyre
-                    antibiotique (3 ou 4 fois/j pendant 10 jours), un
-                    cycloplégique (atropine, 2 fois/j pendant 6 jours) et des
-                    cicatrisants, lubrifiants et anticollagénases (3 ou 4 fois/j
-                    pendant 10 jours). Un examen de contrôle doit toujours être
-                    programmé dans les 7 jours.
-                  </p>
-                  <div className="flex justify-center space-x-4 mt-4">
-                    <div className="flex flex-col justify-center">
-                      <img
-                        src={trait1}
-                        alt="Traitement ulcère cornéen 1"
-                        className="w-full max-w-xs rounded-lg"
-                      />
-                      <p className="text-center italic">
-                        J0 : chémosis et ulcère épithélial étendu
-                      </p>
-                    </div>
-                    <div className="flex flex-col justify-center">
-                      <img
-                        src={trait2}
-                        alt="Traitement ulcère cornéen 2"
-                        className="w-full max-w-xs rounded-lg"
-                      />
-                      <p className="text-center italic">
-                        J2 : chémosis atténué et ulcère épithélial résiduel{" "}
-                      </p>
-                    </div>
-                    <div className="flex flex-col justify-center">
-                      <img
-                        src={trait3}
-                        alt="Traitement ulcère cornéen 3"
-                        className="w-full max-w-xs rounded-lg"
-                      />
-                      <p className="text-center italic">
-                        J8 : guérison complète
-                      </p>
-                    </div>
-                  </div>
-
-                  <p className="font-semibold mb-2 mt-4">
-                    2) Traitement des ulcères cornéens profonds (stromal) ou
-                    Descemétocèle :
-                  </p>
-                  <p>
-                    Les ulcères qui évoluent rapidement / qui ont des zones de
-                    fonte du stroma / une perte stromale / infiltration
-                    cellulaire marquée sont tous considérés compliqués et
-                    infectés. Une cause déclenchante doit être recherchée et
-                    éliminée ou contrôlée si possible ; antibiotique topique à
-                    large spectre et un traitement mydriatique doit être
-                    instauré et un collier élisabéthain devrait être fourni
-                    (Pandey et al., 2018 ; Prado et al., 2021). Si l'ulcère est
-                    plus profond que la moitié de l'épaisseur de la cornée, il
-                    bénéficie également de la chirurgie car le stroma cornéen
-                    n'a une capacité limitée à se régénérer, et la guérison est
-                    lente, nécessitant souvent une infiltration fibrovasculaire.
-                    Ce processus peut prendre des semaines s'il se produit
-                    spontanément à partir du limbe mais peut être rapidement
-                    fourni par greffe conjonctivale (Maggs et al., 2018).
-                  </p>
-                  <p>
-                    Les avantages des greffes conjonctivales :
-                    <ul className="list-disc ml-6 space-y-2">
-                      <li>
-                        Support mécanique pour une cornée fine ou fragilisée
-                      </li>
-                      <li>
-                        Un approvisionnement continu de sérum, qui contient des
-                        anticollagénases et des facteurs de croissance
-                      </li>
-                      <li>
-                        Une source immédiate de fibroblastes à réplication
-                        active pour régénération du collagène dans le stroma
-                      </li>
-                      <li>
-                        Une voie pour les antibiotiques systémiques à livrer à
-                        l'ulcère cornéen.
-                      </li>
-                    </ul>
-                  </p>
-                  <p>
-                    Les sutures cornéennes devraient être placées environ
-                    d'épaisseur cornéenne aux trois quarts et sans pénétrer
-                    chambre antérieure (Maggs et al., 2018). 5 types de greffes
-                    conjonctivales :
-                    <ul className="list-disc ml-6 space-y-2">
-                      <li>Greffons insulaires ou libres</li>
-                      <li>Greffes complètes ou à 360 degrés</li>
-                      <li>Avancement simple ou greffes de capuchon</li>
-                      <li>Greffes pédiculaires rotatives</li>
-                      <li>Greffes de pont</li>
-                    </ul>
-                  </p>
-                  <p>
-                    Les greffes de type avancement (capot ou 360 degrés) sont
-                    plus faciles à récolter et à placer. Une bande de
-                    conjonctive d'une longueur et d'une largeur suffisante pour
-                    atteindre et couvrir l'ulcère est libérée du Tenon
-                    sous-jacent capsule. Un greffon conjonctival fin et mobile,
-                    est suturé à la cornée viable entourant l'ulcère avec de
-                    simples points de suture interrompus (Pandey et al., 2018).
-                    Une approche alternative consiste à clouer le greffon avec
-                    quatre à six simples sutures puis sursouder le périmètre du
-                    greffon avec un motif continu simple. Des sutures
-                    supplémentaires au limbe peuvent aider à sécuriser la
-                    greffe. Il n'est pas indispensable de fermer le loyer en la
-                    conjonctive bulbaire ; cependant, cela a tendance à réduire
-                    les douleurs postopératoires (Maggs et al., 2018 ; Prado et
-                    al., 2021).
-                  </p>
-                  <img
-                    src={trait4}
-                    alt="Greffe conjonctivale type avancement"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-4"
-                  />
-                  <p className="text-center italic">
-                    Greffe conjonctivale type avancement (Maggs et al., 2018)
-                  </p>
-                  <img
-                    src={trait5}
-                    alt="Greffe de pédicule conjonctival"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-4"
-                  />
-                  <p className="text-center italic">
-                    Figure : Greffe de pédicule conjonctival immédiatement après
-                    avoir été coupé
-                  </p>
-                </div>
-              }
-            />
-            {/* Observations Section */}
-            <PathologySection
-              title="Observations"
-              content={
-                <div>
-                  <p className="font-semibold mb-2">Observations :</p>
-                  <ul className="list-disc ml-6 space-y-2">
-                    <li>
-                      A : Une petite incision limbique est pratiquée à côté de
-                      la lésion.
-                    </li>
-                    <li>B : Le lambeau est miné par dissection mousse.</li>
-                    <li>
-                      C : Des incisions conjonctivales parallèles ou légèrement
-                      divergentes sont faites vers le fornix, avec une largeur
-                      du lambeau suffisante pour couvrir la lésion cornéenne.
-                    </li>
-                    <li>
-                      D : Le lambeau conjonctival est avancé centralement pour
-                      couvrir la lésion cornéenne et suturé en place avec de
-                      simples sutures interrompues de polyglactine.
-                    </li>
-                  </ul>
-                  <div className="flex space-x-4 mt-4 justify-center">
-                    <img
-                      src={obs1}
-                      alt="Observation A"
-                      className="w-full max-w-xs rounded-lg"
-                    />
-                    <img
-                      src={obs2}
-                      alt="Observation B"
-                      className="w-full max-w-xs rounded-lg"
-                    />
-                  </div>
-                  <p className="text-center italic">
-                    Captions for the first two observation images here
-                  </p>
-                  <div className="flex space-x-4 mt-4 justify-center">
-                    <img
-                      src={obs3}
-                      alt="Observation C"
-                      className="w-full max-w-xs rounded-lg"
-                    />
-                    <img
-                      src={obs4}
-                      alt="Observation D"
-                      className="w-full max-w-xs rounded-lg"
-                    />
-                  </div>
-                  <p className="text-center italic">
-                    Captions for the second two observation images here
-                  </p>
-                  <div className="flex space-x-4 mt-4 justify-center">
-                    <img
-                      src={obs5}
-                      alt="Observation E"
-                      className="w-full max-w-xs rounded-lg my-6"
-                    />
-                    <img
-                      src={obs6}
-                      alt="Observation F"
-                      className="w-full max-w-xs rounded-lg my-6"
-                    />
-                  </div>
-                  <p className="text-center italic">
-                    Captions for the last two observation images here
-                  </p>
-                  <p className="mt-4">
-                    Une fois l'ulcère cornéen guéri, l'apport sanguin au greffon
-                    conjonctival peut être coupé. Après anesthésique topique,
-                    des ciseaux peuvent être placés sous la partie pédiculaire
-                    du greffon, qui n'adhère pas à l'épithélium cornéen normal
-                    sous-jacent (Figure 107) (Kirk, 2014 ; Prado et al., 2021).
-                  </p>
-                  <img
-                    src={obs7}
-                    alt="Section pédiculaire après greffe conjonctivale"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Figure : Section pédiculaire après greffe conjonctivale
-                    (Kirk, 2014)
-                  </p>
-                </div>
-              }
-            />
-            <PathologySection
-              title="1.1.2.2. Kératite superficielle chronique (Pannus) "
-              content={
-                <>
-                  <div>
-                    <p className="mt-4">
-                      La kératite superficielle chronique (CSK) est une maladie
-                      progressive, bilatérale, inflammatoire et potentiellement
-                      aveuglante : maladie de la cornée canine. Connue sous le
-                      nom de « pannus dégénératif ».
-                    </p>
-                    <img
-                      src={test1}
-                      alt="Section pédiculaire après greffe conjonctivale"
-                      className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                    />
-                    <p className="text-center italic">
-                      Figure : Kératite superficielle chronique
-                      <a
-                        href="https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/keratite-superficielle-chronique/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-400 hover:text-blue-300 ml-1"
-                      >
-                        (Source)
-                      </a>{" "}
-                    </p>
-                  </div>
-
-                  <PathologySection
-                    title="●	Etiologie : "
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          La cause de la CSK chez le chien n'a pas été établie,
-                          mais les preuves actuelles suggèrent la condition est
-                          une maladie à médiation immunitaire d'origine
-                          génétique. <br />
-                          La cornée possède des antigènes tissu-spécifiques qui
-                          peuvent être modifiés par des facteurs externes tels
-                          que la lumière ultraviolette (UV). Le rayonnement UV
-                          peut altérer l'antigénicité des cornées sensibles,
-                          entraînant ainsi inflammation à médiation cellulaire
-                          chez les chiens sensibles. La CSK peut être contrôlée
-                          par l'administration topique de corticostéroïdes et
-                          ciclosporine (Castillo, 2019).
-                        </p>
-                        <img
-                          src={test2}
-                          alt="Section pédiculaire après greffe conjonctivale"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                      </div>
-                    }
-                  />
-                  <PathologySection
-                    title="●	Diagnostic  : "
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Une lésion rouge, vascularisée, conjonctivale au
-                          niveau inférieur du limbe temporal. Au début de la
-                          maladie : la vascularisation et la pigmentation se
-                          produit au niveau de la cornée temporale et progresse
-                          de manière centralisée. (Figure 108) (Dubielzig et
-                          al., 2010 ; Castillo, 2019). Elle se propage vers la
-                          cornée centrale sous la forme d'un corps charnu, bien
-                          vascularisé. Une ligne cristalline blanche ou petites
-                          taches blanches sont observés dans le stroma cornéen
-                          clair, 1-2 mm devant le bord d'attaque de la lésion.
-                          La partie supérieure de la cornée reste généralement
-                          inchangée jusqu'à la fin de la maladie. Finalement,
-                          toute la cornée peut devenir vascularisée, pigmentée
-                          et opaque. Un épaississement et pigmentation de la
-                          surface palpébrale de la membrane nictitante peuvent
-                          être développés.
-                        </p>
-                        <img
-                          src={test3}
-                          alt="Section pédiculaire après greffe conjonctivale"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Kératite superficielle chronique chez une
-                          chienne croisée berger de 4 ans. Les lésions se
-                          situent dans la partie temporale de la cornée. On
-                          observe une vascularisation cornéenne superficielle,
-                          une pigmentation et une infiltration cellulaire de la
-                          cornée bordée d'un oedème cornéen ainsi qu'une
-                          infiltration de la membrane nictitante se traduisant
-                          par une décoloration de son bord libre, un
-                          épaississement et une irrégularité de sa surface
-                          <a
-                            href="https://www.depecheveterinaire.com/keratite-superficielle-chronique-du-chien-le-diagnostic_67984E823465A263.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-400 hover:text-blue-300 ml-1"
-                          >
-                            (Source)
-                          </a>{" "}
-                        </p>
-                      </div>
-                    }
-                  />
-                  <PathologySection
-                    title="●	Diagnostic différentiel: "
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          La CSK doit être distinguée de la kératite pigmentaire
-                          résultant d'autres causes (par exemple, irritation
-                          chronique), et de la granulation cornéenne résultant
-                          de la cicatrisation vasculaire des plaies cornéennes
-                          (Dubielzig et al., 2010 ; Kirk, 2014).
-                        </p>
-                      </div>
-                    }
-                  />
-                  <PathologySection
-                    title="●	Traitement: "
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          La gravité de cette maladie et le pronostic dépendent
-                          de nombreux facteurs : l'âge d'apparition, altitude,..
-                          Le traitement initial consiste d'onguents ou de
-                          solutions corticostéroïdes topiques trois à quatre
-                          fois par jour pendant 3 à 4 semaines, suivi d’un
-                          programme d'entretien réduit. Pour les cas où le
-                          contrôle médical n'est pas satisfaisant, une injection
-                          sous-conjonctivale de corticoïdes dans un traitement
-                          topique peut également être nécessaire pour contrôler
-                          la maladie, ou rayonnement β (strontium-90β
-                          plésiothérapie) peut être utilisé en concomitance avec
-                          thérapie.
-                        </p>
-                        <div className="flex justify-center flex-wrap items-center gap-4">
-                          <div className="flex flex-col justify-center items-center">
-                            <img
-                              src={test4}
-                              alt="Section pédiculaire après greffe conjonctivale"
-                              className=" w-full max-w-md mx-auto rounded-lg my-6"
-                            />
-                            <p className="text-center italic">
-                              Figure : Kératite superficielle chronique{" "}
-                            </p>
-                          </div>
-                          <div className="flex flex-col justify-center items-center">
-                            <img
-                              src={test5}
-                              alt="Section pédiculaire après greffe conjonctivale"
-                              className="w-full max-w-md mx-auto rounded-lg my-6"
-                            />
-                            <p className="text-center italic">
-                              Figure : Même oeil, après 4 semaines de traitement{" "}
-                            </p>
-                          </div>
-                        </div>
-                        <p className="mt-4">
-                          Une kératectomie superficielle peut être nécessaire
-                          pour cas graves dans lesquels la cécité est due à la
-                          pigmentation de la cornée centrale, mais les récidive
-                          doivent être attendues et répéter les kératectomies
-                          (généralement limité à deux ou trois) peut être
-                          nécessaire.
-                        </p>
-                      </div>
-                    }
-                  />
-                </>
-              }
-            />
-            <PathologySection
-              title="1.1.2.3. Dégénérescence cornéenne"
-              content={
-                <div>
-                  <p className="mt-4">
-                    Les dégénérescences cornéennes sont des altérations qui font
-                    perdre à la cornée une ou plusieurs de ses propriétés
-                    normales, secondaires à des changements pathologiques dans
-                    la cornée. (Sansom et Blunden, 2010 ; Maggs et al., 2018).{" "}
-                    <br />
-                    Une accumulation de lipides, de cholestérol, ou de calcium,
-                    qui sont précédés d'une kératite, d’une vascularisation et
-                    éventuellement de la mélanose (Brooks et al., 1990 ; Kirk,
-                    2014).
-                  </p>
-                  <img
-                    src={test6}
-                    alt="Dégénérescence cornéenne diffuse avec une plaque blanche dense et une vascularisation"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Figure : Dégénérescence cornéenne diffuse avec une plaque
-                    blanche dense et une vascularisation (Maggs et al., 2018)
-                  </p>
-
-                  <PathologySection
-                    title="● Diagnostic :"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Les lésions peuvent être d'un blanc dense ou blanc
-                          grisâtre. Les frontières du cristallin sont bien
-                          délimitées. Elles peuvent se produire dans n'importe
-                          quelle zone de la cornée, mais généralement elles sont
-                          axiales ou paraxiales (Sansom et Blunden, 2010).{" "}
-                          <br />
-                          Au fur et à mesure que la dégénérescence progresse,
-                          des dépôts de cholestérol et de calcium sont observés.
-                          La présence de calcium peut contribuer à un retard de
-                          la guérison de la cornée (Brooks et al., 1990 ; Maggs
-                          et al., 2018). <br />
-                          La dégénérescence calcique peut être secondaire à une
-                          maladie ou spontanée (associée à une inflammation
-                          locale). L’hypercalcémie, l’hyperphosphatémie,
-                          l’hyperadrénocorticisme, l’urémie et l’hypervitaminose
-                          D peuvent potentiellement être accompagnés de
-                          calcification cornéenne secondaire. <br />
-                          La dégénérescence graisseuse et la dégénérescence
-                          hyaline peuvent précéder ou accompagner la
-                          calcification cornéenne (Maggs et al., 2018).
-                        </p>
-                        <img
-                          src={test7}
-                          alt="Dégénérescence cornéenne chez un chien"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : La dégénérescence cornéenne chez un chien{" "}
-                          <a
-                            href="https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/degenerescence-corneenne/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-400 hover:text-blue-300 ml-1"
-                          >
-                            (Source)
-                          </a>
-                        </p>
-                      </div>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Traitement :"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Il n’existe pas de traitement médical efficace
-                          permettant de faire régresser les dépôts dans le
-                          stroma cornéen. Lorsqu’une cause est identifiée, comme
-                          une kératite, une uvéite, une épisclérite ou un ulcère
-                          cornéen, elle doit être gérée de manière spécifique.{" "}
-                          <br />
-                          La corticothérapie doit être évitée dans la
-                          dégénérescence cornéenne, car elle diminue la
-                          vascularisation, la fonction des macrophages, et par
-                          la suite la résolution de la lésion. <br />
-                          La kératectomie peut être envisagée si la lésion est
-                          évolutive et la vision compromise. Une greffe de
-                          biomatériau peut compléter l’intervention en fonction
-                          de la profondeur de la lésion. La kératectomie peut
-                          être envisagée si la lésion est évolutive et la vision
-                          compromise. On complètera d’une greffe de biomatériau
-                          en fonction de la profondeur d’atteinte. (Sansom et
-                          Blunden, 2010 ; Berryhill et al., 2016).
-                        </p>
-                      </div>
-                    }
-                  />
-                </div>
-              }
-            />
-            <PathologySection
               title="1.1.2.4. Dystrophie endothéliale cornéenne"
               content={
-                <div>
-                  <p className="mt-4">
-                    Un œdème cornéen progressif résultant de la présence de
-                    cellules endothéliales dystrophiques anormales (Kirk, 2014).{" "}
-                    <br />
-                    Une dégénérescence bilatérale progressive des cellules
-                    endothéliales cornéennes qui se traduit par un œdème, et une
-                    cornée avasculaire.
-                  </p>
-                  <img
-                    src={test8}
-                    alt="Dystrophie endothéliale cornéenne chez un chien"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Figure : Dystrophie endothéliale cornéenne chez un chien
-                  </p>
-
-                  <PathologySection
-                    title="● Diagnostic :"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Un aspect blanc bleuté de l'opacité cornéenne. <br />
-                          Un manque de vascularisation de la cornée ou hyperémie
-                          conjonctivale. <br />
-                          La première lésion : l'œdème cornéen, localisé
-                          temporellement et progresse lentement, sur plusieurs
-                          mois à quelques années, pour impliquer toute la
-                          cornée. <br />
-                          Elle est initialement asymétrique puis progresse à une
-                          opacité cornéenne complète et bilatérale (Casola et
-                          al., 2020).
-                        </p>
-                        <img
-                          src={test9}
-                          alt="Œdème cornéen diffus chez un Boston Terrier"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Œdème cornéen diffus chez un Boston Terrier
-                          avec dystrophie endothéliale cornéenne avancée (Kirk,
-                          2014).
-                        </p>
-                      </div>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Traitement :"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          La thérapie palliative est le plus souvent utilisée
-                          pour la dystrophie endothéliale. <br />
-                          Les hyperosmotiques peuvent diminuer l'étendue de la
-                          formation de bulles, mais un éclaircissement cornéen
-                          important ne peut se produire. <br />
-                          La thermokératoplastie (cautérisation thermique) est
-                          préconisée avec utilisation de points multifocaux de
-                          cautérisation thermique superficielle appliqués de
-                          manière circulaire sur la cornée exposée (Casola et
-                          al., 2020).
-                        </p>
-                        <img
-                          src={test10}
-                          alt="Thermokératoplastie lors de dystrophie endothéliale cornéenne"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Thermokératoplastie lors de dystrophie
-                          endothéliale cornéenne (Kirk, 2014).
-                        </p>
-                      </div>
-                    }
-                  />
-                </div>
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[6])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
               }
             />
             <PathologySection
               title="1.1.2.5. Lacérations cornéennes"
               content={
-                <div>
-                  <p className="mt-4">
-                    Souvent secondaires à des blessures causées par les griffes
-                    du chat, les lacérations cornéennes se distinguent en deux
-                    types : les lacérations pénétrant la cornée et les
-                    lacérations perforantes. Quelle que soit la cause, des
-                    facteurs doivent être établis dans toutes les lacérations
-                    cornéennes : profondeur de la lacération, atteinte du
-                    cristallin, et l'extension de la lacération au-delà du limbe
-                    (Kirk, 2014).
-                  </p>
-                  <img
-                    src={test11}
-                    alt="Lacération du bord libre de la troisième paupière chez un chien suite à une griffure de chat"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Figure : Lacération du bord libre de la troisième paupière
-                    chez un chien suite à une griffure de chat. La pupille a été
-                    pharmacologiquement dilatée pour rechercher une éventuelle
-                    lésion intraoculaire © Elizabeth Giuliano
-                  </p>
-
-                  <PathologySection
-                    title="● Symptômes :"
-                    content={
-                      <div>
-                        <ul className="list-disc ml-6 mt-4">
-                          <li>Lésion douloureuse</li>
-                          <li>Blépharospasme</li>
-                          <li>Myosis</li>
-                          <li>
-                            Épiphora séreux à muco-purulent selon l’ancienneté
-                            de l’affection
-                          </li>
-                          <li>Hyperhémie conjonctivale parfois importante</li>
-                        </ul>
-                        <p className="mt-4">
-                          Les lacérations pénétrantes entraînent un ulcère
-                          cornéen de profondeur variable. Ces lacérations
-                          peuvent être ponctiformes, avoir un aspect
-                          caractéristique de déchirure rectiligne ou se
-                          matérialiser sous forme de soulèvement d’une portion
-                          de cornée (« scalp cornéen »). Dans ce cas, la douleur
-                          est intense, et des signes plus ou moins prononcés
-                          d’uvéite antérieure (myosis, hypopion, hyphéma, etc.)
-                          sont souvent associés. Un examen minutieux est
-                          effectué pour évaluer l'étendue de la blessure, en
-                          prenant soin d'éviter toute pression sur le globe afin
-                          d'éviter des lésions intraoculaires supplémentaires
-                          (Kirk, 2014). Les lacérations s'étendant au-delà du
-                          limbe comportent un risque élevé de dommages au
-                          cristallin, au corps ciliaire sous-jacent, et à la
-                          rétine, avec une uvéite marquée.
-                        </p>
-                        <img
-                          src={test12}
-                          alt="Lacération cornéenne avec rupture de la capsule antérieure du cristallin"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Lacération cornéenne (A) avec rupture de la
-                          capsule antérieure du cristallin (B) (Maggs et al.,
-                          2018)
-                        </p>
-                      </div>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Traitement :"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Les lacérations qui ne pénètrent que les couches
-                          cornéennes superficielles, plutôt que toute
-                          l'épaisseur de la cornée, ont généralement un bon
-                          pronostic avec une prise en charge adaptée. Elles sont
-                          traitées de manière similaire aux ulcères cornéens
-                          (Maggs et al., 2018). Les plaies perforantes avec
-                          rupture du globe présentent un pronostic plus sombre
-                          en raison des lésions intraoculaires et d'une plus
-                          grande rupture des tissus au bord de la plaie. Les
-                          ulcères cornéens superficiels ou peu profonds et de
-                          petite taille peuvent être gérés par un traitement
-                          médical seul. Les scalps cornéens, ainsi que les
-                          lésions cornéennes profondes, perforantes ou de grande
-                          taille, nécessitent une prise en charge chirurgicale :
-                          sutures cornéennes, lambeau conjonctival, ou greffe de
-                          biomatériau, selon le cas.
-                        </p>
-                        <img
-                          src={test13}
-                          alt="Lacération cornéenne"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Lacération cornéenne
-                        </p>
-                        <p className="mt-4">
-                          Pour en savoir plus, consultez la vidéo explicative :{" "}
-                          <a
-                            href="https://www.youtube.com/watch?v=yAYaHEP15Ds&rco=1"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-400 hover:text-blue-300"
-                          >
-                            Voir la vidéo
-                          </a>
-                        </p>
-                      </div>
-                    }
-                  />
-                </div>
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[7])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
               }
             />
             <PathologySection
               title="1.1.2.6. Corps étrangers cornéens"
               content={
-                <div>
-                  <p className="mt-4">
-                    Les corps étrangers cornéens se distinguent en deux types
-                    différents :
-                  </p>
-                  <ul className="list-disc ml-6 mt-4">
-                    <li>
-                      Ceux qui adhèrent à la surface cornéenne par tension
-                      superficielle et peuvent par la suite devenir encore plus
-                      solidement attachés par création d’une région ulcérée à
-                      leurs bords.
-                    </li>
-                    <li>
-                      Ceux qui pénètrent dans la cornée et parfois dans le globe
-                      lui-même (Sandmeyer et al., 2016).
-                    </li>
-                  </ul>
-                  <img
-                    src={test14}
-                    alt="Œil gauche d'un braque avec un corps étranger sur la surface de la cornée"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Figure : œil gauche d'un braque avec un corps étranger sur
-                    la surface de la cornée (Sandmeyer et al., 2016)
-                  </p>
-                  <p className="mt-4">
-                    Ces corps étrangers doivent être supprimés pour limiter la
-                    douleur, réduire le risque d'infection et prévenir la
-                    vascularisation et la formation de cicatrices.
-                  </p>
-                  <img
-                    src={test15}
-                    alt="Corps étranger implanté dans la cornée d’un chien et faisant protrusion dans la chambre antérieure"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Figure : Corps étranger implanté dans la cornée d’un chien
-                    et faisant protrusion dans la chambre antérieure
-                  </p>
-
-                  <PathologySection
-                    title="● Traitement :"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Le traitement consiste tout d’abord à extraire le
-                          corps étranger, sous anesthésie locale ou générale en
-                          fonction de sa profondeur et de la patience de
-                          l’animal. L’extraction peut être effectuée avec :
-                        </p>
-                        <ul className="list-disc ml-6 mt-4">
-                          <li>Une pince</li>
-                          <li>Une aiguille de 25G</li>
-                          <li>Un coton-tige</li>
-                          <li>Du sérum physiologique s’il est superficiel</li>
-                        </ul>
-                        <p className="mt-4">
-                          Pour les corps étrangers pénétrants ou perforants, une
-                          microchirurgie est nécessaire, incluant selon les cas
-                          : des sutures cornéennes, la fixation d’un
-                          biomatériau, ou un lambeau conjonctival.
-                        </p>
-                        <p className="mt-4">
-                          Les petits corps étrangers collés sont mieux retirés
-                          avec un jet de solution saline dirigé avec force sur
-                          la surface cornéenne après application d’un topique
-                          anesthésique. Cette procédure est sûre uniquement si
-                          la cornée n’est pas affaiblie, car un courant de
-                          fluide peut rompre un descemétocèle ou un autre ulcère
-                          profond (Lew et al., 2015 ; Sandmeyer et al., 2016).
-                        </p>
-                        <p className="mt-4">
-                          Les corps étrangers pénétrants sont plus
-                          problématiques et devraient être référés pour une
-                          intervention chirurgicale. L'extraction est réalisée
-                          au microscope opératoire avec une incision pratiquée
-                          dans la cornée au-dessus du grand axe du corps
-                          étranger (Lew et al., 2015).
-                        </p>
-                        <img
-                          src={test16}
-                          alt="Corps étranger (épine) dans la partie médiane de la cornée"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Corps étranger (épine) dans la partie médiane
-                          de la cornée (Lew et al., 2015)
-                        </p>
-                        <p className="mt-4">
-                          Après élimination de tout corps étranger, un
-                          traitement antibiotique topique à large spectre et de
-                          l’atropine sont administrés pour limiter l'infection
-                          et les effets de l'uvéite secondaire. Si une
-                          perforation du globe s'est produite, un antibiotique
-                          systémique doit également être utilisé.
-                        </p>
-                        <p className="mt-4">
-                          La cicatrisation épithéliale cornéenne est normalement
-                          rapide tant que l'infection secondaire est contrôlée.
-                        </p>
-                        <p className="mt-4">
-                          Pour en savoir plus, consultez la vidéo explicative :{" "}
-                          <a
-                            href="https://www.youtube.com/watch?v=sO83JAJsziI"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-400 hover:text-blue-300"
-                          >
-                            Voir la vidéo
-                          </a>
-                        </p>
-                      </div>
-                    }
-                  />
-                </div>
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[8])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
               }
             />
             <PathologySection
-              title="1.1.2.7. Brûlures cornéennes"
+              title="1.1.2.7. Brulures cornéennes"
               content={
-                <div>
-                  <p className="my-4">
-                    Les brûlures cornéennes sont de nature chimique ou
-                    thermique. Ce sont des urgences absolues en raison des
-                    séquelles graves qu’elles peuvent entraîner (Abbaszadeh et
-                    al., 2010).
-                  </p>
-
-                  <PathologySection
-                    title="● Étiologie et pathogénie"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Les acides sont responsables de lésions de la surface
-                          oculaire. Ils précipitent et dénaturent les protéines
-                          de l’épithélium cornéen, qui prend un aspect
-                          nécrotique blanchâtre sur un stroma sous‐jacent clair
-                          (Beltran et Clerc, 1998 ; Hannouche et Hoangxuan,
-                          2000).
-                        </p>
-                        <p className="mt-4">
-                          Les brûlures thermiques sont dues soit à l’exposition
-                          à une flamme ou une source de chaleur, soit à un
-                          contact direct avec un corps chaud ou un liquide
-                          bouillant. Ces brûlures sont souvent associées à des
-                          brûlures de la face (Abbaszadeh et al., 2010).
-                        </p>
-                      </div>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Signes cliniques"
-                    content={
-                      <ul className="list-disc ml-6 mt-4">
-                        <li>
-                          Destruction de l'épithélium superficiel de la cornée
-                          et de la conjonctive.
-                        </li>
-                        <li>
-                          Nécrose des tissus profonds (pour des concentrations
-                          élevées de produits chimiques).
-                        </li>
-                        <li>Blépharospasme.</li>
-                        <li>Photophobie.</li>
-                        <li>Larmoiement, rougeur, douleur oculaire.</li>
-                        <li>
-                          Baisse de l’acuité visuelle (Hannouche et Hoangxuan,
-                          2000).
-                        </li>
-                      </ul>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Traitement"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Rincer abondamment la cornée à l’aide de sérum
-                          physiologique. Le lavage abondant de la surface
-                          oculaire et des voies lacrymales doit précéder
-                          l’examen clinique (Miller et Rhaesa, 1996 ; Payern et
-                          al., 2006).
-                        </p>
-                        <p className="mt-4">
-                          Utiliser une solution de lactate de Ringer ou une
-                          solution physiologique équilibrée (BSS) pour le
-                          lavage, car elles sont adaptées au milieu
-                          électrolytique du stroma cornéen (Hannouche et
-                          Hoangxuan, 2004).
-                        </p>
-                        <p className="mt-4">
-                          Il ne faut surtout pas laver avec une solution de pH
-                          opposé, ce qui pourrait aggraver les lésions.
-                          Appliquer un antibiotique à large spectre localement
-                          pour prévenir les infections cornéennes et un
-                          substitut de larmes toutes les deux heures pour éviter
-                          la sécheresse oculaire.
-                        </p>
-                      </div>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Pronostic"
-                    content={
-                      <p className="mt-4">
-                        Les brûlures caustiques de la cornée peuvent être
-                        classées en quatre grades pronostiques. Le pronostic est
-                        bon pour les grades I et II, qui guérissent en quelques
-                        jours sans séquelles, mais il est mauvais pour les
-                        grades III et IV.
-                      </p>
-                    }
-                  />
-
-                  <img
-                    src={test17}
-                    alt="Brûlure chimique de la cornée (A : Colle sur la surface, B : Évolution)"
-                    className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                  />
-                  <p className="text-center italic">
-                    Figure : Brûlure chimique de la cornée (Abbaszadeh et al.,
-                    2010)
-                  </p>
-                </div>
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[9])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
               }
             />
-            <h3 className="text-2xl font-semibold text-gray-200 my-3">
-              1.2 Maladies sclérales
-            </h3>
+            <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+              1.1. Maladies de la cornée
+            </h2>
 
+
+            <h3 className="text-xl font-semibold text-gray-300 mb-4">
+              1.2. Maladies sclérales
+            </h3>
             <PathologySection
               title="1.2.1. Épisclérite granulomateuse nodulaire (NGE)"
               content={
-                <div>
-                  <p className="my-4">
-                    Aussi appelé kératoconjonctivite proliférative, granulome
-                    limbique, pseudotumeur et granulome du colley.
-                  </p>
-
-                  <PathologySection
-                    title="● Définition"
-                    content={
-                      <p className="mt-4">
-                        Une maladie oculaire à médiation immunitaire
-                        (inflammatoire) qui touche la sclère, la cornée et la
-                        membrane nictitante.
-                      </p>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Prédisposition raciale"
-                    content={
-                      <>
-                        <p className="mt-4">
-                          Le colley, le cocker américain et les bergers de
-                          Shetland (Hamzianpour et al., 2019).
-                        </p>
-                        <img
-                          src={test18}
-                          alt="Brûlure chimique de la cornée (A : Colle sur la surface, B : Évolution)"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Examen rapprochédes deux yeux. <br />
-                          2a. Examen comparé de l’œil droit : noterla
-                          déformation sclérale à 9 h et12 h, le chémosis marqué,
-                          l’infiltrat cellulaire du stroma cornéen, les
-                          néo-vaisseaux périlimbiques et l’œdème associé
-                          <br /> 2b. Œil gaucheaprès dilatation.
-                        </p>
-                      </>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Symptômes"
-                    content={
-                      <>
-                        <ul className="list-disc ml-6 mt-4">
-                          <li>Plusieurs masses charnues élevées.</li>
-                          <li>
-                            Une seule masse survenant au limbe et infiltrant le
-                            stroma cornéen adjacent.
-                          </li>
-                        </ul>
-                        <img
-                          src={test19}
-                          alt="Épisclérite granulomateuse nodulaire"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Vues de face (A) et latérales (B) d'un chien
-                          atteint d'épisclérokératite granulomateuse nodulaire
-                          focale (Hamzianpour et al., 2019).
-                        </p>
-                      </>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Observations"
-                    content={
-                      <p className="mt-4">
-                        Noter le gonflement sous-conjonctival, l'injection
-                        conjonctivale et l'œdème cornéen périphérique adjacent à
-                        la lésion.
-                      </p>
-                    }
-                  />
-
-                  <PathologySection
-                    title="● Traitement"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Généralement, la NGE a tendance à être bénigne, avec
-                          une bonne réponse à l'administration topique de
-                          corticostéroïdes.
-                        </p>
-                        <div className="flex justify-center items-center gap-3 flex-wrap">
-                          <div>
-                            <img
-                              src={test20}
-                              alt="Épisclérite granulomateuse nodulaire"
-                              className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                            />
-                            <p className="text-center italic">
-                              Figure : Aspect initial avec une NGE
-                            </p>
-                          </div>
-                          <div>
-                            <img
-                              src={test21}
-                              alt="Épisclérite granulomateuse nodulaire"
-                              className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                            />
-                            <p className="text-center italic">
-                              Figure : même œil après 3 semaines de traitement
-                              anti-inflammatoire
-                            </p>
-                          </div>
-                        </div>
-                        <p className="mt-4 font-semibold">
-                          Procédures chirurgicales :
-                        </p>
-                        <ul className="list-disc ml-6">
-                          <li>Canthotomie latérale.</li>
-                          <li>
-                            Kératectomie lamellaire associée à une sclérotomie.
-                          </li>
-                          <li>Dissection de plan profond.</li>
-                          <li>
-                            Excision des deux tiers de l’épaisseur du stroma
-                            cornéen.
-                          </li>
-                          <li>
-                            Mise en place d’une greffe conjonctivale pédiculée
-                            et suturée par des points simples.
-                          </li>
-                        </ul>
-                        <img
-                          src={test22}
-                          alt="Épisclérite granulomateuse nodulaire"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          12. Kératectomie lamellaire et sclérotomie. <br />
-                          13. Dissection du plan profond à l’aide du couteau de
-                          Crescent. <br />
-                          14. Aspect de la zone après kératectomie. <br />
-                          15. Aspect de l’œil droit après fixation du lambeau
-                          conjonctival pédiculé. <br />
-                          photos : B. Michaud
-                        </p>
-                        <img
-                          src={test23}
-                          alt="Épisclérite granulomateuse nodulaire"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          17. Œil droit 3 jours après l’intervention. <br />
-                          18. Œil droit 10 jours après l’intervention <br />
-                          19. Œil droit 3 semaines après l’intervention <br />
-                        </p>
-                      </div>
-                    }
-                  />
-
-                  <p className="mt-6">
-                    Plus d’informations :{" "}
-                    <a
-                      href="https://ophtalmoveterinaire.com/maladies_oculaires/episclerite-nodulaire-granulomateuse/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 underline"
-                    >
-                      Ophtalmologie vétérinaire
-                    </a>
-                  </p>
-                </div>
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[10])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
               }
             />
             <PathologySection
               title="1.2.2. Sclérite"
               content={
-                <div>
-                  <p className="my-4">
-                    Une maladie inflammatoire de la sclérotique divisée en :
-                  </p>
-                  <ul className="list-disc ml-6">
-                    <li>Sclérite granulomateuse non nécrosante</li>
-                    <li>Sclérite granulomateuse nécrosante</li>
-                  </ul>
-                  <PathologySection
-                    title="● Prédisposition raciale"
-                    content={
-                      <p className="mt-4">
-                        Les races épagneul ; le cocker américain Épagneul +++
-                      </p>
-                    }
-                  />
-                  <PathologySection
-                    title="● Symptômes"
-                    content={
-                      <>
-                        <ul className="list-disc ml-6 mt-4">
-                          <li>
-                            Lésions rose-brun à proximité, mais postérieures au
-                            limbe.
-                          </li>
-                          <li>Œdème cornéen.</li>
-                          <li>Douleur oculaire.</li>
-                          <li>Photophobie.</li>
-                          <li>Larmoiement excessif.</li>
-                        </ul>
-                        <p className="mt-4">
-                          Dans certains cas, une kératite, une uvéite antérieure
-                          peuvent être présentes car l'inflammation sclérale
-                          s'étend dans ces tissus adjacents.
-                        </p>
-                        <img
-                          src={test24}
-                          alt="Sclérite sévère, œdème cornéen périphérique et foyer de dégénérescence cornéenne"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Sclérite sévère, œdème cornéen périphérique
-                          et foyer de dégénérescence cornéenne (Maggs et al.,
-                          2018)
-                        </p>
-                      </>
-                    }
-                  />
-                  <PathologySection
-                    title="● Observations"
-                    content={
-                      <>
-                        <p className="mt-4">
-                          La lésion typique de la sclérite consiste en
-                          inflammation granulomateuse avec infiltration de
-                          lymphocytes, plasmocytes et macrophages épithélioïdes.
-                        </p>
-                        <p className="mt-4">
-                          Lorsqu'une uvéite est présente, l'infiltrat uvéal est
-                          non granulomateux.
-                        </p>
-                        <ul className="list-disc ml-6 mt-4">
-                          <li>La sclère endommagée devient fibreuse.</li>
-                          <li>
-                            Formation des kystes multifocaux dans la sclère
-                            affectée.
-                          </li>
-                          <li>Présence des régions d’amincissement scléral.</li>
-                        </ul>
-
-                        <img
-                          src={test25}
-                          alt="Épisclérite diffuse chez un jeune labrador"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Episclérite diffuse chez un jeune labrador
-                        </p>
-                      </>
-                    }
-                  />
-                  <PathologySection
-                    title="● Traitement"
-                    content={
-                      <div>
-                        <p className="mt-4">
-                          Les corticostéroïdes intra-lésionnels favorisent
-                          généralement la régression des lésions.
-                        </p>
-
-                        <img
-                          src={test26}
-                          alt="Même œil après une semaine de corticothérapie"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Episclérite diffuse chez un jeune labrador
-                        </p>
-
-                        <img
-                          src={test27}
-                          alt="Même œil après une semaine de corticothérapie"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Même œil après une semaine de corticothérapie
-                        </p>
-                      </div>
-                    }
-                  />
-                  <p className="mt-6">
-                    Plus d’informations :{" "}
-                    <a
-                      href="https://visionanimale.fr/episclerite-chez-un-jeune-labrador/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 underline"
-                    >
-                      Vision Animale
-                    </a>
-                  </p>
-                </div>
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[11])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <h3 className="text-xl font-semibold text-gray-300 mb-4">
+              1.2.3. Masses cornéosclérales et Tumeurs
+            </h3>
+            <PathologySection
+              title="1.2.3.1. Kystes d'inclusion épithéliale cornéenne"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[12])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
               }
             />
             <PathologySection
-              title="1.2.3. Masses cornéosclérales et Tumeurs"
+              title="1.2.3.2. Carcinome squameux"
               content={
-                <div>
-                  <p className="my-4">
-                    Les masses cornéennes, limbiques et cornéosclérales sont
-                    rares chez les mammifères domestiques. Elles peuvent inclure
-                    des kystes non-néoplasiques, abcès, troubles inflammatoires
-                    et des néoplasmes tels que le carcinome épidermoïde, le
-                    mélanome, le papillome, le lymphome et
-                    l’hémangiome/hémangiosarcome.
-                  </p>
-                  <div className="flex justify-center flex-wrap items-center gap-4">
-                    <div className="flex flex-col justify-center items-center">
-                      <img
-                        src={test28}
-                        alt="Section pédiculaire après greffe conjonctivale"
-                        className=" w-full max-w-md mx-auto rounded-lg my-6"
-                      />
-                      <p className="text-center italic">
-                        Figure : Mélanome épibulbaire chez un labrador.
-                      </p>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                      <img
-                        src={test29}
-                        alt="Section pédiculaire après greffe conjonctivale"
-                        className="w-full max-w-md mx-auto rounded-lg my-6"
-                      />
-                      <p className="text-center italic">
-                        Figure : Aspect postopératoire après exérèse
-                        chirurgicale du mélanome épibulbaire (de la photo
-                        précédente), associée au laser diode et à une greffe
-                        conjonctivale
-                      </p>
-                    </div>
-                  </div>
-                  <PathologySection
-                    title="1.2.3.1. Kystes d'inclusion épithéliale cornéenne"
-                    content={
-                      <>
-                        <p className="my-4">
-                          La formation de kystes dans la cornée peut impliquer
-                          les quatre couches. Ils sont généralement unilatéraux
-                          et solitaires.
-                        </p>
-                        <PathologySection
-                          title="● Symptômes"
-                          content={
-                            <ul className="list-disc ml-6 mt-4">
-                              <li>
-                                Masses cornéennes surélevées, blanches à roses.
-                              </li>
-                              <li>
-                                Typiquement chronique et non douloureuse, mais
-                                peut altérer la vision.
-                              </li>
-                            </ul>
-                          }
-                        />
-                        <PathologySection
-                          title="● Étiologie"
-                          content={
-                            <p className="mt-4">
-                              Une origine traumatique est souvent suspectée. Ces
-                              kystes peuvent également être congénitaux ou se
-                              développer après une chirurgie cornéenne.
-                            </p>
-                          }
-                        />
-                        <PathologySection
-                          title="● Traitement"
-                          content={
-                            <p className="mt-4">
-                              Le traitement repose sur une kératectomie
-                              superficielle complète, avec ou sans greffe
-                              conjonctivale ou autre intervention
-                              complémentaire.
-                            </p>
-                          }
-                        />
-                        <img
-                          src={test30}
-                          alt="Kystes d’inclusion épithéliaux chez un chien"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : Kystes d’inclusion épithéliaux chez un chien
-                        </p>
-                        <img
-                          src={test31}
-                          alt="Kystes d’inclusion épithéliaux chez un chien"
-                          className="w-full max-w-3xl mx-auto rounded-lg my-6"
-                        />
-                        <p className="text-center italic">
-                          Figure : UN KYSTE CORNÉEN CHEZ UN BERGER DE BEAUCE
-                          (Service d'ophtalmologie du Centre Hospitalier
-                          Vétérinaire Cordeliers Meaux)
-                        </p>
-                        <PathologySection
-                          title="● Observations"
-                          content={
-                            <>
-                              <p className="mt-4">
-                                Lésion kystique sous-épithéliale à paroi fine et
-                                transparente, au contenu beige pâteux. Présence
-                                de débris épithéliaux dans la lumière du kyste
-                                formant un pseudo-hypopion.
-                              </p>
-                              <img
-                                src={test31}
-                                alt="Kystes d’inclusion épithéliaux chez un chien"
-                                className="w-full max-w-3xl mx-auto rounded-lg my-6 mt-10"
-                              />
-                              <p className="text-center italic">
-                                Figure : Kératectomie sous microscope à l'aide
-                                d'un couteau cleave
-                              </p>
-                              <img
-                                src={test32}
-                                alt="Kystes d’inclusion épithéliaux chez un chien"
-                                className="w-full max-w-3xl mx-auto rounded-lg my-6 mt-10"
-                              />
-                              <p className="text-center italic">
-                                Figure : La mise en place d'une lentille
-                                pansement va permettre la cicatrisation
-                                cornéenne
-                              </p>
-                              <img
-                                src={test33}
-                                alt="Kystes d’inclusion épithéliaux chez un chien"
-                                className="w-full max-w-3xl mx-auto rounded-lg my-6 mt-10"
-                              />
-                              <p className="text-center italic">
-                                Figure : Résultat à un mois post opératoire{" "}
-                                <a
-                                  href="https://www.facebook.com/photo/?fbid=1035154091259157&set=pcb.1035153181259248"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  (lien)
-                                </a>
-                              </p>
-                            </>
-                          }
-                        />
-                      </>
-                    }
-                  />
-                </div>
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[14])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="1.2.3.3. Papillomes"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[13])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="1.2.3.4. Lymphosarcome cornéen"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[15])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="1.2.3.5. Autres néoplasmes cornéens"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[16])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+
+            <motion.h1
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+            >
+              Pathologies de l’uvée
+            </motion.h1>
+
+
+            <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+              2.2. Anomalies congénitales de l'uvée
+            </h2>
+
+
+            <h3 className="text-xl font-semibold text-gray-300 mb-4">
+              2.2.1. Anomalies de la pupille
+            </h3>
+
+            <PathologySection
+              title="2.2.1.1. Membrane pupillaire persistante (MPP)"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[17])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.2.1.2. Colobome"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[18])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.2.2. Dysgénésie du segment antérieur"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[19])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.2.3. Troubles de la pigmentation"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[20])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.2.4. Hétérochromie"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[21])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+              2.3. Anomalies acquises de l'uvée
+            </h2>
+            <PathologySection
+              title="2.3.1. Uvéites"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[22])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.3.2. Prolapsus de l'iris"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[23])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+
+            <h3 className="text-xl font-semibold text-gray-300 mb-4">
+              2.3.3. Kystes et néoplasmes uvéaux
+            </h3>
+            <PathologySection
+              title="2.3.3.1. Kystes de l'uvée"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[24])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.3.3.2. Tumeurs primaires"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[25])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <motion.h1
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+            >
+              III. PATHOLOGIES DE LA TUNIQUE NERVEUSE
+            </motion.h1>
+
+            <motion.h1
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+            >
+              Pathologies de la rétine
+            </motion.h1>
+            <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+              1.1. Maladies congénitales et héréditaires
+            </h2>
+            <PathologySection
+              title="1.1.1 : Plis rétiniens et dysplasie rétinienne"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[27])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="1.1.2. : Anomalie de l'œil du colley"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[28])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="1.1.3. : Atrophie rétinienne progressive généralisée :"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[29])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <h3 className="text-xl font-semibold text-gray-300 mb-4">
+              1.2. Maladies acquises
+            </h3>
+            <PathologySection
+              title="1.2.1. Décollement de la rétine"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[30])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="1.2.3. Maladies inflammatoires de la rétine"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[32])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="1.2.4. Néoplasie de la rétine"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[31])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <motion.h1
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+            >
+              Pathologies du nerf optique
+            </motion.h1>
+            <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+              2.1. Maladies congénitales et héréditaires
+            </h2>
+            <PathologySection
+              title="2.1.1 : Hypoplasie du nerf optique canin"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[34])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.1.2 : Aplasie du nerf optique chez le chien"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[35])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.1.3.Colobome du nerf optique :"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[36])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+              2.2. Pathologies acquises
+            </h2>
+            <PathologySection
+              title="2.2.1. Névrite optique"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[37])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.2.3. Inflammation du nerf optique"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[38])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.2.4. Glaucomes"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[39])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
+              }
+            />
+            <PathologySection
+              title="2.2.5. Tumeurs du nerf optique	"
+              content={
+                <motion.div
+                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => openModal(anomalies[40])}
+                >
+                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                    Voir la Maladie
+                  </h3>
+                </motion.div>
               }
             />
           </div>
