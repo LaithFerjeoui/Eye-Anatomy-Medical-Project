@@ -92,6 +92,34 @@ const AnatomyModal = ({ isOpen, onClose, anatomy }) => {
                   {anatomy?.composantsImageCaption && (
                     <p className="text-gray-300 text-sm italic text-center">{anatomy.composantsImageCaption}</p>
                   )}
+                   {anatomy?.composantsImage2 && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      src={anatomy.composantsImage2}
+                      alt="Components view"
+                      className="mx-auto h-96 object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
+
+                  {anatomy?.composantsImageCaption2 && (
+                    <p className="text-gray-300 text-sm italic text-center">{anatomy.composantsImageCaption}</p>
+                  )}
+                   {anatomy?.composantsImage3 && (
+                    <motion.img
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      src={anatomy.composantsImage3}
+                      alt="Components view"
+                      className="mx-auto h-96 object-cover rounded-lg my-4 shadow-lg"
+                    />
+                  )}
+
+                  {anatomy?.composantsImageCaption3 && (
+                    <p className="text-gray-300 text-sm italic text-center">{anatomy.composantsImageCaption}</p>
+                  )}
 
                   {/* Note (Triangle Notification) */}
                   {anatomy?.note && (
