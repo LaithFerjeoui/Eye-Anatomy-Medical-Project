@@ -38,7 +38,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
-                    className="text-gray-100 mt-4 leading-relaxed"
+                    className="text-gray-50 mt-4 leading-relaxed"
                   >
                     {anomaly?.definition}
                   </motion.div>
@@ -55,10 +55,10 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                   )}
 
                   {anomaly?.caption && (
-                    <p className="text-gray-300 text-sm italic text-center">{anomaly.caption}</p>
+                    <p className="text-gray-100 text-sm italic text-center">{anomaly.caption}</p>
                   )}
                    {anomaly?.defLink && (
-                    <a href={anomaly?.defLink} className="text-gray-100 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Lien)</a>
+                    <a href={anomaly?.defLink} className="text-gray-50 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Lien)</a>
                   )}
                   {/* Signs */}
                   {anomaly?.signs && (
@@ -74,7 +74,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3 }}
-                        className="text-gray-100 mt-4 leading-relaxed"
+                        className="text-gray-50 mt-4 leading-relaxed"
                       >
                         {anomaly.signs}
                       </motion.div>
@@ -94,7 +94,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                   )}
 
                   {anomaly?.additionalCaption && (
-                    <p className="text-gray-300 text-sm italic text-center">{anomaly.additionalCaption}</p>
+                    <p className="text-gray-100 text-sm italic text-center">{anomaly.additionalCaption}</p>
                   )}
 
                   {/* Treatment Steps */}
@@ -115,7 +115,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.6 }}
-                      className="text-gray-100 mt-4 leading-relaxed"
+                      className="text-gray-50 mt-4 leading-relaxed"
                     >
                       {anomaly?.steps}
                     </motion.div>
@@ -131,7 +131,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                     />
                   )}
                   {anomaly?.treatmentImageCaption && (
-                    <p className="text-gray-300 text-sm italic text-center">{anomaly.treatmentImageCaption}</p>
+                    <p className="text-gray-100 text-sm italic text-center">{anomaly.treatmentImageCaption}</p>
                   )}
                   {anomaly?.treatmentImage2 && (
                     <motion.img
@@ -144,7 +144,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                     />
                   )}
                   {anomaly?.treatmentImageCaption2 && (
-                    <p className="text-gray-300 text-sm italic text-center">{anomaly.treatmentImageCaption2}</p>
+                    <p className="text-gray-100 text-sm italic text-center">{anomaly.treatmentImageCaption2}</p>
                   )}
                   {anomaly?.treatmentImage3 && (
                     <motion.img
@@ -157,13 +157,13 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                     />
                   )}
                   {anomaly?.treatmentImageCaption3 && (
-                    <p className="text-gray-300 text-sm italic text-center">{anomaly.treatmentImageCaption3}</p>
+                    <p className="text-gray-100 text-sm italic text-center">{anomaly.treatmentImageCaption3}</p>
                   )}
                   {anomaly?.treatmentVideo && (
-                    <a href={anomaly?.treatmentVideo} className="text-gray-100 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Video)</a>
+                    <a href={anomaly?.treatmentVideo} className="text-gray-50 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Video)</a>
                   )}
                    {anomaly?.link && (
-                    <a href={anomaly?.link} className="text-gray-100 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Lien)</a>
+                    <a href={anomaly?.link} className="text-gray-50 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Lien)</a>
                   )}
                   {/* Close Button */}
                   <motion.button

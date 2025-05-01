@@ -2,28 +2,24 @@ import React, { useState } from "react";
 import Navbar from "../Components/Navbar";
 import { TypewriterEffectSmooth } from "../Components/typewriter-effect";
 import logo from "../../public/logo.png";
-import eye from "../../public/Figures/eyeOfDog.jpg";
+import eye from "../../public/Home/banner.jpeg";
 import { motion } from "framer-motion";
 import { HoverEffect } from "../Components/CardHoverEffect";
 import { nav } from "../utils/constants";
-import AnomalyModal from "../Components/AnomalyModal";
 
 const words = [
   {
-    text: "Anatomie",
+    text: "Anatomie ",
   },
   {
-    text: "de",
+    text: "et",
   },
   {
-    text: "l'oeil",
+    text: "Applications",
   },
+
   {
-    text: "du",
-  },
-  {
-    text: "Chien",
-    className: "font-extrabold text-yellow-600",
+    text: "Cliniques",
   },
 ];
 
@@ -43,42 +39,93 @@ const LandingPage = () => {
             alt=""
             className=" w-24 rounded-lg shadow-2xl my-5 mx-auto"
           />
-          <p className="text-gray-300 text-base px-5 text-center ">
-            Ecole National de Médecine Véterinaire de Sidi Thabet
+          <p className="text-gray-800 text-base px-5 text-center ">
+            Ecole Nationale de Médecine Vétérinaire de Sidi Thabet ENMV
           </p>
         </motion.div>
-
+        <p className="text-gray-800 text-base px-5 text-center ">
+          <div className="mt-10">
+            <p className="text-gray-800 text-3xl font-bold px-5 text-center ">
+              Ophtalmologie canine :
+            </p>
+          </div>
+        </p>
         <TypewriterEffectSmooth words={words} />
-        <motion.p
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
-          className="text-gray-300 font-semibold text-lg text-center px-6"
-        >
-          Discipline: Anatomie des{" "}
-          <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-300  to-red-800 ">
-            Mammifiéres
-          </span>{" "}
-          domestique <b>2024</b>
-        </motion.p>
+
       </div>
       <motion.div
-        initial={{ opacity: 0, scale: 0.8, y: 70 }}
+        initial={{ opacity: 0, scale: 0.95, y: 50 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.7 }}
+        className="w-full py-12 px-6 md:px-16 max-w-7xl mx-auto "
       >
-        <img
-          src={eye}
-          alt=""
-          className="mx-auto rounded-2xl shadow-xl w-4/5 sm:w-3/5 md:w-1/2 lg:w-2/5"
-        />
+        <div className="flex flex-col md:flex-row items-center justify-between ">
+          {/* Left: Image */}
+          <div className="w-full flex justify-center">
+            <img
+              src={eye}
+              alt="Descriptive alt text"
+              className="w-full max-w-md max-h-[60vh] rounded-2xl shadow-xl object-contain"
+              loading="lazy"
+            />
+          </div>
+
+          {/* Right: Text */}
+          <div className="w-full  text-center md:text-left">
+            <h2 className="text-3xl font-bold mb-4">Anatomie détaillé</h2>
+            <p className="text-lg text-gray-600 mb-6">
+              Un clin d’œil à la clinique : De la théorie à la pratique.
+            </p>
+            <button className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
+              Voir la Section Anatomie
+            </button>
+          </div>
+        </div>
       </motion.div>
-      
-      <div className="max-w-5xl mx-auto px-8 mt-40 mb-16 ">
+
+      <div className="mt-32 max-w-5xl mx-auto">
+        <p className="text-black text-3xl font-bold px-5 text-center ">
+          Bienvenue, futurs vétos !
+          Prêts à explorer l'univers captivant de l'ophtalmologie canine ? De l'anatomie aux applications cliniques, on décortique tout pour que vous puissiez briller dans vos consultations à la clinique ENMV.
+        </p>
+      </div>
+
+      <div className="max-w-5xl mx-auto px-8 mt-10 mb-16 ">
         <HoverEffect items={nav} />
       </div>
 
-    
+      <div className="mt-10 max-w-5xl mx-auto">
+        <p className="text-black text-2xl font-medium px-5 text-center ">
+          Ce site a été réalisé dans le cadre d’une thèse de doctorat en médecine vétérinaire, pour objectif de compléter le parcours pédagogique des étudiants vétérinaires et de les accompagner dans leurs consultations cliniques.
+        </p>
+      </div>
+      <div className="w-full py-16 px-6 md:px-12 ">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-12">
+          {/* Founder 1 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="/Home/stud.jpeg"
+              alt="Founder 1"
+              className="w-40 h-40 rounded-full object-cover shadow-md mb-4"
+            />
+            <h3 className="text-xl font-semibold">Élaboré par</h3>
+            <p className="text-gray-600">Islem ZOGHLAMI</p>
+          </div>
+
+          {/* Founder 2 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="/Home/prof.jpeg"
+              alt="Founder 2"
+              className="w-40 h-40 rounded-full object-cover shadow-md mb-4"
+            />
+            <h3 className="text-xl font-semibold">Encadré par</h3>
+            <p className="text-gray-600">Pr AbdelMonem
+              BEN KHALIFA </p>
+          </div>
+        </div>
+      </div>
+
     </>
   );
 };

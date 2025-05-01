@@ -319,8 +319,8 @@ const AnatomySection = ({ title, content }) => {
       transition={{ duration: 0.5 }}
       className="bg-gray-800/20 p-6 rounded-lg my-4"
     >
-      <h3 className="text-xl font-semibold text-gray-200 mb-3">{title}</h3>
-      <div className="text-neutral-300 space-y-2">{content}</div>
+      <h3 className="text-xl font-semibold text-gray-800 mb-3">{title}</h3>
+      <div className="text-neutral-900 space-y-2">{content}</div>
     </motion.div>
   );
 };
@@ -343,7 +343,7 @@ const Anatomy = () => {
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+      className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-gray-950 bg-clip-text text-transparent mb-8"
       >
         Anatomie de l'œil
       </motion.h1>
@@ -365,7 +365,7 @@ const Anatomy = () => {
           animate={{ opacity: 1, x: 0 }}
           className="ml-4"
         >
-          <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+      <h2 className="text-2xl font-semibold text-gray-900 mb-6">
             I. Tunique fibreuse
           </h2>
 
@@ -375,11 +375,11 @@ const Anatomy = () => {
               title="1. Sclère"
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[0])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
@@ -389,11 +389,11 @@ const Anatomy = () => {
               title="2. Cornée"
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[1])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
@@ -406,7 +406,7 @@ const Anatomy = () => {
           animate={{ opacity: 1, x: 0 }}
           className="ml-4"
         >
-          <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6">
             II. Tunique vasculaire (UVEE)
           </h2>
 
@@ -415,11 +415,11 @@ const Anatomy = () => {
               title="1. Choroïde"
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[2])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
@@ -429,11 +429,11 @@ const Anatomy = () => {
               title="2. Corps ciliaire"
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[3])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
@@ -443,11 +443,11 @@ const Anatomy = () => {
               title="3. Iris"
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[4])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
@@ -460,7 +460,7 @@ const Anatomy = () => {
           animate={{ opacity: 1, x: 0 }}
           className="ml-4"
         >
-          <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6">
             III. TUNIQUE NERVEUSE
           </h2>
 
@@ -469,11 +469,11 @@ const Anatomy = () => {
               title="1. Organisation générale de la rétine "
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[5])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
@@ -483,11 +483,11 @@ const Anatomy = () => {
               title="2. Structure de la rétine"
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[6])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
@@ -497,11 +497,11 @@ const Anatomy = () => {
               title="3. Nerf optique : "
               content={
                 <motion.div
-                  className="p-4 rounded-xl cursor-pointer bg-white/5 hover:bg-white/10 transition-colors"
+                  className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"
                   whileHover={{ scale: 1.02 }}
                   onClick={() => openModal(anatomies[7])}
                 >
-                  <h3 className="text-xl font-semibold text-gray-200 text-center">
+                  <h3 className="text-xl font-semibold text-gray-700 text-center">
                     Voir la structure anatomique
                   </h3>
                 </motion.div>
