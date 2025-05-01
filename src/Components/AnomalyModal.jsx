@@ -160,7 +160,7 @@ const AnomalyModal = ({ isOpen, onClose, anomaly }) => {
                     <p className="text-gray-100 text-sm italic text-center">{anomaly.treatmentImageCaption3}</p>
                   )}
                   {anomaly?.treatmentVideo && (
-                    <a href={anomaly?.treatmentVideo} className="text-gray-50 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Video)</a>
+                    <a href={anomaly?.treatmentVideo} className="text-gray-50 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir la Video)</a>
                   )}
                    {anomaly?.link && (
                     <a href={anomaly?.link} className="text-gray-50 text-sm italic text-center flex justify-center mt-8 underline">(Cliquer ici pour voir le Lien)</a>

@@ -131,7 +131,7 @@ const anatomies = [
       </ul>
     ),
     composantsImage: "/Figures/ana2.png",
-    composantsImageCaption: "Figure : A et B : Corps ciliaire normal (coloration HE ) C : Fibres musculaires du corps ciliaire (Agrandissement x 40) (Kirk, 2014)",
+    composantsImageCaption: " A et B : Corps ciliaire normal (coloration HE ) C : Fibres musculaires du corps ciliaire (Agrandissement x 40) (Kirk, 2014)",
     proprities: (
       <ul>
         <li>Le corps ciliaire génère la pression intraoculaire (PIO) et la contrôle en assurant l’écoulement de l’humeur aqueuse vers la chambre antérieure par l’intermédiaire de sa musculature.</li>
@@ -140,7 +140,7 @@ const anatomies = [
       </ul>
     ),
     propritiesImage: "/Figures/ana3.png",
-    propritiesImageCaption: "Figure : Luxation antérieure du cristallin chez un chien associé à un œdème cornéen (Labelle, 2017)"
+    propritiesImageCaption: " Luxation antérieure du cristallin chez un chien associé à un œdème cornéen (Labelle, 2017)"
   },
   {
     id: 5,
@@ -266,9 +266,9 @@ const anatomies = [
     composantsImage: "/Figures/bruh1.png",
     composantsImageCaption: 'Figure Zone centrale de la couche cellulaire visuelle du chien (A : Grossissement, 400 x; B: 2500 x) (Kirk. 2014)',
     composantsImage2: "/Figures/bruh2.png",
-    composantsImageCaption2: "Figure: Microscopie électronique des cellules de Muller chez le chien (A) et chez la poule (B) (Agrandissement d'origine : A, 35000 x; B, 31000 x.) (Labelle. 2017)",
+    composantsImageCaption2: "Microscopie électronique des cellules de Muller chez le chien (A) et chez la poule (B) (Agrandissement d'origine : A, 35000 x; B, 31000 x.) (Labelle. 2017)",
     composantsImage3: "/Figures/bruh3.png",
-    composantsImageCaption3: "Figure : Microscopie électronique des extrémités synaptiques des photorécepteurs chez le chien (A : terminaison de tige ; B : terminaison du cône) (Agrandissement d'origine, 50000 x.) (Labelle, 2017)",
+    composantsImageCaption3: " Microscopie électronique des extrémités synaptiques des photorécepteurs chez le chien (A : terminaison de tige ; B : terminaison du cône) (Agrandissement d'origine, 50000 x.) (Labelle, 2017)",
     proprities: (
       <ul>
         <li><strong>Vascularisation de la rétine :</strong>
