@@ -72,13 +72,9 @@ const LandingPage = () => {
 
           {/* Right: Text */}
           <div className="w-full  text-center md:text-left">
-            <h2 className="text-3xl font-bold mb-4">Anatomie détaillé</h2>
-            <p className="text-lg text-gray-600 mb-6">
-              Un clin d’œil à la clinique : De la théorie à la pratique.
+            <h2 className="text-3xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-orange-500">Un clin d’œil à la clinique : De la théorie à la pratique.</h2>
+            <p className="text-lg text-gray-600 mb-6">    
             </p>
-            <a href="/Anatomy" className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
-              Voir la Section Anatomie
-            </a>
           </div>
         </div>
       </motion.div>
