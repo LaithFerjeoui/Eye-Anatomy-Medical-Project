@@ -76,9 +76,9 @@ const LandingPage = () => {
             <p className="text-lg text-gray-600 mb-6">
               Un clin d’œil à la clinique : De la théorie à la pratique.
             </p>
-            <button className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
+            <a href="/Anatomy" className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
               Voir la Section Anatomie
-            </button>
+            </a>
           </div>
         </div>
       </motion.div>
