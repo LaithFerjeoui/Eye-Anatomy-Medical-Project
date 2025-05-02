@@ -2060,7 +2060,7 @@ const Applications = () => {
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-gray-900 bg-clip-text text-transparent mb-8"
             >
               Pathologies de l’uvée
             </motion.h1>
@@ -2211,7 +2211,7 @@ const Applications = () => {
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-gray-900 bg-clip-text text-transparent mb-8"
             >
               III. PATHOLOGIES DE LA TUNIQUE NERVEUSE
             </motion.h1>
@@ -2219,7 +2219,7 @@ const Applications = () => {
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-gray-900 bg-clip-text text-transparent mb-8"
             >
               Pathologies de la rétine
             </motion.h1>
@@ -2316,7 +2316,7 @@ const Applications = () => {
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-white bg-clip-text text-transparent mb-8"
+              className="text-4xl font-bold bg-gradient-to-r from-gray-400 to-gray-900 bg-clip-text text-transparent mb-8"
             >
               Pathologies du nerf optique
             </motion.h1>
