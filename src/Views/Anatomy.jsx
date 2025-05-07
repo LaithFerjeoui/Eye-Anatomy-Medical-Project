@@ -69,7 +69,7 @@ const anatomies = [
         <li>Transparence due à l'absence de kératinisation et pigments</li>
       </ul>
     ),
-    propritiesImage: "/Figures/anatomie6.jpg",
+    propritiesImage: "/Figures/aaaa.jpeg",
     propritiesImageCaption: "Œdème cornéen dans l'œil gauche d'un Boston terrier (Casanova M, 2024)"
   },
   {

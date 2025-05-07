@@ -336,6 +336,7 @@ const anomalies = [
     treatmentImage3: "/Figures/4th5.png",
     treatmentImageCaption3:
       "Figure : Section pédiculaire après greffe conjonctivale (Kirk, 2014) ",
+    treatmentVideo: "https://www.youtube.com/watch?v=PPTpwUh8xEo",
   },
   {
     id: 5,
@@ -430,6 +431,7 @@ const anomalies = [
 
     treatmentImageCaption:
       "Figure : Dégénérescence cornéenne chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/sclere-et-cornee/degenerescence-corneenne/",
+    treatmentVideo: "https://www.youtube.com/watch?v=ZO6xDAxsKLg",
   },
   {
     id: 7,
@@ -820,9 +822,9 @@ const anomalies = [
         hémangiosarcomes, (Kirk, 2014 ; Maggs et al., 2018).
       </ul>
     ),
-    treatmentImage: "/Figures/17th2.png",
+    treatmentImage: "/Figures/ett3.jpeg",
     treatmentImageCaption:
-      "Figure : Hémangiome chez un chien https://visionanimale.fr/loeil-animal-principales-affections/principales-affections-oculaires/conjonctive-et-membrane-nictitante/symblepharon-2-4-11/ ",
+      "Hémangiosarcome dans l’œil gauche d’un chien castré de race Boxer agé de 10 ans (Barrantes Murillo et al, 2024)"
   },
   {
     id: 18,
@@ -910,9 +912,10 @@ const anomalies = [
     definition: (
       <span>Un trait autosomique récessif dans le Doberman pinscher </span>
     ),
-    image: "/Figures/9th1.png",
+    image: "/Figures/ett4.jpeg",
     caption:
-      "Figure : œil gauche d'un braque avec un corps étranger sur la surface de la cornée (Sandmeyer et al., 2016)",
+      (<span>Dysgénésie du segment antérieur chez un cheval (Maggs et al., 2018)
+        <b />✔	Observations: L'iris est lisse, sombre et histologiquement hypoplasique. La pupille résiste à la dilatation, vraisemblablement en raison de défauts de la musculature de l'iris. </span>),
     signs: (
       <ul>
         <li>• Des degrés variables de microphtalmie </li>
@@ -1343,6 +1346,7 @@ const anomalies = [
         corticoïdes.
       </ul>
     ),
+    treatmentVideo: "https://www.youtube.com/watch?v=ErTxTQLTWLU",
   },
   {
     id: 32,
@@ -1718,6 +1722,8 @@ const anomalies = [
         </li>
       </ul>
     ),
+    additionalImage: "/Figures/ett5.jpeg",
+    additionalCaption: (<span>Photographies brutes du même œil de chien montrant un Gliome du nerf optique (A, B (Dibuelzig, 2010)</span>),
   },
   {
     id: 42,
@@ -2300,7 +2306,7 @@ const Applications = () => {
               }
             />
             <PathologySection
-              title="1.2.4. Néoplasie de la rétine"
+              title="1.2.4. Maladie vasculaire rétinienne"
               content={
                 <motion.div
                   className="p-4 rounded-xl cursor-pointer bg-white/60 hover:bg-white/50 transition-colors"

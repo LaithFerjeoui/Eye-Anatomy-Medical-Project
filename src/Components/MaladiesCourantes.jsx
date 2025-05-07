@@ -347,7 +347,7 @@ const MaladiesCourantes = () => {
             ),
             treatmentImage: "/Figures/10th3.png",
             treatmentImageCaption: "Figure : Chien beagle, 1 an, brulure chimique avec cyanoacrylate, Observation : défaillance des cellules limbales et par conséquent un descmetocelle.(E3S Web of Conferences 510, 01035 (2024)",
-            treatmentVideo: "https://www.youtube.com/watch?v=sO83JAJsziI"
+
         },
         {
             id: 11,
@@ -459,7 +459,7 @@ const MaladiesCourantes = () => {
         },
         {
             id: 15,
-            title: "Carcinome squameux  ",
+            title: "Carcinome squameux ",
             definition: "Le carcinome épidermoïde primitif de la cornée survient lorsque la masse néoplasique provient directement de la cornée.",
             signs: (
                 <ul>
@@ -467,6 +467,9 @@ const MaladiesCourantes = () => {
                     <li>Le limbe cornéoscléral peut être impliqué, avec vascularisation superficielle ainsi qu’une opalescence diffuse du reste de la cornée.  </li>
                 </ul>
             ),
+            additionalImage: "/Figures/ett.jpeg",
+            additionalCaption: (<span>Carcinome épidermoïde de la cornée d’un chien carlin de 9 ans (Farencena, F. I et al 2023)<br />
+                A-	Observer une masse sur la surface cornéenne de l'œil gauche, diagnostiquée avec un SCC cornéen.F <br /> B- Aspect de la cornée immédiatement après une kératectomie lamellaire antérieure pour retirer le carcinome.<br />C : Aspect du troisième lambeau palpébral dans la revue une semaine après sa création.</span>),
             steps: (
                 <ul>
                     <br />-	Exérèse par kératectomie lamellaire (taux de récidives locales sont élevés)  (Kirk, 2014 ; María del Mar et al., 2019).
@@ -487,6 +490,8 @@ const MaladiesCourantes = () => {
                     Le pronostic est mauvais et le traitement est dirigé vers la chimiothérapie.
                 </ul>
             ),
+            additionalImage: "/Figures/ett2.jpeg",
+            additionalCaption: (<span>Œil droit d'un chien atteint d'un lymphome intraoculaire (Wiggans, K. T et al, 2014)</span>),
         },
         {
             id: 17,
@@ -502,7 +507,7 @@ const MaladiesCourantes = () => {
             ),
             steps: (
                 <ul>
-                    <br />-	Exérèse chirurgicale et peut être combiné avec cryothérapie ou irradiation. 
+                    <br />-	Exérèse chirurgicale et peut être combiné avec cryothérapie ou irradiation.
                     <br />-	Greffes cornéosclérales ou énucléation : pour les vastes hémangiosarcomes, (Kirk, 2014 ; Maggs et al., 2018).
                 </ul>
             ),
