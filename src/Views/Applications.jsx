@@ -775,6 +775,15 @@ const anomalies = [
         </li>
       </ul>
     ),
+    additionalImage: "/Figures/ett7.jpeg",
+    additionalCaption: (
+      <span>
+        Carcinome épidermoïde de la cornée d’un chien carlin de 9 ans (Farencena, F. I et al 2023)
+        <br /> A-	Observer une masse sur la surface cornéenne de l'œil gauche, diagnostiquée avec un SCC cornéen.
+        <br /> B- Aspect de la cornée immédiatement après une kératectomie lamellaire antérieure pour retirer le carcinome.
+        <br />  C : Aspect du troisième lambeau palpébral dans la revue une semaine après sa création.
+      </span>
+    ),
     steps: (
       <ul>
         <br />- Exérèse par kératectomie lamellaire (taux de récidives locales
@@ -798,6 +807,12 @@ const anomalies = [
         Le pronostic est mauvais et le traitement est dirigé vers la
         chimiothérapie.
       </ul>
+    ),
+    additionalImage: "/Figures/ett6.jpeg",
+    additionalCaption: (
+      <span>
+        Œil droit d'un chien atteint d'un lymphome intraoculaire (Wiggans, K. T et al, 2014)
+      </span>
     ),
   },
   {

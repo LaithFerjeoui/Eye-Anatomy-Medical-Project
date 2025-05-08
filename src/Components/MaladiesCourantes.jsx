@@ -347,7 +347,6 @@ const MaladiesCourantes = () => {
             ),
             treatmentImage: "/Figures/10th3.png",
             treatmentImageCaption: "Figure : Chien beagle, 1 an, brulure chimique avec cyanoacrylate, Observation : défaillance des cellules limbales et par conséquent un descmetocelle.(E3S Web of Conferences 510, 01035 (2024)",
-
         },
         {
             id: 11,
